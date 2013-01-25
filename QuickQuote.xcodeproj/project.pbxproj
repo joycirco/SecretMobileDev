@@ -24,6 +24,9 @@
 		A421478B16B2306B003FDF9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A421476316B2306A003FDF9C /* Foundation.framework */; };
 		A421479316B2306B003FDF9C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A421479116B2306B003FDF9C /* InfoPlist.strings */; };
 		A421479616B2306B003FDF9C /* QuickQuoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A421479516B2306B003FDF9C /* QuickQuoteTests.m */; };
+		A42147A516B243F5003FDF9C /* LoginSeague.m in Sources */ = {isa = PBXBuildFile; fileRef = A42147A416B243F5003FDF9C /* LoginSeague.m */; };
+		A47A5FB316B256C400A533A9 /* SplashGradient.png in Resources */ = {isa = PBXBuildFile; fileRef = A47A5FB216B256C400A533A9 /* SplashGradient.png */; };
+		A47A5FB616B256E900A533A9 /* SplashGradient2.png in Resources */ = {isa = PBXBuildFile; fileRef = A47A5FB516B256E900A533A9 /* SplashGradient2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +64,10 @@
 		A421479216B2306B003FDF9C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A421479416B2306B003FDF9C /* QuickQuoteTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickQuoteTests.h; sourceTree = "<group>"; };
 		A421479516B2306B003FDF9C /* QuickQuoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickQuoteTests.m; sourceTree = "<group>"; };
+		A42147A316B243F5003FDF9C /* LoginSeague.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginSeague.h; sourceTree = "<group>"; };
+		A42147A416B243F5003FDF9C /* LoginSeague.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginSeague.m; sourceTree = "<group>"; };
+		A47A5FB216B256C400A533A9 /* SplashGradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SplashGradient.png; sourceTree = "<group>"; };
+		A47A5FB516B256E900A533A9 /* SplashGradient2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SplashGradient2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +135,8 @@
 				A421477F16B2306A003FDF9C /* QuickQuoteDetailViewController.h */,
 				A421478016B2306A003FDF9C /* QuickQuoteDetailViewController.m */,
 				A421476816B2306A003FDF9C /* Supporting Files */,
+				A42147A316B243F5003FDF9C /* LoginSeague.h */,
+				A42147A416B243F5003FDF9C /* LoginSeague.m */,
 			);
 			path = QuickQuote;
 			sourceTree = "<group>";
@@ -135,13 +144,11 @@
 		A421476816B2306A003FDF9C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A47A5FB416B256CA00A533A9 /* Graphics */,
 				A421476916B2306A003FDF9C /* QuickQuote-Info.plist */,
 				A421476A16B2306A003FDF9C /* InfoPlist.strings */,
 				A421476D16B2306A003FDF9C /* main.m */,
 				A421476F16B2306A003FDF9C /* QuickQuote-Prefix.pch */,
-				A421477316B2306A003FDF9C /* Default.png */,
-				A421477516B2306A003FDF9C /* Default@2x.png */,
-				A421477716B2306A003FDF9C /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -163,6 +170,18 @@
 				A421479116B2306B003FDF9C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A47A5FB416B256CA00A533A9 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				A421477716B2306A003FDF9C /* Default-568h@2x.png */,
+				A421477516B2306A003FDF9C /* Default@2x.png */,
+				A421477316B2306A003FDF9C /* Default.png */,
+				A47A5FB516B256E900A533A9 /* SplashGradient2.png */,
+				A47A5FB216B256C400A533A9 /* SplashGradient.png */,
+			);
+			name = Graphics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +261,8 @@
 				A421477616B2306A003FDF9C /* Default@2x.png in Resources */,
 				A421477816B2306A003FDF9C /* Default-568h@2x.png in Resources */,
 				A421477B16B2306A003FDF9C /* MainStoryboard.storyboard in Resources */,
+				A47A5FB316B256C400A533A9 /* SplashGradient.png in Resources */,
+				A47A5FB616B256E900A533A9 /* SplashGradient2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +301,7 @@
 				A421477216B2306A003FDF9C /* QuickQuoteAppDelegate.m in Sources */,
 				A421477E16B2306A003FDF9C /* QuickQuoteMasterViewController.m in Sources */,
 				A421478116B2306A003FDF9C /* QuickQuoteDetailViewController.m in Sources */,
+				A42147A516B243F5003FDF9C /* LoginSeague.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +478,7 @@
 				A421479B16B2306B003FDF9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A421479C16B2306B003FDF9C /* Build configuration list for PBXNativeTarget "QuickQuoteTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +487,7 @@
 				A421479E16B2306B003FDF9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
