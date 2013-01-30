@@ -27,6 +27,8 @@
 		A42147A516B243F5003FDF9C /* LoginSeague.m in Sources */ = {isa = PBXBuildFile; fileRef = A42147A416B243F5003FDF9C /* LoginSeague.m */; };
 		A47A5FB316B256C400A533A9 /* SplashGradient.png in Resources */ = {isa = PBXBuildFile; fileRef = A47A5FB216B256C400A533A9 /* SplashGradient.png */; };
 		A47A5FB616B256E900A533A9 /* SplashGradient2.png in Resources */ = {isa = PBXBuildFile; fileRef = A47A5FB516B256E900A533A9 /* SplashGradient2.png */; };
+		A4FE5A6D16B8EF88009A3AEC /* Icon_Ipad_retina.png in Resources */ = {isa = PBXBuildFile; fileRef = A4FE5A6C16B8EF88009A3AEC /* Icon_Ipad_retina.png */; };
+		A4FE5A6F16B8EFE7009A3AEC /* Icon_Ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A4FE5A6E16B8EFE7009A3AEC /* Icon_Ipad.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +70,8 @@
 		A42147A416B243F5003FDF9C /* LoginSeague.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginSeague.m; sourceTree = "<group>"; };
 		A47A5FB216B256C400A533A9 /* SplashGradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SplashGradient.png; sourceTree = "<group>"; };
 		A47A5FB516B256E900A533A9 /* SplashGradient2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SplashGradient2.png; sourceTree = "<group>"; };
+		A4FE5A6C16B8EF88009A3AEC /* Icon_Ipad_retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_Ipad_retina.png; sourceTree = "<group>"; };
+		A4FE5A6E16B8EFE7009A3AEC /* Icon_Ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_Ipad.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		A421475216B2306A003FDF9C = {
 			isa = PBXGroup;
 			children = (
+				A4FE5A6E16B8EFE7009A3AEC /* Icon_Ipad.png */,
+				A4FE5A6C16B8EF88009A3AEC /* Icon_Ipad_retina.png */,
 				A421476716B2306A003FDF9C /* QuickQuote */,
 				A421478E16B2306B003FDF9C /* QuickQuoteTests */,
 				A421476016B2306A003FDF9C /* Frameworks */,
@@ -263,6 +269,8 @@
 				A421477B16B2306A003FDF9C /* MainStoryboard.storyboard in Resources */,
 				A47A5FB316B256C400A533A9 /* SplashGradient.png in Resources */,
 				A47A5FB616B256E900A533A9 /* SplashGradient2.png in Resources */,
+				A4FE5A6D16B8EF88009A3AEC /* Icon_Ipad_retina.png in Resources */,
+				A4FE5A6F16B8EFE7009A3AEC /* Icon_Ipad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

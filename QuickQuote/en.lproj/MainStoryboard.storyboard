@@ -123,23 +123,21 @@
                         <subviews>
                             <view contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="Cvd-Ta-22u">
                                 <subviews>
-                                    <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="cbX-Dq-JOM">
-                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                        <accessibility key="accessibilityConfiguration">
-                                            <accessibilityTraits key="traits" none="YES" notEnabled="YES"/>
-                                        </accessibility>
-                                    </view>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dOR-5A-kbw">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dOR-5A-kbw">
+                                        <color key="backgroundColor" red="0.20000000298023224" green="0.20000000298023224" blue="0.20000000298023224" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="39" id="yaP-hm-pva"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                        <state key="normal" title="Sign in">
-                                            <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <state key="highlighted">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <state key="normal">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Sign in">
+                                                    <attributes>
+                                                        <color key="NSColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <font key="NSFont" size="15" name="Helvetica-Bold"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
                                         </state>
                                         <connections>
                                             <segue destination="5" kind="custom" customClass="LoginSeague" id="Egd-fV-GGg"/>
@@ -169,23 +167,29 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
+                                    <navigationBar contentMode="scaleToFill" barStyle="blackOpaque" translatesAutoresizingMaskIntoConstraints="NO" id="LN9-fH-9cW">
+                                        <color key="backgroundColor" red="0.40000000596046448" green="0.40000000596046448" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="tintColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
+                                        <items>
+                                            <navigationItem title="Sign In" id="1jv-W2-6pf"/>
+                                        </items>
+                                    </navigationBar>
                                 </subviews>
                                 <color key="backgroundColor" red="0.90196079015731812" green="0.90196079015731812" blue="0.90196079015731812" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="mPE-uT-AVO" firstAttribute="leading" secondItem="f8p-nC-Wsf" secondAttribute="leading" type="default" id="10F-co-Mmh"/>
                                     <constraint firstItem="Anu-Mr-n7l" firstAttribute="leading" secondItem="dOR-5A-kbw" secondAttribute="leading" type="default" id="3Ss-29-SwR"/>
-                                    <constraint firstItem="cbX-Dq-JOM" firstAttribute="leading" secondItem="Cvd-Ta-22u" secondAttribute="leading" type="default" id="5x4-Ed-qqT"/>
                                     <constraint firstAttribute="bottom" secondItem="mPE-uT-AVO" secondAttribute="bottom" constant="131" id="Dgy-DE-qh7"/>
                                     <constraint firstItem="mPE-uT-AVO" firstAttribute="trailing" secondItem="f8p-nC-Wsf" secondAttribute="trailing" type="default" id="EkO-NQ-sKE"/>
                                     <constraint firstAttribute="bottom" secondItem="Anu-Mr-n7l" secondAttribute="bottom" constant="38" id="J02-fe-ZMB"/>
-                                    <constraint firstAttribute="bottom" secondItem="cbX-Dq-JOM" secondAttribute="bottom" constant="297" id="Rc9-Xb-FoV"/>
                                     <constraint firstItem="mPE-uT-AVO" firstAttribute="trailing" secondItem="dOR-5A-kbw" secondAttribute="trailing" type="default" id="b5k-Lb-XlH"/>
                                     <constraint firstItem="Anu-Mr-n7l" firstAttribute="top" secondItem="dOR-5A-kbw" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="cla-t0-0Bs"/>
+                                    <constraint firstItem="S36-fG-iCJ" firstAttribute="leading" secondItem="Cvd-Ta-22u" secondAttribute="leading" constant="80" id="dII-dw-ewi"/>
+                                    <constraint firstItem="LN9-fH-9cW" firstAttribute="top" secondItem="Cvd-Ta-22u" secondAttribute="top" type="default" id="doJ-5f-1FO"/>
                                     <constraint firstItem="f8p-nC-Wsf" firstAttribute="leading" secondItem="S36-fG-iCJ" secondAttribute="leading" type="default" id="eGE-fb-Z0N"/>
-                                    <constraint firstItem="S36-fG-iCJ" firstAttribute="leading" secondItem="Cvd-Ta-22u" secondAttribute="leading" constant="80" id="jWD-4B-OWj"/>
-                                    <constraint firstItem="cbX-Dq-JOM" firstAttribute="trailing" secondItem="Cvd-Ta-22u" secondAttribute="trailing" type="default" id="kSx-s6-gIB"/>
+                                    <constraint firstItem="LN9-fH-9cW" firstAttribute="leading" secondItem="Cvd-Ta-22u" secondAttribute="leading" type="default" id="k7B-m4-qHf"/>
                                     <constraint firstItem="S36-fG-iCJ" firstAttribute="top" secondItem="Cvd-Ta-22u" secondAttribute="top" constant="89" id="pey-B5-Opu"/>
-                                    <constraint firstItem="cbX-Dq-JOM" firstAttribute="top" secondItem="Cvd-Ta-22u" secondAttribute="top" type="default" id="rhi-hw-m1T"/>
+                                    <constraint firstItem="LN9-fH-9cW" firstAttribute="trailing" secondItem="Cvd-Ta-22u" secondAttribute="trailing" type="default" id="ppL-hr-prr"/>
                                     <constraint firstItem="mPE-uT-AVO" firstAttribute="leading" secondItem="dOR-5A-kbw" secondAttribute="leading" type="default" id="t0V-p4-Ld3"/>
                                     <constraint firstItem="f8p-nC-Wsf" firstAttribute="trailing" secondItem="S36-fG-iCJ" secondAttribute="trailing" type="default" id="w85-y3-5TV"/>
                                     <constraint firstItem="f8p-nC-Wsf" firstAttribute="top" secondItem="Cvd-Ta-22u" secondAttribute="top" constant="118" id="xgp-1X-Fbw"/>
@@ -199,7 +203,7 @@
                                             <constraint firstAttribute="width" constant="106" id="S7r-lF-CRS"/>
                                             <constraint firstAttribute="height" constant="21" id="y4l-cp-siM"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -217,13 +221,13 @@
                         <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Cvd-Ta-22u" firstAttribute="top" secondItem="Vhk-MX-AbH" secondAttribute="top" constant="206" id="319-0e-ge2"/>
-                            <constraint firstAttribute="bottom" secondItem="QP8-kh-O6E" secondAttribute="bottom" constant="407" id="3TW-HA-xfM"/>
-                            <constraint firstItem="QP8-kh-O6E" firstAttribute="top" secondItem="Vhk-MX-AbH" secondAttribute="top" constant="59" id="3uG-RE-hd6"/>
                             <constraint firstItem="Cvd-Ta-22u" firstAttribute="leading" secondItem="Vhk-MX-AbH" secondAttribute="leading" constant="267" id="69h-ca-e7h"/>
-                            <constraint firstAttribute="trailing" secondItem="Cvd-Ta-22u" secondAttribute="trailing" constant="307" id="EPg-pc-4AT"/>
-                            <constraint firstAttribute="trailing" secondItem="QP8-kh-O6E" secondAttribute="trailing" constant="58" id="Kfh-4l-E8o"/>
+                            <constraint firstItem="QP8-kh-O6E" firstAttribute="leading" secondItem="Vhk-MX-AbH" secondAttribute="leading" constant="512" id="79D-kt-yAu"/>
+                            <constraint firstItem="QP8-kh-O6E" firstAttribute="top" secondItem="Vhk-MX-AbH" secondAttribute="top" type="default" id="7ei-ot-DiX"/>
+                            <constraint firstItem="QP8-kh-O6E" firstAttribute="trailing" secondItem="Vhk-MX-AbH" secondAttribute="trailing" type="default" id="WjV-cY-eKr"/>
                             <constraint firstItem="Cvd-Ta-22u" firstAttribute="centerY" secondItem="Vhk-MX-AbH" secondAttribute="centerY" type="default" id="X5P-K9-pEl"/>
-                            <constraint firstItem="QP8-kh-O6E" firstAttribute="leading" secondItem="Vhk-MX-AbH" secondAttribute="leading" constant="454" id="eJM-o6-fOC"/>
+                            <constraint firstAttribute="bottom" secondItem="QP8-kh-O6E" secondAttribute="bottom" constant="466" id="qOD-ms-ja5"/>
+                            <constraint firstAttribute="trailing" secondItem="Cvd-Ta-22u" secondAttribute="trailing" constant="307" id="zk7-dE-C0p"/>
                         </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
