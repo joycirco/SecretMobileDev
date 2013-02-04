@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A400437D16BF41A200D25DF6 /* QuickQuoteLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A400437C16BF41A200D25DF6 /* QuickQuoteLoginViewController.m */; };
+		A400438016BF4DC300D25DF6 /* QuickQuoteCompanyPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A400437F16BF4DC300D25DF6 /* QuickQuoteCompanyPickerViewController.m */; };
 		A421476216B2306A003FDF9C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A421476116B2306A003FDF9C /* UIKit.framework */; };
 		A421476416B2306A003FDF9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A421476316B2306A003FDF9C /* Foundation.framework */; };
 		A421476616B2306A003FDF9C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A421476516B2306A003FDF9C /* CoreGraphics.framework */; };
@@ -42,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A400437B16BF41A200D25DF6 /* QuickQuoteLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickQuoteLoginViewController.h; sourceTree = "<group>"; };
+		A400437C16BF41A200D25DF6 /* QuickQuoteLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickQuoteLoginViewController.m; sourceTree = "<group>"; };
+		A400437E16BF4DC300D25DF6 /* QuickQuoteCompanyPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickQuoteCompanyPickerViewController.h; sourceTree = "<group>"; };
+		A400437F16BF4DC300D25DF6 /* QuickQuoteCompanyPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickQuoteCompanyPickerViewController.m; sourceTree = "<group>"; };
 		A421475D16B2306A003FDF9C /* QuickQuote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickQuote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A421476116B2306A003FDF9C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A421476316B2306A003FDF9C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -143,6 +149,10 @@
 				A421476816B2306A003FDF9C /* Supporting Files */,
 				A42147A316B243F5003FDF9C /* LoginSeague.h */,
 				A42147A416B243F5003FDF9C /* LoginSeague.m */,
+				A400437B16BF41A200D25DF6 /* QuickQuoteLoginViewController.h */,
+				A400437C16BF41A200D25DF6 /* QuickQuoteLoginViewController.m */,
+				A400437E16BF4DC300D25DF6 /* QuickQuoteCompanyPickerViewController.h */,
+				A400437F16BF4DC300D25DF6 /* QuickQuoteCompanyPickerViewController.m */,
 			);
 			path = QuickQuote;
 			sourceTree = "<group>";
@@ -310,6 +320,8 @@
 				A421477E16B2306A003FDF9C /* QuickQuoteMasterViewController.m in Sources */,
 				A421478116B2306A003FDF9C /* QuickQuoteDetailViewController.m in Sources */,
 				A42147A516B243F5003FDF9C /* LoginSeague.m in Sources */,
+				A400437D16BF41A200D25DF6 /* QuickQuoteLoginViewController.m in Sources */,
+				A400438016BF4DC300D25DF6 /* QuickQuoteCompanyPickerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
