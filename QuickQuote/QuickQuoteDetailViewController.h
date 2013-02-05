@@ -11,6 +11,6 @@
 @interface QuickQuoteDetailViewController : UIViewController <UISplitViewControllerDelegate>
 
 @property (strong, nonatomic) id detailItem;
-
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *cancelBtn;
 @property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 @end

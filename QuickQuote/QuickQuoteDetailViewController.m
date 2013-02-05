@@ -18,6 +18,7 @@
 NSString *firstLogin = @"yes"; // just for now
 
 @implementation QuickQuoteDetailViewController
+@synthesize cancelBtn = _cancelBtn;
 
 #pragma mark - Managing the detail item
 
@@ -51,11 +52,25 @@ NSString *firstLogin = @"yes"; // just for now
     [self configureView];
 }
 
+// this one is fired by the button so animate it for some pizzazz.
+- (IBAction)logOut:(id)sender {
+    //[super viewDidAppear:animated];
+    
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
+    UIViewController *vc = [storyboard instantiateViewControllerWithIdentifier:@"LoginViewController"];
+    [vc setModalPresentationStyle:UIModalPresentationFullScreen];
+    
+    [self presentViewController:vc animated:YES completion:nil];
+    
+    // fire an event that clears data from keychain...
+    // make sure to nullify the company selection...
+}
+
+
 // overrides the split/detail view and pulls up the login screen for us.
 // Split Navigation views have to be the root, but that's okay...
 // I turned animation off so there is no sneak peak at the inner
 // portion of the application before the login screen is displayed...
-
 - (void)viewDidAppear:(BOOL)animated
 {
     if (firstLogin == @"yes")
@@ -69,6 +84,7 @@ NSString *firstLogin = @"yes"; // just for now
         
         [self presentViewController:vc animated:NO completion:nil];
     }
+    
 }
 
 - (void)didReceiveMemoryWarning
