@@ -31,6 +31,83 @@
 		A47A5FB616B256E900A533A9 /* SplashGradient2.png in Resources */ = {isa = PBXBuildFile; fileRef = A47A5FB516B256E900A533A9 /* SplashGradient2.png */; };
 		A4FE5A6D16B8EF88009A3AEC /* Icon_Ipad_retina.png in Resources */ = {isa = PBXBuildFile; fileRef = A4FE5A6C16B8EF88009A3AEC /* Icon_Ipad_retina.png */; };
 		A4FE5A6F16B8EFE7009A3AEC /* Icon_Ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A4FE5A6E16B8EFE7009A3AEC /* Icon_Ipad.png */; };
+		FF4DF28316C09A0300AE954F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4DF28216C09A0300AE954F /* SystemConfiguration.framework */; };
+		FF4DF28516C09A1A00AE954F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4DF28416C09A1A00AE954F /* Security.framework */; };
+		FF4DF30C16C09A9100AE954F /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF28916C09A9100AE954F /* NSData+Base64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF30D16C09A9100AE954F /* NSMutableArray+Soap.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF28B16C09A9100AE954F /* NSMutableArray+Soap.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF30E16C09A9100AE954F /* Soap.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF28D16C09A9100AE954F /* Soap.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF30F16C09A9100AE954F /* SoapArray.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF28F16C09A9100AE954F /* SoapArray.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF31016C09A9100AE954F /* SoapDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF29216C09A9100AE954F /* SoapDictionary.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF31116C09A9100AE954F /* SoapFault.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF29416C09A9100AE954F /* SoapFault.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF31216C09A9100AE954F /* SoapHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF29616C09A9100AE954F /* SoapHandler.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF31316C09A9100AE954F /* SoapLiteral.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF29816C09A9100AE954F /* SoapLiteral.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF31416C09A9100AE954F /* SoapNil.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF29A16C09A9100AE954F /* SoapNil.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF31516C09A9100AE954F /* SoapObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF29C16C09A9100AE954F /* SoapObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF31616C09A9100AE954F /* SoapParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF29E16C09A9100AE954F /* SoapParameter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF31716C09A9100AE954F /* SoapReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2A016C09A9100AE954F /* SoapReachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF31816C09A9100AE954F /* SoapRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2A216C09A9100AE954F /* SoapRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF31916C09A9100AE954F /* SoapService.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2A416C09A9100AE954F /* SoapService.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF31A16C09A9100AE954F /* CXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2A716C09A9100AE954F /* CXMLDocument.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF31B16C09A9100AE954F /* CXMLDocument_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2A916C09A9100AE954F /* CXMLDocument_PrivateExtensions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF31C16C09A9100AE954F /* CXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2AB16C09A9100AE954F /* CXMLElement.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF31D16C09A9100AE954F /* CXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2AD16C09A9100AE954F /* CXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF31E16C09A9100AE954F /* CXMLNode_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2AF16C09A9100AE954F /* CXMLNode_PrivateExtensions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF31F16C09A9100AE954F /* CXMLNode_XPathExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2B116C09A9100AE954F /* CXMLNode_XPathExtensions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF32016C09A9100AE954F /* SDZAccessorial.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2B516C09A9100AE954F /* SDZAccessorial.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF32116C09A9100AE954F /* SDZAccessorialRateOverride.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2B716C09A9100AE954F /* SDZAccessorialRateOverride.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF32216C09A9100AE954F /* SDZArrayOfAccessorial.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2B916C09A9100AE954F /* SDZArrayOfAccessorial.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF32316C09A9100AE954F /* SDZArrayOfAccessorialRateOverride.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2BB16C09A9100AE954F /* SDZArrayOfAccessorialRateOverride.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF32416C09A9100AE954F /* SDZArrayOfArrayOfDecimal.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2BD16C09A9100AE954F /* SDZArrayOfArrayOfDecimal.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF32516C09A9100AE954F /* SDZArrayOfCwtPricingDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2BF16C09A9100AE954F /* SDZArrayOfCwtPricingDetails.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF32616C09A9100AE954F /* SDZArrayOfDecimal.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2C116C09A9100AE954F /* SDZArrayOfDecimal.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF32716C09A9100AE954F /* SDZArrayOfFreight.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2C316C09A9100AE954F /* SDZArrayOfFreight.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF32816C09A9100AE954F /* SDZArrayOfFreightPricingDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2C516C09A9100AE954F /* SDZArrayOfFreightPricingDetails.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF32916C09A9100AE954F /* SDZArrayOfPalletPositions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2C716C09A9100AE954F /* SDZArrayOfPalletPositions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF32A16C09A9100AE954F /* SDZArrayOfPricingAccessorial.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2C916C09A9100AE954F /* SDZArrayOfPricingAccessorial.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF32B16C09A9100AE954F /* SDZArrayOfRateAdvisement.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2CB16C09A9100AE954F /* SDZArrayOfRateAdvisement.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF32C16C09A9100AE954F /* SDZArrayOfRatedAccessorialPrivileged.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2CD16C09A9100AE954F /* SDZArrayOfRatedAccessorialPrivileged.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF32D16C09A9100AE954F /* SDZArrayOfRateResponsePrivileged.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2CF16C09A9100AE954F /* SDZArrayOfRateResponsePrivileged.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF32E16C09A9100AE954F /* SDZArrayOfStopOff.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2D116C09A9100AE954F /* SDZArrayOfStopOff.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF32F16C09A9100AE954F /* SDZArrayOfString.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2D316C09A9100AE954F /* SDZArrayOfString.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF33016C09A9100AE954F /* SDZArrayOfSupplement.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2D516C09A9100AE954F /* SDZArrayOfSupplement.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF33116C09A9100AE954F /* SDZArrayOfTerminalInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2D716C09A9100AE954F /* SDZArrayOfTerminalInfo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF33216C09A9100AE954F /* SDZBilling3rdParty.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2D916C09A9100AE954F /* SDZBilling3rdParty.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF33316C09A9100AE954F /* SDZCarrierScacs.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2DB16C09A9100AE954F /* SDZCarrierScacs.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF33416C09A9100AE954F /* SDZCwtPricingDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2DD16C09A9100AE954F /* SDZCwtPricingDetails.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF33516C09A9100AE954F /* SDZDebugInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2DF16C09A9100AE954F /* SDZDebugInfo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF33616C09A9100AE954F /* SDZEffectivePricing.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2E116C09A9100AE954F /* SDZEffectivePricing.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF33716C09A9100AE954F /* SDZFreight.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2E316C09A9100AE954F /* SDZFreight.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF33816C09A9100AE954F /* SDZFreightPricingDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2E516C09A9100AE954F /* SDZFreightPricingDetails.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF33916C09A9100AE954F /* SDZPalletPositions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2E716C09A9100AE954F /* SDZPalletPositions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF33A16C09A9100AE954F /* SDZPricingAccessorial.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2E916C09A9100AE954F /* SDZPricingAccessorial.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF33B16C09A9100AE954F /* SDZPricingBase.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2EB16C09A9100AE954F /* SDZPricingBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF33C16C09A9100AE954F /* SDZPricingContractLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2ED16C09A9100AE954F /* SDZPricingContractLevel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF33D16C09A9100AE954F /* SDZPricingIncentive.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2EF16C09A9100AE954F /* SDZPricingIncentive.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF33E16C09A9100AE954F /* SDZPricingStrategyLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2F116C09A9100AE954F /* SDZPricingStrategyLevel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF33F16C09A9100AE954F /* SDZPricingTransactionCharge.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2F316C09A9100AE954F /* SDZPricingTransactionCharge.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF34016C09A9100AE954F /* SDZRateAdvisement.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2F516C09A9100AE954F /* SDZRateAdvisement.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF34116C09A9100AE954F /* SDZRatedAccessorialPrivileged.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2F716C09A9100AE954F /* SDZRatedAccessorialPrivileged.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF34216C09A9100AE954F /* SDZRateError.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2F916C09A9100AE954F /* SDZRateError.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF34316C09A9100AE954F /* SDZRateRequestPrivileged.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2FB16C09A9100AE954F /* SDZRateRequestPrivileged.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF34416C09A9100AE954F /* SDZRateResponsePrivileged.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2FD16C09A9100AE954F /* SDZRateResponsePrivileged.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF34516C09A9100AE954F /* SDZRateReturn.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2FF16C09A9100AE954F /* SDZRateReturn.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF34616C09A9100AE954F /* SDZRateServicePrivileged.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF30116C09A9100AE954F /* SDZRateServicePrivileged.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF34716C09A9100AE954F /* SDZStopOff.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF30316C09A9100AE954F /* SDZStopOff.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF34816C09A9100AE954F /* SDZSudzc.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF30516C09A9100AE954F /* SDZSudzc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF34916C09A9100AE954F /* SDZSupplement.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF30716C09A9100AE954F /* SDZSupplement.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF34A16C09A9100AE954F /* SDZTerminalInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF30916C09A9100AE954F /* SDZTerminalInfo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF34B16C09A9100AE954F /* Soap+Prefix.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF30B16C09A9100AE954F /* Soap+Prefix.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4DF36516C09C7800AE954F /* Accessorial.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF34F16C09C7800AE954F /* Accessorial.m */; };
+		FF4DF36616C09C7800AE954F /* Credentials.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF35116C09C7800AE954F /* Credentials.m */; };
+		FF4DF36716C09C7800AE954F /* FreightItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF35316C09C7800AE954F /* FreightItem.m */; };
+		FF4DF36816C09C7800AE954F /* QuoteRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF35516C09C7800AE954F /* QuoteRequest.m */; };
+		FF4DF36916C09C7800AE954F /* AccessorialPricingDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF35816C09C7800AE954F /* AccessorialPricingDetail.m */; };
+		FF4DF36A16C09C7800AE954F /* CWTPricingDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF35A16C09C7800AE954F /* CWTPricingDetail.m */; };
+		FF4DF36B16C09C7800AE954F /* FreightPricingDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF35C16C09C7800AE954F /* FreightPricingDetail.m */; };
+		FF4DF36C16C09C7800AE954F /* QuoteReturn.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF35E16C09C7800AE954F /* QuoteReturn.m */; };
+		FF4DF36D16C09C7800AE954F /* RateError.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF36016C09C7800AE954F /* RateError.m */; };
+		FF4DF36E16C09C7800AE954F /* RateResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF36216C09C7800AE954F /* RateResponse.m */; };
+		FF4DF36F16C09C7800AE954F /* TerminalInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF36416C09C7800AE954F /* TerminalInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +155,160 @@
 		A47A5FB516B256E900A533A9 /* SplashGradient2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SplashGradient2.png; sourceTree = "<group>"; };
 		A4FE5A6C16B8EF88009A3AEC /* Icon_Ipad_retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_Ipad_retina.png; sourceTree = "<group>"; };
 		A4FE5A6E16B8EFE7009A3AEC /* Icon_Ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_Ipad.png; sourceTree = "<group>"; };
+		FF4DF28216C09A0300AE954F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FF4DF28416C09A1A00AE954F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FF4DF28816C09A9100AE954F /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		FF4DF28916C09A9100AE954F /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		FF4DF28A16C09A9100AE954F /* NSMutableArray+Soap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Soap.h"; sourceTree = "<group>"; };
+		FF4DF28B16C09A9100AE954F /* NSMutableArray+Soap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Soap.m"; sourceTree = "<group>"; };
+		FF4DF28C16C09A9100AE954F /* Soap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Soap.h; sourceTree = "<group>"; };
+		FF4DF28D16C09A9100AE954F /* Soap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Soap.m; sourceTree = "<group>"; };
+		FF4DF28E16C09A9100AE954F /* SoapArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapArray.h; sourceTree = "<group>"; };
+		FF4DF28F16C09A9100AE954F /* SoapArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapArray.m; sourceTree = "<group>"; };
+		FF4DF29016C09A9100AE954F /* SoapDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapDelegate.h; sourceTree = "<group>"; };
+		FF4DF29116C09A9100AE954F /* SoapDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapDictionary.h; sourceTree = "<group>"; };
+		FF4DF29216C09A9100AE954F /* SoapDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapDictionary.m; sourceTree = "<group>"; };
+		FF4DF29316C09A9100AE954F /* SoapFault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapFault.h; sourceTree = "<group>"; };
+		FF4DF29416C09A9100AE954F /* SoapFault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapFault.m; sourceTree = "<group>"; };
+		FF4DF29516C09A9100AE954F /* SoapHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapHandler.h; sourceTree = "<group>"; };
+		FF4DF29616C09A9100AE954F /* SoapHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapHandler.m; sourceTree = "<group>"; };
+		FF4DF29716C09A9100AE954F /* SoapLiteral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapLiteral.h; sourceTree = "<group>"; };
+		FF4DF29816C09A9100AE954F /* SoapLiteral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapLiteral.m; sourceTree = "<group>"; };
+		FF4DF29916C09A9100AE954F /* SoapNil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapNil.h; sourceTree = "<group>"; };
+		FF4DF29A16C09A9100AE954F /* SoapNil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapNil.m; sourceTree = "<group>"; };
+		FF4DF29B16C09A9100AE954F /* SoapObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapObject.h; sourceTree = "<group>"; };
+		FF4DF29C16C09A9100AE954F /* SoapObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapObject.m; sourceTree = "<group>"; };
+		FF4DF29D16C09A9100AE954F /* SoapParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapParameter.h; sourceTree = "<group>"; };
+		FF4DF29E16C09A9100AE954F /* SoapParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapParameter.m; sourceTree = "<group>"; };
+		FF4DF29F16C09A9100AE954F /* SoapReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapReachability.h; sourceTree = "<group>"; };
+		FF4DF2A016C09A9100AE954F /* SoapReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapReachability.m; sourceTree = "<group>"; };
+		FF4DF2A116C09A9100AE954F /* SoapRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapRequest.h; sourceTree = "<group>"; };
+		FF4DF2A216C09A9100AE954F /* SoapRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapRequest.m; sourceTree = "<group>"; };
+		FF4DF2A316C09A9100AE954F /* SoapService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapService.h; sourceTree = "<group>"; };
+		FF4DF2A416C09A9100AE954F /* SoapService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapService.m; sourceTree = "<group>"; };
+		FF4DF2A616C09A9100AE954F /* CXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument.h; sourceTree = "<group>"; };
+		FF4DF2A716C09A9100AE954F /* CXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument.m; sourceTree = "<group>"; };
+		FF4DF2A816C09A9100AE954F /* CXMLDocument_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_PrivateExtensions.h; sourceTree = "<group>"; };
+		FF4DF2A916C09A9100AE954F /* CXMLDocument_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument_PrivateExtensions.m; sourceTree = "<group>"; };
+		FF4DF2AA16C09A9100AE954F /* CXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLElement.h; sourceTree = "<group>"; };
+		FF4DF2AB16C09A9100AE954F /* CXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLElement.m; sourceTree = "<group>"; };
+		FF4DF2AC16C09A9100AE954F /* CXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode.h; sourceTree = "<group>"; };
+		FF4DF2AD16C09A9100AE954F /* CXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode.m; sourceTree = "<group>"; };
+		FF4DF2AE16C09A9100AE954F /* CXMLNode_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_PrivateExtensions.h; sourceTree = "<group>"; };
+		FF4DF2AF16C09A9100AE954F /* CXMLNode_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_PrivateExtensions.m; sourceTree = "<group>"; };
+		FF4DF2B016C09A9100AE954F /* CXMLNode_XPathExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_XPathExtensions.h; sourceTree = "<group>"; };
+		FF4DF2B116C09A9100AE954F /* CXMLNode_XPathExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_XPathExtensions.m; sourceTree = "<group>"; };
+		FF4DF2B216C09A9100AE954F /* TouchXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchXML.h; sourceTree = "<group>"; };
+		FF4DF2B416C09A9100AE954F /* SDZAccessorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZAccessorial.h; sourceTree = "<group>"; };
+		FF4DF2B516C09A9100AE954F /* SDZAccessorial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZAccessorial.m; sourceTree = "<group>"; };
+		FF4DF2B616C09A9100AE954F /* SDZAccessorialRateOverride.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZAccessorialRateOverride.h; sourceTree = "<group>"; };
+		FF4DF2B716C09A9100AE954F /* SDZAccessorialRateOverride.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZAccessorialRateOverride.m; sourceTree = "<group>"; };
+		FF4DF2B816C09A9100AE954F /* SDZArrayOfAccessorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZArrayOfAccessorial.h; sourceTree = "<group>"; };
+		FF4DF2B916C09A9100AE954F /* SDZArrayOfAccessorial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZArrayOfAccessorial.m; sourceTree = "<group>"; };
+		FF4DF2BA16C09A9100AE954F /* SDZArrayOfAccessorialRateOverride.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZArrayOfAccessorialRateOverride.h; sourceTree = "<group>"; };
+		FF4DF2BB16C09A9100AE954F /* SDZArrayOfAccessorialRateOverride.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZArrayOfAccessorialRateOverride.m; sourceTree = "<group>"; };
+		FF4DF2BC16C09A9100AE954F /* SDZArrayOfArrayOfDecimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZArrayOfArrayOfDecimal.h; sourceTree = "<group>"; };
+		FF4DF2BD16C09A9100AE954F /* SDZArrayOfArrayOfDecimal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZArrayOfArrayOfDecimal.m; sourceTree = "<group>"; };
+		FF4DF2BE16C09A9100AE954F /* SDZArrayOfCwtPricingDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZArrayOfCwtPricingDetails.h; sourceTree = "<group>"; };
+		FF4DF2BF16C09A9100AE954F /* SDZArrayOfCwtPricingDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZArrayOfCwtPricingDetails.m; sourceTree = "<group>"; };
+		FF4DF2C016C09A9100AE954F /* SDZArrayOfDecimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZArrayOfDecimal.h; sourceTree = "<group>"; };
+		FF4DF2C116C09A9100AE954F /* SDZArrayOfDecimal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZArrayOfDecimal.m; sourceTree = "<group>"; };
+		FF4DF2C216C09A9100AE954F /* SDZArrayOfFreight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZArrayOfFreight.h; sourceTree = "<group>"; };
+		FF4DF2C316C09A9100AE954F /* SDZArrayOfFreight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZArrayOfFreight.m; sourceTree = "<group>"; };
+		FF4DF2C416C09A9100AE954F /* SDZArrayOfFreightPricingDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZArrayOfFreightPricingDetails.h; sourceTree = "<group>"; };
+		FF4DF2C516C09A9100AE954F /* SDZArrayOfFreightPricingDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZArrayOfFreightPricingDetails.m; sourceTree = "<group>"; };
+		FF4DF2C616C09A9100AE954F /* SDZArrayOfPalletPositions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZArrayOfPalletPositions.h; sourceTree = "<group>"; };
+		FF4DF2C716C09A9100AE954F /* SDZArrayOfPalletPositions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZArrayOfPalletPositions.m; sourceTree = "<group>"; };
+		FF4DF2C816C09A9100AE954F /* SDZArrayOfPricingAccessorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZArrayOfPricingAccessorial.h; sourceTree = "<group>"; };
+		FF4DF2C916C09A9100AE954F /* SDZArrayOfPricingAccessorial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZArrayOfPricingAccessorial.m; sourceTree = "<group>"; };
+		FF4DF2CA16C09A9100AE954F /* SDZArrayOfRateAdvisement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZArrayOfRateAdvisement.h; sourceTree = "<group>"; };
+		FF4DF2CB16C09A9100AE954F /* SDZArrayOfRateAdvisement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZArrayOfRateAdvisement.m; sourceTree = "<group>"; };
+		FF4DF2CC16C09A9100AE954F /* SDZArrayOfRatedAccessorialPrivileged.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZArrayOfRatedAccessorialPrivileged.h; sourceTree = "<group>"; };
+		FF4DF2CD16C09A9100AE954F /* SDZArrayOfRatedAccessorialPrivileged.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZArrayOfRatedAccessorialPrivileged.m; sourceTree = "<group>"; };
+		FF4DF2CE16C09A9100AE954F /* SDZArrayOfRateResponsePrivileged.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZArrayOfRateResponsePrivileged.h; sourceTree = "<group>"; };
+		FF4DF2CF16C09A9100AE954F /* SDZArrayOfRateResponsePrivileged.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZArrayOfRateResponsePrivileged.m; sourceTree = "<group>"; };
+		FF4DF2D016C09A9100AE954F /* SDZArrayOfStopOff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZArrayOfStopOff.h; sourceTree = "<group>"; };
+		FF4DF2D116C09A9100AE954F /* SDZArrayOfStopOff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZArrayOfStopOff.m; sourceTree = "<group>"; };
+		FF4DF2D216C09A9100AE954F /* SDZArrayOfString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZArrayOfString.h; sourceTree = "<group>"; };
+		FF4DF2D316C09A9100AE954F /* SDZArrayOfString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZArrayOfString.m; sourceTree = "<group>"; };
+		FF4DF2D416C09A9100AE954F /* SDZArrayOfSupplement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZArrayOfSupplement.h; sourceTree = "<group>"; };
+		FF4DF2D516C09A9100AE954F /* SDZArrayOfSupplement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZArrayOfSupplement.m; sourceTree = "<group>"; };
+		FF4DF2D616C09A9100AE954F /* SDZArrayOfTerminalInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZArrayOfTerminalInfo.h; sourceTree = "<group>"; };
+		FF4DF2D716C09A9100AE954F /* SDZArrayOfTerminalInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZArrayOfTerminalInfo.m; sourceTree = "<group>"; };
+		FF4DF2D816C09A9100AE954F /* SDZBilling3rdParty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZBilling3rdParty.h; sourceTree = "<group>"; };
+		FF4DF2D916C09A9100AE954F /* SDZBilling3rdParty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZBilling3rdParty.m; sourceTree = "<group>"; };
+		FF4DF2DA16C09A9100AE954F /* SDZCarrierScacs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZCarrierScacs.h; sourceTree = "<group>"; };
+		FF4DF2DB16C09A9100AE954F /* SDZCarrierScacs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZCarrierScacs.m; sourceTree = "<group>"; };
+		FF4DF2DC16C09A9100AE954F /* SDZCwtPricingDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZCwtPricingDetails.h; sourceTree = "<group>"; };
+		FF4DF2DD16C09A9100AE954F /* SDZCwtPricingDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZCwtPricingDetails.m; sourceTree = "<group>"; };
+		FF4DF2DE16C09A9100AE954F /* SDZDebugInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZDebugInfo.h; sourceTree = "<group>"; };
+		FF4DF2DF16C09A9100AE954F /* SDZDebugInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZDebugInfo.m; sourceTree = "<group>"; };
+		FF4DF2E016C09A9100AE954F /* SDZEffectivePricing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZEffectivePricing.h; sourceTree = "<group>"; };
+		FF4DF2E116C09A9100AE954F /* SDZEffectivePricing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZEffectivePricing.m; sourceTree = "<group>"; };
+		FF4DF2E216C09A9100AE954F /* SDZFreight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZFreight.h; sourceTree = "<group>"; };
+		FF4DF2E316C09A9100AE954F /* SDZFreight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZFreight.m; sourceTree = "<group>"; };
+		FF4DF2E416C09A9100AE954F /* SDZFreightPricingDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZFreightPricingDetails.h; sourceTree = "<group>"; };
+		FF4DF2E516C09A9100AE954F /* SDZFreightPricingDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZFreightPricingDetails.m; sourceTree = "<group>"; };
+		FF4DF2E616C09A9100AE954F /* SDZPalletPositions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZPalletPositions.h; sourceTree = "<group>"; };
+		FF4DF2E716C09A9100AE954F /* SDZPalletPositions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZPalletPositions.m; sourceTree = "<group>"; };
+		FF4DF2E816C09A9100AE954F /* SDZPricingAccessorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZPricingAccessorial.h; sourceTree = "<group>"; };
+		FF4DF2E916C09A9100AE954F /* SDZPricingAccessorial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZPricingAccessorial.m; sourceTree = "<group>"; };
+		FF4DF2EA16C09A9100AE954F /* SDZPricingBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZPricingBase.h; sourceTree = "<group>"; };
+		FF4DF2EB16C09A9100AE954F /* SDZPricingBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZPricingBase.m; sourceTree = "<group>"; };
+		FF4DF2EC16C09A9100AE954F /* SDZPricingContractLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZPricingContractLevel.h; sourceTree = "<group>"; };
+		FF4DF2ED16C09A9100AE954F /* SDZPricingContractLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZPricingContractLevel.m; sourceTree = "<group>"; };
+		FF4DF2EE16C09A9100AE954F /* SDZPricingIncentive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZPricingIncentive.h; sourceTree = "<group>"; };
+		FF4DF2EF16C09A9100AE954F /* SDZPricingIncentive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZPricingIncentive.m; sourceTree = "<group>"; };
+		FF4DF2F016C09A9100AE954F /* SDZPricingStrategyLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZPricingStrategyLevel.h; sourceTree = "<group>"; };
+		FF4DF2F116C09A9100AE954F /* SDZPricingStrategyLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZPricingStrategyLevel.m; sourceTree = "<group>"; };
+		FF4DF2F216C09A9100AE954F /* SDZPricingTransactionCharge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZPricingTransactionCharge.h; sourceTree = "<group>"; };
+		FF4DF2F316C09A9100AE954F /* SDZPricingTransactionCharge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZPricingTransactionCharge.m; sourceTree = "<group>"; };
+		FF4DF2F416C09A9100AE954F /* SDZRateAdvisement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZRateAdvisement.h; sourceTree = "<group>"; };
+		FF4DF2F516C09A9100AE954F /* SDZRateAdvisement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZRateAdvisement.m; sourceTree = "<group>"; };
+		FF4DF2F616C09A9100AE954F /* SDZRatedAccessorialPrivileged.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZRatedAccessorialPrivileged.h; sourceTree = "<group>"; };
+		FF4DF2F716C09A9100AE954F /* SDZRatedAccessorialPrivileged.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZRatedAccessorialPrivileged.m; sourceTree = "<group>"; };
+		FF4DF2F816C09A9100AE954F /* SDZRateError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZRateError.h; sourceTree = "<group>"; };
+		FF4DF2F916C09A9100AE954F /* SDZRateError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZRateError.m; sourceTree = "<group>"; };
+		FF4DF2FA16C09A9100AE954F /* SDZRateRequestPrivileged.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZRateRequestPrivileged.h; sourceTree = "<group>"; };
+		FF4DF2FB16C09A9100AE954F /* SDZRateRequestPrivileged.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZRateRequestPrivileged.m; sourceTree = "<group>"; };
+		FF4DF2FC16C09A9100AE954F /* SDZRateResponsePrivileged.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZRateResponsePrivileged.h; sourceTree = "<group>"; };
+		FF4DF2FD16C09A9100AE954F /* SDZRateResponsePrivileged.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZRateResponsePrivileged.m; sourceTree = "<group>"; };
+		FF4DF2FE16C09A9100AE954F /* SDZRateReturn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZRateReturn.h; sourceTree = "<group>"; };
+		FF4DF2FF16C09A9100AE954F /* SDZRateReturn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZRateReturn.m; sourceTree = "<group>"; };
+		FF4DF30016C09A9100AE954F /* SDZRateServicePrivileged.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZRateServicePrivileged.h; sourceTree = "<group>"; };
+		FF4DF30116C09A9100AE954F /* SDZRateServicePrivileged.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZRateServicePrivileged.m; sourceTree = "<group>"; };
+		FF4DF30216C09A9100AE954F /* SDZStopOff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZStopOff.h; sourceTree = "<group>"; };
+		FF4DF30316C09A9100AE954F /* SDZStopOff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZStopOff.m; sourceTree = "<group>"; };
+		FF4DF30416C09A9100AE954F /* SDZSudzc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZSudzc.h; sourceTree = "<group>"; };
+		FF4DF30516C09A9100AE954F /* SDZSudzc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZSudzc.m; sourceTree = "<group>"; };
+		FF4DF30616C09A9100AE954F /* SDZSupplement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZSupplement.h; sourceTree = "<group>"; };
+		FF4DF30716C09A9100AE954F /* SDZSupplement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZSupplement.m; sourceTree = "<group>"; };
+		FF4DF30816C09A9100AE954F /* SDZTerminalInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZTerminalInfo.h; sourceTree = "<group>"; };
+		FF4DF30916C09A9100AE954F /* SDZTerminalInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZTerminalInfo.m; sourceTree = "<group>"; };
+		FF4DF30A16C09A9100AE954F /* Soap+Prefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Soap+Prefix.h"; sourceTree = "<group>"; };
+		FF4DF30B16C09A9100AE954F /* Soap+Prefix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Soap+Prefix.m"; sourceTree = "<group>"; };
+		FF4DF34E16C09C7800AE954F /* Accessorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Accessorial.h; sourceTree = "<group>"; };
+		FF4DF34F16C09C7800AE954F /* Accessorial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Accessorial.m; sourceTree = "<group>"; };
+		FF4DF35016C09C7800AE954F /* Credentials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Credentials.h; sourceTree = "<group>"; };
+		FF4DF35116C09C7800AE954F /* Credentials.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Credentials.m; sourceTree = "<group>"; };
+		FF4DF35216C09C7800AE954F /* FreightItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreightItem.h; sourceTree = "<group>"; };
+		FF4DF35316C09C7800AE954F /* FreightItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreightItem.m; sourceTree = "<group>"; };
+		FF4DF35416C09C7800AE954F /* QuoteRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuoteRequest.h; sourceTree = "<group>"; };
+		FF4DF35516C09C7800AE954F /* QuoteRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuoteRequest.m; sourceTree = "<group>"; };
+		FF4DF35716C09C7800AE954F /* AccessorialPricingDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessorialPricingDetail.h; sourceTree = "<group>"; };
+		FF4DF35816C09C7800AE954F /* AccessorialPricingDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessorialPricingDetail.m; sourceTree = "<group>"; };
+		FF4DF35916C09C7800AE954F /* CWTPricingDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWTPricingDetail.h; sourceTree = "<group>"; };
+		FF4DF35A16C09C7800AE954F /* CWTPricingDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWTPricingDetail.m; sourceTree = "<group>"; };
+		FF4DF35B16C09C7800AE954F /* FreightPricingDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreightPricingDetail.h; sourceTree = "<group>"; };
+		FF4DF35C16C09C7800AE954F /* FreightPricingDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreightPricingDetail.m; sourceTree = "<group>"; };
+		FF4DF35D16C09C7800AE954F /* QuoteReturn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuoteReturn.h; sourceTree = "<group>"; };
+		FF4DF35E16C09C7800AE954F /* QuoteReturn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuoteReturn.m; sourceTree = "<group>"; };
+		FF4DF35F16C09C7800AE954F /* RateError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RateError.h; sourceTree = "<group>"; };
+		FF4DF36016C09C7800AE954F /* RateError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RateError.m; sourceTree = "<group>"; };
+		FF4DF36116C09C7800AE954F /* RateResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RateResponse.h; sourceTree = "<group>"; };
+		FF4DF36216C09C7800AE954F /* RateResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RateResponse.m; sourceTree = "<group>"; };
+		FF4DF36316C09C7800AE954F /* TerminalInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TerminalInfo.h; sourceTree = "<group>"; };
+		FF4DF36416C09C7800AE954F /* TerminalInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TerminalInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +316,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF4DF28516C09A1A00AE954F /* Security.framework in Frameworks */,
+				FF4DF28316C09A0300AE954F /* SystemConfiguration.framework in Frameworks */,
 				A421476216B2306A003FDF9C /* UIKit.framework in Frameworks */,
 				A421476416B2306A003FDF9C /* Foundation.framework in Frameworks */,
 				A421476616B2306A003FDF9C /* CoreGraphics.framework in Frameworks */,
@@ -107,6 +340,8 @@
 		A421475216B2306A003FDF9C = {
 			isa = PBXGroup;
 			children = (
+				FF4DF34C16C09C7800AE954F /* QQModels */,
+				FF4DF28616C09A9100AE954F /* RateService */,
 				A4FE5A6E16B8EFE7009A3AEC /* Icon_Ipad.png */,
 				A4FE5A6C16B8EF88009A3AEC /* Icon_Ipad_retina.png */,
 				A421476716B2306A003FDF9C /* QuickQuote */,
@@ -128,6 +363,8 @@
 		A421476016B2306A003FDF9C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FF4DF28416C09A1A00AE954F /* Security.framework */,
+				FF4DF28216C09A0300AE954F /* SystemConfiguration.framework */,
 				A421476116B2306A003FDF9C /* UIKit.framework */,
 				A421476316B2306A003FDF9C /* Foundation.framework */,
 				A421476516B2306A003FDF9C /* CoreGraphics.framework */,
@@ -198,6 +435,214 @@
 				A47A5FB216B256C400A533A9 /* SplashGradient.png */,
 			);
 			name = Graphics;
+			sourceTree = "<group>";
+		};
+		FF4DF28616C09A9100AE954F /* RateService */ = {
+			isa = PBXGroup;
+			children = (
+				FF4DF28716C09A9100AE954F /* Soap */,
+				FF4DF2A516C09A9100AE954F /* TouchXML */,
+				FF4DF2B316C09A9100AE954F /* WSDLClasses */,
+			);
+			name = RateService;
+			path = QuickQuote/RateService;
+			sourceTree = "<group>";
+		};
+		FF4DF28716C09A9100AE954F /* Soap */ = {
+			isa = PBXGroup;
+			children = (
+				FF4DF28816C09A9100AE954F /* NSData+Base64.h */,
+				FF4DF28916C09A9100AE954F /* NSData+Base64.m */,
+				FF4DF28A16C09A9100AE954F /* NSMutableArray+Soap.h */,
+				FF4DF28B16C09A9100AE954F /* NSMutableArray+Soap.m */,
+				FF4DF28C16C09A9100AE954F /* Soap.h */,
+				FF4DF28D16C09A9100AE954F /* Soap.m */,
+				FF4DF28E16C09A9100AE954F /* SoapArray.h */,
+				FF4DF28F16C09A9100AE954F /* SoapArray.m */,
+				FF4DF29016C09A9100AE954F /* SoapDelegate.h */,
+				FF4DF29116C09A9100AE954F /* SoapDictionary.h */,
+				FF4DF29216C09A9100AE954F /* SoapDictionary.m */,
+				FF4DF29316C09A9100AE954F /* SoapFault.h */,
+				FF4DF29416C09A9100AE954F /* SoapFault.m */,
+				FF4DF29516C09A9100AE954F /* SoapHandler.h */,
+				FF4DF29616C09A9100AE954F /* SoapHandler.m */,
+				FF4DF29716C09A9100AE954F /* SoapLiteral.h */,
+				FF4DF29816C09A9100AE954F /* SoapLiteral.m */,
+				FF4DF29916C09A9100AE954F /* SoapNil.h */,
+				FF4DF29A16C09A9100AE954F /* SoapNil.m */,
+				FF4DF29B16C09A9100AE954F /* SoapObject.h */,
+				FF4DF29C16C09A9100AE954F /* SoapObject.m */,
+				FF4DF29D16C09A9100AE954F /* SoapParameter.h */,
+				FF4DF29E16C09A9100AE954F /* SoapParameter.m */,
+				FF4DF29F16C09A9100AE954F /* SoapReachability.h */,
+				FF4DF2A016C09A9100AE954F /* SoapReachability.m */,
+				FF4DF2A116C09A9100AE954F /* SoapRequest.h */,
+				FF4DF2A216C09A9100AE954F /* SoapRequest.m */,
+				FF4DF2A316C09A9100AE954F /* SoapService.h */,
+				FF4DF2A416C09A9100AE954F /* SoapService.m */,
+			);
+			path = Soap;
+			sourceTree = "<group>";
+		};
+		FF4DF2A516C09A9100AE954F /* TouchXML */ = {
+			isa = PBXGroup;
+			children = (
+				FF4DF2A616C09A9100AE954F /* CXMLDocument.h */,
+				FF4DF2A716C09A9100AE954F /* CXMLDocument.m */,
+				FF4DF2A816C09A9100AE954F /* CXMLDocument_PrivateExtensions.h */,
+				FF4DF2A916C09A9100AE954F /* CXMLDocument_PrivateExtensions.m */,
+				FF4DF2AA16C09A9100AE954F /* CXMLElement.h */,
+				FF4DF2AB16C09A9100AE954F /* CXMLElement.m */,
+				FF4DF2AC16C09A9100AE954F /* CXMLNode.h */,
+				FF4DF2AD16C09A9100AE954F /* CXMLNode.m */,
+				FF4DF2AE16C09A9100AE954F /* CXMLNode_PrivateExtensions.h */,
+				FF4DF2AF16C09A9100AE954F /* CXMLNode_PrivateExtensions.m */,
+				FF4DF2B016C09A9100AE954F /* CXMLNode_XPathExtensions.h */,
+				FF4DF2B116C09A9100AE954F /* CXMLNode_XPathExtensions.m */,
+				FF4DF2B216C09A9100AE954F /* TouchXML.h */,
+			);
+			path = TouchXML;
+			sourceTree = "<group>";
+		};
+		FF4DF2B316C09A9100AE954F /* WSDLClasses */ = {
+			isa = PBXGroup;
+			children = (
+				FF4DF2B416C09A9100AE954F /* SDZAccessorial.h */,
+				FF4DF2B516C09A9100AE954F /* SDZAccessorial.m */,
+				FF4DF2B616C09A9100AE954F /* SDZAccessorialRateOverride.h */,
+				FF4DF2B716C09A9100AE954F /* SDZAccessorialRateOverride.m */,
+				FF4DF2B816C09A9100AE954F /* SDZArrayOfAccessorial.h */,
+				FF4DF2B916C09A9100AE954F /* SDZArrayOfAccessorial.m */,
+				FF4DF2BA16C09A9100AE954F /* SDZArrayOfAccessorialRateOverride.h */,
+				FF4DF2BB16C09A9100AE954F /* SDZArrayOfAccessorialRateOverride.m */,
+				FF4DF2BC16C09A9100AE954F /* SDZArrayOfArrayOfDecimal.h */,
+				FF4DF2BD16C09A9100AE954F /* SDZArrayOfArrayOfDecimal.m */,
+				FF4DF2BE16C09A9100AE954F /* SDZArrayOfCwtPricingDetails.h */,
+				FF4DF2BF16C09A9100AE954F /* SDZArrayOfCwtPricingDetails.m */,
+				FF4DF2C016C09A9100AE954F /* SDZArrayOfDecimal.h */,
+				FF4DF2C116C09A9100AE954F /* SDZArrayOfDecimal.m */,
+				FF4DF2C216C09A9100AE954F /* SDZArrayOfFreight.h */,
+				FF4DF2C316C09A9100AE954F /* SDZArrayOfFreight.m */,
+				FF4DF2C416C09A9100AE954F /* SDZArrayOfFreightPricingDetails.h */,
+				FF4DF2C516C09A9100AE954F /* SDZArrayOfFreightPricingDetails.m */,
+				FF4DF2C616C09A9100AE954F /* SDZArrayOfPalletPositions.h */,
+				FF4DF2C716C09A9100AE954F /* SDZArrayOfPalletPositions.m */,
+				FF4DF2C816C09A9100AE954F /* SDZArrayOfPricingAccessorial.h */,
+				FF4DF2C916C09A9100AE954F /* SDZArrayOfPricingAccessorial.m */,
+				FF4DF2CA16C09A9100AE954F /* SDZArrayOfRateAdvisement.h */,
+				FF4DF2CB16C09A9100AE954F /* SDZArrayOfRateAdvisement.m */,
+				FF4DF2CC16C09A9100AE954F /* SDZArrayOfRatedAccessorialPrivileged.h */,
+				FF4DF2CD16C09A9100AE954F /* SDZArrayOfRatedAccessorialPrivileged.m */,
+				FF4DF2CE16C09A9100AE954F /* SDZArrayOfRateResponsePrivileged.h */,
+				FF4DF2CF16C09A9100AE954F /* SDZArrayOfRateResponsePrivileged.m */,
+				FF4DF2D016C09A9100AE954F /* SDZArrayOfStopOff.h */,
+				FF4DF2D116C09A9100AE954F /* SDZArrayOfStopOff.m */,
+				FF4DF2D216C09A9100AE954F /* SDZArrayOfString.h */,
+				FF4DF2D316C09A9100AE954F /* SDZArrayOfString.m */,
+				FF4DF2D416C09A9100AE954F /* SDZArrayOfSupplement.h */,
+				FF4DF2D516C09A9100AE954F /* SDZArrayOfSupplement.m */,
+				FF4DF2D616C09A9100AE954F /* SDZArrayOfTerminalInfo.h */,
+				FF4DF2D716C09A9100AE954F /* SDZArrayOfTerminalInfo.m */,
+				FF4DF2D816C09A9100AE954F /* SDZBilling3rdParty.h */,
+				FF4DF2D916C09A9100AE954F /* SDZBilling3rdParty.m */,
+				FF4DF2DA16C09A9100AE954F /* SDZCarrierScacs.h */,
+				FF4DF2DB16C09A9100AE954F /* SDZCarrierScacs.m */,
+				FF4DF2DC16C09A9100AE954F /* SDZCwtPricingDetails.h */,
+				FF4DF2DD16C09A9100AE954F /* SDZCwtPricingDetails.m */,
+				FF4DF2DE16C09A9100AE954F /* SDZDebugInfo.h */,
+				FF4DF2DF16C09A9100AE954F /* SDZDebugInfo.m */,
+				FF4DF2E016C09A9100AE954F /* SDZEffectivePricing.h */,
+				FF4DF2E116C09A9100AE954F /* SDZEffectivePricing.m */,
+				FF4DF2E216C09A9100AE954F /* SDZFreight.h */,
+				FF4DF2E316C09A9100AE954F /* SDZFreight.m */,
+				FF4DF2E416C09A9100AE954F /* SDZFreightPricingDetails.h */,
+				FF4DF2E516C09A9100AE954F /* SDZFreightPricingDetails.m */,
+				FF4DF2E616C09A9100AE954F /* SDZPalletPositions.h */,
+				FF4DF2E716C09A9100AE954F /* SDZPalletPositions.m */,
+				FF4DF2E816C09A9100AE954F /* SDZPricingAccessorial.h */,
+				FF4DF2E916C09A9100AE954F /* SDZPricingAccessorial.m */,
+				FF4DF2EA16C09A9100AE954F /* SDZPricingBase.h */,
+				FF4DF2EB16C09A9100AE954F /* SDZPricingBase.m */,
+				FF4DF2EC16C09A9100AE954F /* SDZPricingContractLevel.h */,
+				FF4DF2ED16C09A9100AE954F /* SDZPricingContractLevel.m */,
+				FF4DF2EE16C09A9100AE954F /* SDZPricingIncentive.h */,
+				FF4DF2EF16C09A9100AE954F /* SDZPricingIncentive.m */,
+				FF4DF2F016C09A9100AE954F /* SDZPricingStrategyLevel.h */,
+				FF4DF2F116C09A9100AE954F /* SDZPricingStrategyLevel.m */,
+				FF4DF2F216C09A9100AE954F /* SDZPricingTransactionCharge.h */,
+				FF4DF2F316C09A9100AE954F /* SDZPricingTransactionCharge.m */,
+				FF4DF2F416C09A9100AE954F /* SDZRateAdvisement.h */,
+				FF4DF2F516C09A9100AE954F /* SDZRateAdvisement.m */,
+				FF4DF2F616C09A9100AE954F /* SDZRatedAccessorialPrivileged.h */,
+				FF4DF2F716C09A9100AE954F /* SDZRatedAccessorialPrivileged.m */,
+				FF4DF2F816C09A9100AE954F /* SDZRateError.h */,
+				FF4DF2F916C09A9100AE954F /* SDZRateError.m */,
+				FF4DF2FA16C09A9100AE954F /* SDZRateRequestPrivileged.h */,
+				FF4DF2FB16C09A9100AE954F /* SDZRateRequestPrivileged.m */,
+				FF4DF2FC16C09A9100AE954F /* SDZRateResponsePrivileged.h */,
+				FF4DF2FD16C09A9100AE954F /* SDZRateResponsePrivileged.m */,
+				FF4DF2FE16C09A9100AE954F /* SDZRateReturn.h */,
+				FF4DF2FF16C09A9100AE954F /* SDZRateReturn.m */,
+				FF4DF30016C09A9100AE954F /* SDZRateServicePrivileged.h */,
+				FF4DF30116C09A9100AE954F /* SDZRateServicePrivileged.m */,
+				FF4DF30216C09A9100AE954F /* SDZStopOff.h */,
+				FF4DF30316C09A9100AE954F /* SDZStopOff.m */,
+				FF4DF30416C09A9100AE954F /* SDZSudzc.h */,
+				FF4DF30516C09A9100AE954F /* SDZSudzc.m */,
+				FF4DF30616C09A9100AE954F /* SDZSupplement.h */,
+				FF4DF30716C09A9100AE954F /* SDZSupplement.m */,
+				FF4DF30816C09A9100AE954F /* SDZTerminalInfo.h */,
+				FF4DF30916C09A9100AE954F /* SDZTerminalInfo.m */,
+				FF4DF30A16C09A9100AE954F /* Soap+Prefix.h */,
+				FF4DF30B16C09A9100AE954F /* Soap+Prefix.m */,
+			);
+			path = WSDLClasses;
+			sourceTree = "<group>";
+		};
+		FF4DF34C16C09C7800AE954F /* QQModels */ = {
+			isa = PBXGroup;
+			children = (
+				FF4DF34D16C09C7800AE954F /* QQRequestModels */,
+				FF4DF35616C09C7800AE954F /* QQResponseModels */,
+			);
+			name = QQModels;
+			path = QuickQuote/QQModels;
+			sourceTree = "<group>";
+		};
+		FF4DF34D16C09C7800AE954F /* QQRequestModels */ = {
+			isa = PBXGroup;
+			children = (
+				FF4DF34E16C09C7800AE954F /* Accessorial.h */,
+				FF4DF34F16C09C7800AE954F /* Accessorial.m */,
+				FF4DF35016C09C7800AE954F /* Credentials.h */,
+				FF4DF35116C09C7800AE954F /* Credentials.m */,
+				FF4DF35216C09C7800AE954F /* FreightItem.h */,
+				FF4DF35316C09C7800AE954F /* FreightItem.m */,
+				FF4DF35416C09C7800AE954F /* QuoteRequest.h */,
+				FF4DF35516C09C7800AE954F /* QuoteRequest.m */,
+			);
+			path = QQRequestModels;
+			sourceTree = "<group>";
+		};
+		FF4DF35616C09C7800AE954F /* QQResponseModels */ = {
+			isa = PBXGroup;
+			children = (
+				FF4DF35716C09C7800AE954F /* AccessorialPricingDetail.h */,
+				FF4DF35816C09C7800AE954F /* AccessorialPricingDetail.m */,
+				FF4DF35916C09C7800AE954F /* CWTPricingDetail.h */,
+				FF4DF35A16C09C7800AE954F /* CWTPricingDetail.m */,
+				FF4DF35B16C09C7800AE954F /* FreightPricingDetail.h */,
+				FF4DF35C16C09C7800AE954F /* FreightPricingDetail.m */,
+				FF4DF35D16C09C7800AE954F /* QuoteReturn.h */,
+				FF4DF35E16C09C7800AE954F /* QuoteReturn.m */,
+				FF4DF35F16C09C7800AE954F /* RateError.h */,
+				FF4DF36016C09C7800AE954F /* RateError.m */,
+				FF4DF36116C09C7800AE954F /* RateResponse.h */,
+				FF4DF36216C09C7800AE954F /* RateResponse.m */,
+				FF4DF36316C09C7800AE954F /* TerminalInfo.h */,
+				FF4DF36416C09C7800AE954F /* TerminalInfo.m */,
+			);
+			path = QQResponseModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,6 +767,81 @@
 				A42147A516B243F5003FDF9C /* LoginSeague.m in Sources */,
 				A400437D16BF41A200D25DF6 /* QuickQuoteLoginViewController.m in Sources */,
 				A400438016BF4DC300D25DF6 /* QuickQuoteCompanyPickerViewController.m in Sources */,
+				FF4DF30C16C09A9100AE954F /* NSData+Base64.m in Sources */,
+				FF4DF30D16C09A9100AE954F /* NSMutableArray+Soap.m in Sources */,
+				FF4DF30E16C09A9100AE954F /* Soap.m in Sources */,
+				FF4DF30F16C09A9100AE954F /* SoapArray.m in Sources */,
+				FF4DF31016C09A9100AE954F /* SoapDictionary.m in Sources */,
+				FF4DF31116C09A9100AE954F /* SoapFault.m in Sources */,
+				FF4DF31216C09A9100AE954F /* SoapHandler.m in Sources */,
+				FF4DF31316C09A9100AE954F /* SoapLiteral.m in Sources */,
+				FF4DF31416C09A9100AE954F /* SoapNil.m in Sources */,
+				FF4DF31516C09A9100AE954F /* SoapObject.m in Sources */,
+				FF4DF31616C09A9100AE954F /* SoapParameter.m in Sources */,
+				FF4DF31716C09A9100AE954F /* SoapReachability.m in Sources */,
+				FF4DF31816C09A9100AE954F /* SoapRequest.m in Sources */,
+				FF4DF31916C09A9100AE954F /* SoapService.m in Sources */,
+				FF4DF31A16C09A9100AE954F /* CXMLDocument.m in Sources */,
+				FF4DF31B16C09A9100AE954F /* CXMLDocument_PrivateExtensions.m in Sources */,
+				FF4DF31C16C09A9100AE954F /* CXMLElement.m in Sources */,
+				FF4DF31D16C09A9100AE954F /* CXMLNode.m in Sources */,
+				FF4DF31E16C09A9100AE954F /* CXMLNode_PrivateExtensions.m in Sources */,
+				FF4DF31F16C09A9100AE954F /* CXMLNode_XPathExtensions.m in Sources */,
+				FF4DF32016C09A9100AE954F /* SDZAccessorial.m in Sources */,
+				FF4DF32116C09A9100AE954F /* SDZAccessorialRateOverride.m in Sources */,
+				FF4DF32216C09A9100AE954F /* SDZArrayOfAccessorial.m in Sources */,
+				FF4DF32316C09A9100AE954F /* SDZArrayOfAccessorialRateOverride.m in Sources */,
+				FF4DF32416C09A9100AE954F /* SDZArrayOfArrayOfDecimal.m in Sources */,
+				FF4DF32516C09A9100AE954F /* SDZArrayOfCwtPricingDetails.m in Sources */,
+				FF4DF32616C09A9100AE954F /* SDZArrayOfDecimal.m in Sources */,
+				FF4DF32716C09A9100AE954F /* SDZArrayOfFreight.m in Sources */,
+				FF4DF32816C09A9100AE954F /* SDZArrayOfFreightPricingDetails.m in Sources */,
+				FF4DF32916C09A9100AE954F /* SDZArrayOfPalletPositions.m in Sources */,
+				FF4DF32A16C09A9100AE954F /* SDZArrayOfPricingAccessorial.m in Sources */,
+				FF4DF32B16C09A9100AE954F /* SDZArrayOfRateAdvisement.m in Sources */,
+				FF4DF32C16C09A9100AE954F /* SDZArrayOfRatedAccessorialPrivileged.m in Sources */,
+				FF4DF32D16C09A9100AE954F /* SDZArrayOfRateResponsePrivileged.m in Sources */,
+				FF4DF32E16C09A9100AE954F /* SDZArrayOfStopOff.m in Sources */,
+				FF4DF32F16C09A9100AE954F /* SDZArrayOfString.m in Sources */,
+				FF4DF33016C09A9100AE954F /* SDZArrayOfSupplement.m in Sources */,
+				FF4DF33116C09A9100AE954F /* SDZArrayOfTerminalInfo.m in Sources */,
+				FF4DF33216C09A9100AE954F /* SDZBilling3rdParty.m in Sources */,
+				FF4DF33316C09A9100AE954F /* SDZCarrierScacs.m in Sources */,
+				FF4DF33416C09A9100AE954F /* SDZCwtPricingDetails.m in Sources */,
+				FF4DF33516C09A9100AE954F /* SDZDebugInfo.m in Sources */,
+				FF4DF33616C09A9100AE954F /* SDZEffectivePricing.m in Sources */,
+				FF4DF33716C09A9100AE954F /* SDZFreight.m in Sources */,
+				FF4DF33816C09A9100AE954F /* SDZFreightPricingDetails.m in Sources */,
+				FF4DF33916C09A9100AE954F /* SDZPalletPositions.m in Sources */,
+				FF4DF33A16C09A9100AE954F /* SDZPricingAccessorial.m in Sources */,
+				FF4DF33B16C09A9100AE954F /* SDZPricingBase.m in Sources */,
+				FF4DF33C16C09A9100AE954F /* SDZPricingContractLevel.m in Sources */,
+				FF4DF33D16C09A9100AE954F /* SDZPricingIncentive.m in Sources */,
+				FF4DF33E16C09A9100AE954F /* SDZPricingStrategyLevel.m in Sources */,
+				FF4DF33F16C09A9100AE954F /* SDZPricingTransactionCharge.m in Sources */,
+				FF4DF34016C09A9100AE954F /* SDZRateAdvisement.m in Sources */,
+				FF4DF34116C09A9100AE954F /* SDZRatedAccessorialPrivileged.m in Sources */,
+				FF4DF34216C09A9100AE954F /* SDZRateError.m in Sources */,
+				FF4DF34316C09A9100AE954F /* SDZRateRequestPrivileged.m in Sources */,
+				FF4DF34416C09A9100AE954F /* SDZRateResponsePrivileged.m in Sources */,
+				FF4DF34516C09A9100AE954F /* SDZRateReturn.m in Sources */,
+				FF4DF34616C09A9100AE954F /* SDZRateServicePrivileged.m in Sources */,
+				FF4DF34716C09A9100AE954F /* SDZStopOff.m in Sources */,
+				FF4DF34816C09A9100AE954F /* SDZSudzc.m in Sources */,
+				FF4DF34916C09A9100AE954F /* SDZSupplement.m in Sources */,
+				FF4DF34A16C09A9100AE954F /* SDZTerminalInfo.m in Sources */,
+				FF4DF34B16C09A9100AE954F /* Soap+Prefix.m in Sources */,
+				FF4DF36516C09C7800AE954F /* Accessorial.m in Sources */,
+				FF4DF36616C09C7800AE954F /* Credentials.m in Sources */,
+				FF4DF36716C09C7800AE954F /* FreightItem.m in Sources */,
+				FF4DF36816C09C7800AE954F /* QuoteRequest.m in Sources */,
+				FF4DF36916C09C7800AE954F /* AccessorialPricingDetail.m in Sources */,
+				FF4DF36A16C09C7800AE954F /* CWTPricingDetail.m in Sources */,
+				FF4DF36B16C09C7800AE954F /* FreightPricingDetail.m in Sources */,
+				FF4DF36C16C09C7800AE954F /* QuoteReturn.m in Sources */,
+				FF4DF36D16C09C7800AE954F /* RateError.m in Sources */,
+				FF4DF36E16C09C7800AE954F /* RateResponse.m in Sources */,
+				FF4DF36F16C09C7800AE954F /* TerminalInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,8 +913,10 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-lxml2";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -415,8 +937,10 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-lxml2";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
