@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1811" systemVersion="11G63" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Company" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="FreightItem" syncable="YES">
+        <attribute name="dimUOM" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="freightClass" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="handlingUnits" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="handlingUnitType" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="height" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="length" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="weight" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="weightUOM" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="width" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="savedQuote" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="SavedQuote" inverseName="freightItems" inverseEntity="SavedQuote" syncable="YES"/>
+    </entity>
+    <entity name="SavedQuote" syncable="YES">
+        <attribute name="destinationZip" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="originZip" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="freightItems" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="FreightItem" inverseName="savedQuote" inverseEntity="FreightItem" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="SavedQuote" positionX="-306" positionY="-171" width="128" height="90"/>
+        <element name="FreightItem" positionX="-54" positionY="9" width="128" height="195"/>
+        <element name="Company" positionX="-117" positionY="-243" width="128" height="75"/>
+    </elements>
+</model>

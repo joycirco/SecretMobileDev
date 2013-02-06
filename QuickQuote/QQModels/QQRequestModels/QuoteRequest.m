@@ -7,7 +7,7 @@
 //
 
 #import "QuoteRequest.h"
-#import "SDZRateServicePrivileged.h"
+#import "RSPRateServicePrivileged.h"
 
 
 @implementation QuoteRequest
@@ -27,13 +27,13 @@
 -(void)submitRequest
 {
 	// Create the service
-	SDZRateServicePrivileged* service = [SDZRateServicePrivileged service];
+	RSPRateServicePrivileged* service = [RSPRateServicePrivileged service];
 	service.logging = YES;
     
     service.username = @"testbot";
 	service.password = @"supersecret486";
     
-    SDZRateRequestPrivileged* reqRRP = [[SDZRateRequestPrivileged alloc] init];
+    RSPRateRequestPrivileged* reqRRP = [[RSPRateRequestPrivileged alloc] init];
 
     // credentials
     reqRRP.reqLoginName =  self.credentials.loginName;
@@ -54,7 +54,7 @@
     for(FreightItem* fqr in _freightItems)
     {
         //[fqr performSelector];
-        SDZFreight* f = [[SDZFreight alloc] init];
+        RSPFreight* f = [[RSPFreight alloc] init];
         f.freightClass = fqr.freightClass;
         f.weight = fqr.weight;
         f.units = fqr.handlingUnits;
@@ -68,7 +68,7 @@
     
     // add pallet position
     reqRRP.reqPalletCount = 2;
-    SDZPalletPositions* pp = [[SDZPalletPositions alloc] init];
+    RSPPalletPositions* pp = [[RSPPalletPositions alloc] init];
     pp.length = 10;
     pp.height = 10;
     pp.width = 10;
@@ -84,9 +84,9 @@
     reqRRP.reqViewWebBillingContracts = true;
     reqRRP.reqViewRatingCost = 1;
     
-	// Returns SDZRateReturn*
+	// Returns RSPRateReturn*
 	/*  */
-	//[service RateShipment:self action:@selector(RateShipmentHandler:) rrp: [[SDZRateRequestPrivileged alloc] init]];
+	//[service RateShipment:self action:@selector(RateShipmentHandler:) rrp: [[RSPRateRequestPrivileged alloc] init]];
 	[service RateShipment:self action:@selector(RateShipmentHandler:) rrp: reqRRP];
     
 }
@@ -108,8 +108,8 @@
 		return;
 	}
     
-	// Do something with the SDZRateReturn* result
-    SDZRateReturn* result = (SDZRateReturn*)value;
+	// Do something with the RSPRateReturn* result
+    RSPRateReturn* result = (RSPRateReturn*)value;
 	NSLog(@"RateShipment returned the value: %@", result);
     
 }

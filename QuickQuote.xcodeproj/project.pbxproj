@@ -31,72 +31,79 @@
 		A47A5FB616B256E900A533A9 /* SplashGradient2.png in Resources */ = {isa = PBXBuildFile; fileRef = A47A5FB516B256E900A533A9 /* SplashGradient2.png */; };
 		A4FE5A6D16B8EF88009A3AEC /* Icon_Ipad_retina.png in Resources */ = {isa = PBXBuildFile; fileRef = A4FE5A6C16B8EF88009A3AEC /* Icon_Ipad_retina.png */; };
 		A4FE5A6F16B8EFE7009A3AEC /* Icon_Ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A4FE5A6E16B8EFE7009A3AEC /* Icon_Ipad.png */; };
+		FF31875316C31BA6001B9D3B /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3186C216C31BA6001B9D3B /* NSData+Base64.m */; };
+		FF31875416C31BA6001B9D3B /* NSMutableArray+Soap.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3186C416C31BA6001B9D3B /* NSMutableArray+Soap.m */; };
+		FF31875516C31BA6001B9D3B /* Soap.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3186C616C31BA6001B9D3B /* Soap.m */; };
+		FF31875616C31BA6001B9D3B /* SoapArray.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3186C816C31BA6001B9D3B /* SoapArray.m */; };
+		FF31875716C31BA6001B9D3B /* SoapDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3186CB16C31BA6001B9D3B /* SoapDictionary.m */; };
+		FF31875816C31BA6001B9D3B /* SoapFault.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3186CD16C31BA6001B9D3B /* SoapFault.m */; };
+		FF31875916C31BA6001B9D3B /* SoapHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3186CF16C31BA6001B9D3B /* SoapHandler.m */; };
+		FF31875A16C31BA6001B9D3B /* SoapLiteral.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3186D116C31BA6001B9D3B /* SoapLiteral.m */; };
+		FF31875B16C31BA6001B9D3B /* SoapNil.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3186D316C31BA6001B9D3B /* SoapNil.m */; };
+		FF31875C16C31BA6001B9D3B /* SoapObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3186D516C31BA6001B9D3B /* SoapObject.m */; };
+		FF31875D16C31BA6001B9D3B /* SoapParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3186D716C31BA6001B9D3B /* SoapParameter.m */; };
+		FF31875E16C31BA6001B9D3B /* SoapReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3186D916C31BA6001B9D3B /* SoapReachability.m */; };
+		FF31875F16C31BA6001B9D3B /* SoapRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3186DB16C31BA6001B9D3B /* SoapRequest.m */; };
+		FF31876016C31BA6001B9D3B /* SoapService.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3186DD16C31BA6001B9D3B /* SoapService.m */; };
+		FF31876116C31BA6001B9D3B /* CTidy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3186E016C31BA6001B9D3B /* CTidy.m */; };
+		FF31876216C31BA6001B9D3B /* CXHTMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3186E216C31BA6001B9D3B /* CXHTMLDocument.m */; };
+		FF31876316C31BA6001B9D3B /* CXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3186E416C31BA6001B9D3B /* CXMLDocument.m */; };
+		FF31876416C31BA6001B9D3B /* CXMLDocument_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3186E616C31BA6001B9D3B /* CXMLDocument_CreationExtensions.m */; };
+		FF31876516C31BA6001B9D3B /* CXMLDocument_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3186E816C31BA6001B9D3B /* CXMLDocument_PrivateExtensions.m */; };
+		FF31876616C31BA6001B9D3B /* CXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3186EA16C31BA6001B9D3B /* CXMLElement.m */; };
+		FF31876716C31BA6001B9D3B /* CXMLElement_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3186EC16C31BA6001B9D3B /* CXMLElement_CreationExtensions.m */; };
+		FF31876816C31BA6001B9D3B /* CXMLElement_ElementTreeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3186EE16C31BA6001B9D3B /* CXMLElement_ElementTreeExtensions.m */; };
+		FF31876916C31BA6001B9D3B /* CXMLNamespaceNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3186F016C31BA6001B9D3B /* CXMLNamespaceNode.m */; };
+		FF31876A16C31BA6001B9D3B /* CXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3186F216C31BA6001B9D3B /* CXMLNode.m */; };
+		FF31876B16C31BA6001B9D3B /* CXMLNode_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3186F416C31BA6001B9D3B /* CXMLNode_CreationExtensions.m */; };
+		FF31876C16C31BA6001B9D3B /* CXMLNode_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3186F616C31BA6001B9D3B /* CXMLNode_PrivateExtensions.m */; };
+		FF31876D16C31BA6001B9D3B /* CXMLNode_XPathExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3186F816C31BA6001B9D3B /* CXMLNode_XPathExtensions.m */; };
+		FF31876E16C31BA6001B9D3B /* RSPAccessorial.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3186FC16C31BA6001B9D3B /* RSPAccessorial.m */; };
+		FF31876F16C31BA6001B9D3B /* RSPAccessorialRateOverride.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3186FE16C31BA6001B9D3B /* RSPAccessorialRateOverride.m */; };
+		FF31877016C31BA6001B9D3B /* RSPArrayOfAccessorial.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31870016C31BA6001B9D3B /* RSPArrayOfAccessorial.m */; };
+		FF31877116C31BA6001B9D3B /* RSPArrayOfAccessorialRateOverride.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31870216C31BA6001B9D3B /* RSPArrayOfAccessorialRateOverride.m */; };
+		FF31877216C31BA6001B9D3B /* RSPArrayOfArrayOfDecimal.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31870416C31BA6001B9D3B /* RSPArrayOfArrayOfDecimal.m */; };
+		FF31877316C31BA6001B9D3B /* RSPArrayOfCwtPricingDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31870616C31BA6001B9D3B /* RSPArrayOfCwtPricingDetails.m */; };
+		FF31877416C31BA6001B9D3B /* RSPArrayOfDecimal.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31870816C31BA6001B9D3B /* RSPArrayOfDecimal.m */; };
+		FF31877516C31BA6001B9D3B /* RSPArrayOfFreight.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31870A16C31BA6001B9D3B /* RSPArrayOfFreight.m */; };
+		FF31877616C31BA6001B9D3B /* RSPArrayOfFreightPricingDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31870C16C31BA6001B9D3B /* RSPArrayOfFreightPricingDetails.m */; };
+		FF31877716C31BA6001B9D3B /* RSPArrayOfPalletPositions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31870E16C31BA6001B9D3B /* RSPArrayOfPalletPositions.m */; };
+		FF31877816C31BA6001B9D3B /* RSPArrayOfPricingAccessorial.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31871016C31BA6001B9D3B /* RSPArrayOfPricingAccessorial.m */; };
+		FF31877916C31BA6001B9D3B /* RSPArrayOfRateAdvisement.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31871216C31BA6001B9D3B /* RSPArrayOfRateAdvisement.m */; };
+		FF31877A16C31BA6001B9D3B /* RSPArrayOfRatedAccessorialPrivileged.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31871416C31BA6001B9D3B /* RSPArrayOfRatedAccessorialPrivileged.m */; };
+		FF31877B16C31BA6001B9D3B /* RSPArrayOfRateResponsePrivileged.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31871616C31BA6001B9D3B /* RSPArrayOfRateResponsePrivileged.m */; };
+		FF31877C16C31BA6001B9D3B /* RSPArrayOfStopOff.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31871816C31BA6001B9D3B /* RSPArrayOfStopOff.m */; };
+		FF31877D16C31BA6001B9D3B /* RSPArrayOfString.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31871A16C31BA6001B9D3B /* RSPArrayOfString.m */; };
+		FF31877E16C31BA6001B9D3B /* RSPArrayOfSupplement.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31871C16C31BA6001B9D3B /* RSPArrayOfSupplement.m */; };
+		FF31877F16C31BA6001B9D3B /* RSPArrayOfTerminalInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31871E16C31BA6001B9D3B /* RSPArrayOfTerminalInfo.m */; };
+		FF31878016C31BA6001B9D3B /* RSPBilling3rdParty.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31872016C31BA6001B9D3B /* RSPBilling3rdParty.m */; };
+		FF31878116C31BA6001B9D3B /* RSPCarrierScacs.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31872216C31BA6001B9D3B /* RSPCarrierScacs.m */; };
+		FF31878216C31BA6001B9D3B /* RSPCwtPricingDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31872416C31BA6001B9D3B /* RSPCwtPricingDetails.m */; };
+		FF31878316C31BA6001B9D3B /* RSPDebugInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31872616C31BA6001B9D3B /* RSPDebugInfo.m */; };
+		FF31878416C31BA6001B9D3B /* RSPEffectivePricing.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31872816C31BA6001B9D3B /* RSPEffectivePricing.m */; };
+		FF31878516C31BA6001B9D3B /* RSPFreight.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31872A16C31BA6001B9D3B /* RSPFreight.m */; };
+		FF31878616C31BA6001B9D3B /* RSPFreightPricingDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31872C16C31BA6001B9D3B /* RSPFreightPricingDetails.m */; };
+		FF31878716C31BA6001B9D3B /* RSPPalletPositions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31872E16C31BA6001B9D3B /* RSPPalletPositions.m */; };
+		FF31878816C31BA6001B9D3B /* RSPPricingAccessorial.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31873016C31BA6001B9D3B /* RSPPricingAccessorial.m */; };
+		FF31878916C31BA6001B9D3B /* RSPPricingBase.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31873216C31BA6001B9D3B /* RSPPricingBase.m */; };
+		FF31878A16C31BA6001B9D3B /* RSPPricingContractLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31873416C31BA6001B9D3B /* RSPPricingContractLevel.m */; };
+		FF31878B16C31BA6001B9D3B /* RSPPricingIncentive.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31873616C31BA6001B9D3B /* RSPPricingIncentive.m */; };
+		FF31878C16C31BA6001B9D3B /* RSPPricingStrategyLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31873816C31BA6001B9D3B /* RSPPricingStrategyLevel.m */; };
+		FF31878D16C31BA6001B9D3B /* RSPPricingTransactionCharge.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31873A16C31BA6001B9D3B /* RSPPricingTransactionCharge.m */; };
+		FF31878E16C31BA6001B9D3B /* RSPRateAdvisement.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31873C16C31BA6001B9D3B /* RSPRateAdvisement.m */; };
+		FF31878F16C31BA6001B9D3B /* RSPRatedAccessorialPrivileged.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31873E16C31BA6001B9D3B /* RSPRatedAccessorialPrivileged.m */; };
+		FF31879016C31BA6001B9D3B /* RSPRateError.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31874016C31BA6001B9D3B /* RSPRateError.m */; };
+		FF31879116C31BA6001B9D3B /* RSPRateRequestPrivileged.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31874216C31BA6001B9D3B /* RSPRateRequestPrivileged.m */; };
+		FF31879216C31BA6001B9D3B /* RSPRateResponsePrivileged.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31874416C31BA6001B9D3B /* RSPRateResponsePrivileged.m */; };
+		FF31879316C31BA6001B9D3B /* RSPRateReturn.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31874616C31BA6001B9D3B /* RSPRateReturn.m */; };
+		FF31879416C31BA6001B9D3B /* RSPRateServicePrivileged.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31874816C31BA6001B9D3B /* RSPRateServicePrivileged.m */; };
+		FF31879516C31BA6001B9D3B /* RSPStopOff.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31874A16C31BA6001B9D3B /* RSPStopOff.m */; };
+		FF31879616C31BA6001B9D3B /* RSPSudzc.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31874C16C31BA6001B9D3B /* RSPSudzc.m */; };
+		FF31879716C31BA6001B9D3B /* RSPSupplement.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31874E16C31BA6001B9D3B /* RSPSupplement.m */; };
+		FF31879816C31BA6001B9D3B /* RSPTerminalInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31875016C31BA6001B9D3B /* RSPTerminalInfo.m */; };
+		FF31879916C31BA6001B9D3B /* Soap+Prefix.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31875216C31BA6001B9D3B /* Soap+Prefix.m */; };
 		FF4DF28316C09A0300AE954F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4DF28216C09A0300AE954F /* SystemConfiguration.framework */; };
 		FF4DF28516C09A1A00AE954F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4DF28416C09A1A00AE954F /* Security.framework */; };
-		FF4DF30C16C09A9100AE954F /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF28916C09A9100AE954F /* NSData+Base64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF30D16C09A9100AE954F /* NSMutableArray+Soap.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF28B16C09A9100AE954F /* NSMutableArray+Soap.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF30E16C09A9100AE954F /* Soap.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF28D16C09A9100AE954F /* Soap.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF30F16C09A9100AE954F /* SoapArray.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF28F16C09A9100AE954F /* SoapArray.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF31016C09A9100AE954F /* SoapDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF29216C09A9100AE954F /* SoapDictionary.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF31116C09A9100AE954F /* SoapFault.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF29416C09A9100AE954F /* SoapFault.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF31216C09A9100AE954F /* SoapHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF29616C09A9100AE954F /* SoapHandler.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF31316C09A9100AE954F /* SoapLiteral.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF29816C09A9100AE954F /* SoapLiteral.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF31416C09A9100AE954F /* SoapNil.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF29A16C09A9100AE954F /* SoapNil.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF31516C09A9100AE954F /* SoapObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF29C16C09A9100AE954F /* SoapObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF31616C09A9100AE954F /* SoapParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF29E16C09A9100AE954F /* SoapParameter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF31716C09A9100AE954F /* SoapReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2A016C09A9100AE954F /* SoapReachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF31816C09A9100AE954F /* SoapRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2A216C09A9100AE954F /* SoapRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF31916C09A9100AE954F /* SoapService.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2A416C09A9100AE954F /* SoapService.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF31A16C09A9100AE954F /* CXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2A716C09A9100AE954F /* CXMLDocument.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF31B16C09A9100AE954F /* CXMLDocument_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2A916C09A9100AE954F /* CXMLDocument_PrivateExtensions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF31C16C09A9100AE954F /* CXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2AB16C09A9100AE954F /* CXMLElement.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF31D16C09A9100AE954F /* CXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2AD16C09A9100AE954F /* CXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF31E16C09A9100AE954F /* CXMLNode_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2AF16C09A9100AE954F /* CXMLNode_PrivateExtensions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF31F16C09A9100AE954F /* CXMLNode_XPathExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2B116C09A9100AE954F /* CXMLNode_XPathExtensions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF32016C09A9100AE954F /* SDZAccessorial.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2B516C09A9100AE954F /* SDZAccessorial.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF32116C09A9100AE954F /* SDZAccessorialRateOverride.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2B716C09A9100AE954F /* SDZAccessorialRateOverride.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF32216C09A9100AE954F /* SDZArrayOfAccessorial.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2B916C09A9100AE954F /* SDZArrayOfAccessorial.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF32316C09A9100AE954F /* SDZArrayOfAccessorialRateOverride.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2BB16C09A9100AE954F /* SDZArrayOfAccessorialRateOverride.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF32416C09A9100AE954F /* SDZArrayOfArrayOfDecimal.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2BD16C09A9100AE954F /* SDZArrayOfArrayOfDecimal.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF32516C09A9100AE954F /* SDZArrayOfCwtPricingDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2BF16C09A9100AE954F /* SDZArrayOfCwtPricingDetails.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF32616C09A9100AE954F /* SDZArrayOfDecimal.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2C116C09A9100AE954F /* SDZArrayOfDecimal.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF32716C09A9100AE954F /* SDZArrayOfFreight.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2C316C09A9100AE954F /* SDZArrayOfFreight.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF32816C09A9100AE954F /* SDZArrayOfFreightPricingDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2C516C09A9100AE954F /* SDZArrayOfFreightPricingDetails.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF32916C09A9100AE954F /* SDZArrayOfPalletPositions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2C716C09A9100AE954F /* SDZArrayOfPalletPositions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF32A16C09A9100AE954F /* SDZArrayOfPricingAccessorial.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2C916C09A9100AE954F /* SDZArrayOfPricingAccessorial.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF32B16C09A9100AE954F /* SDZArrayOfRateAdvisement.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2CB16C09A9100AE954F /* SDZArrayOfRateAdvisement.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF32C16C09A9100AE954F /* SDZArrayOfRatedAccessorialPrivileged.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2CD16C09A9100AE954F /* SDZArrayOfRatedAccessorialPrivileged.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF32D16C09A9100AE954F /* SDZArrayOfRateResponsePrivileged.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2CF16C09A9100AE954F /* SDZArrayOfRateResponsePrivileged.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF32E16C09A9100AE954F /* SDZArrayOfStopOff.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2D116C09A9100AE954F /* SDZArrayOfStopOff.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF32F16C09A9100AE954F /* SDZArrayOfString.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2D316C09A9100AE954F /* SDZArrayOfString.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF33016C09A9100AE954F /* SDZArrayOfSupplement.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2D516C09A9100AE954F /* SDZArrayOfSupplement.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF33116C09A9100AE954F /* SDZArrayOfTerminalInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2D716C09A9100AE954F /* SDZArrayOfTerminalInfo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF33216C09A9100AE954F /* SDZBilling3rdParty.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2D916C09A9100AE954F /* SDZBilling3rdParty.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF33316C09A9100AE954F /* SDZCarrierScacs.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2DB16C09A9100AE954F /* SDZCarrierScacs.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF33416C09A9100AE954F /* SDZCwtPricingDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2DD16C09A9100AE954F /* SDZCwtPricingDetails.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF33516C09A9100AE954F /* SDZDebugInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2DF16C09A9100AE954F /* SDZDebugInfo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF33616C09A9100AE954F /* SDZEffectivePricing.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2E116C09A9100AE954F /* SDZEffectivePricing.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF33716C09A9100AE954F /* SDZFreight.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2E316C09A9100AE954F /* SDZFreight.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF33816C09A9100AE954F /* SDZFreightPricingDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2E516C09A9100AE954F /* SDZFreightPricingDetails.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF33916C09A9100AE954F /* SDZPalletPositions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2E716C09A9100AE954F /* SDZPalletPositions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF33A16C09A9100AE954F /* SDZPricingAccessorial.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2E916C09A9100AE954F /* SDZPricingAccessorial.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF33B16C09A9100AE954F /* SDZPricingBase.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2EB16C09A9100AE954F /* SDZPricingBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF33C16C09A9100AE954F /* SDZPricingContractLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2ED16C09A9100AE954F /* SDZPricingContractLevel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF33D16C09A9100AE954F /* SDZPricingIncentive.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2EF16C09A9100AE954F /* SDZPricingIncentive.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF33E16C09A9100AE954F /* SDZPricingStrategyLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2F116C09A9100AE954F /* SDZPricingStrategyLevel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF33F16C09A9100AE954F /* SDZPricingTransactionCharge.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2F316C09A9100AE954F /* SDZPricingTransactionCharge.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF34016C09A9100AE954F /* SDZRateAdvisement.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2F516C09A9100AE954F /* SDZRateAdvisement.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF34116C09A9100AE954F /* SDZRatedAccessorialPrivileged.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2F716C09A9100AE954F /* SDZRatedAccessorialPrivileged.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF34216C09A9100AE954F /* SDZRateError.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2F916C09A9100AE954F /* SDZRateError.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF34316C09A9100AE954F /* SDZRateRequestPrivileged.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2FB16C09A9100AE954F /* SDZRateRequestPrivileged.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF34416C09A9100AE954F /* SDZRateResponsePrivileged.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2FD16C09A9100AE954F /* SDZRateResponsePrivileged.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF34516C09A9100AE954F /* SDZRateReturn.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF2FF16C09A9100AE954F /* SDZRateReturn.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF34616C09A9100AE954F /* SDZRateServicePrivileged.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF30116C09A9100AE954F /* SDZRateServicePrivileged.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF34716C09A9100AE954F /* SDZStopOff.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF30316C09A9100AE954F /* SDZStopOff.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF34816C09A9100AE954F /* SDZSudzc.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF30516C09A9100AE954F /* SDZSudzc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF34916C09A9100AE954F /* SDZSupplement.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF30716C09A9100AE954F /* SDZSupplement.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF34A16C09A9100AE954F /* SDZTerminalInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF30916C09A9100AE954F /* SDZTerminalInfo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF4DF34B16C09A9100AE954F /* Soap+Prefix.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF30B16C09A9100AE954F /* Soap+Prefix.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		FF4DF36516C09C7800AE954F /* Accessorial.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF34F16C09C7800AE954F /* Accessorial.m */; };
 		FF4DF36616C09C7800AE954F /* Credentials.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF35116C09C7800AE954F /* Credentials.m */; };
 		FF4DF36716C09C7800AE954F /* FreightItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF35316C09C7800AE954F /* FreightItem.m */; };
@@ -155,138 +162,152 @@
 		A47A5FB516B256E900A533A9 /* SplashGradient2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SplashGradient2.png; sourceTree = "<group>"; };
 		A4FE5A6C16B8EF88009A3AEC /* Icon_Ipad_retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_Ipad_retina.png; sourceTree = "<group>"; };
 		A4FE5A6E16B8EFE7009A3AEC /* Icon_Ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_Ipad.png; sourceTree = "<group>"; };
+		FF3186C116C31BA6001B9D3B /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		FF3186C216C31BA6001B9D3B /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		FF3186C316C31BA6001B9D3B /* NSMutableArray+Soap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Soap.h"; sourceTree = "<group>"; };
+		FF3186C416C31BA6001B9D3B /* NSMutableArray+Soap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Soap.m"; sourceTree = "<group>"; };
+		FF3186C516C31BA6001B9D3B /* Soap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Soap.h; sourceTree = "<group>"; };
+		FF3186C616C31BA6001B9D3B /* Soap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Soap.m; sourceTree = "<group>"; };
+		FF3186C716C31BA6001B9D3B /* SoapArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapArray.h; sourceTree = "<group>"; };
+		FF3186C816C31BA6001B9D3B /* SoapArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapArray.m; sourceTree = "<group>"; };
+		FF3186C916C31BA6001B9D3B /* SoapDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapDelegate.h; sourceTree = "<group>"; };
+		FF3186CA16C31BA6001B9D3B /* SoapDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapDictionary.h; sourceTree = "<group>"; };
+		FF3186CB16C31BA6001B9D3B /* SoapDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapDictionary.m; sourceTree = "<group>"; };
+		FF3186CC16C31BA6001B9D3B /* SoapFault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapFault.h; sourceTree = "<group>"; };
+		FF3186CD16C31BA6001B9D3B /* SoapFault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapFault.m; sourceTree = "<group>"; };
+		FF3186CE16C31BA6001B9D3B /* SoapHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapHandler.h; sourceTree = "<group>"; };
+		FF3186CF16C31BA6001B9D3B /* SoapHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapHandler.m; sourceTree = "<group>"; };
+		FF3186D016C31BA6001B9D3B /* SoapLiteral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapLiteral.h; sourceTree = "<group>"; };
+		FF3186D116C31BA6001B9D3B /* SoapLiteral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapLiteral.m; sourceTree = "<group>"; };
+		FF3186D216C31BA6001B9D3B /* SoapNil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapNil.h; sourceTree = "<group>"; };
+		FF3186D316C31BA6001B9D3B /* SoapNil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapNil.m; sourceTree = "<group>"; };
+		FF3186D416C31BA6001B9D3B /* SoapObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapObject.h; sourceTree = "<group>"; };
+		FF3186D516C31BA6001B9D3B /* SoapObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapObject.m; sourceTree = "<group>"; };
+		FF3186D616C31BA6001B9D3B /* SoapParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapParameter.h; sourceTree = "<group>"; };
+		FF3186D716C31BA6001B9D3B /* SoapParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapParameter.m; sourceTree = "<group>"; };
+		FF3186D816C31BA6001B9D3B /* SoapReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapReachability.h; sourceTree = "<group>"; };
+		FF3186D916C31BA6001B9D3B /* SoapReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapReachability.m; sourceTree = "<group>"; };
+		FF3186DA16C31BA6001B9D3B /* SoapRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapRequest.h; sourceTree = "<group>"; };
+		FF3186DB16C31BA6001B9D3B /* SoapRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapRequest.m; sourceTree = "<group>"; };
+		FF3186DC16C31BA6001B9D3B /* SoapService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapService.h; sourceTree = "<group>"; };
+		FF3186DD16C31BA6001B9D3B /* SoapService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapService.m; sourceTree = "<group>"; };
+		FF3186DF16C31BA6001B9D3B /* CTidy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTidy.h; sourceTree = "<group>"; };
+		FF3186E016C31BA6001B9D3B /* CTidy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTidy.m; sourceTree = "<group>"; };
+		FF3186E116C31BA6001B9D3B /* CXHTMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXHTMLDocument.h; sourceTree = "<group>"; };
+		FF3186E216C31BA6001B9D3B /* CXHTMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXHTMLDocument.m; sourceTree = "<group>"; };
+		FF3186E316C31BA6001B9D3B /* CXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument.h; sourceTree = "<group>"; };
+		FF3186E416C31BA6001B9D3B /* CXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument.m; sourceTree = "<group>"; };
+		FF3186E516C31BA6001B9D3B /* CXMLDocument_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_CreationExtensions.h; sourceTree = "<group>"; };
+		FF3186E616C31BA6001B9D3B /* CXMLDocument_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument_CreationExtensions.m; sourceTree = "<group>"; };
+		FF3186E716C31BA6001B9D3B /* CXMLDocument_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_PrivateExtensions.h; sourceTree = "<group>"; };
+		FF3186E816C31BA6001B9D3B /* CXMLDocument_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument_PrivateExtensions.m; sourceTree = "<group>"; };
+		FF3186E916C31BA6001B9D3B /* CXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLElement.h; sourceTree = "<group>"; };
+		FF3186EA16C31BA6001B9D3B /* CXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLElement.m; sourceTree = "<group>"; };
+		FF3186EB16C31BA6001B9D3B /* CXMLElement_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLElement_CreationExtensions.h; sourceTree = "<group>"; };
+		FF3186EC16C31BA6001B9D3B /* CXMLElement_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLElement_CreationExtensions.m; sourceTree = "<group>"; };
+		FF3186ED16C31BA6001B9D3B /* CXMLElement_ElementTreeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLElement_ElementTreeExtensions.h; sourceTree = "<group>"; };
+		FF3186EE16C31BA6001B9D3B /* CXMLElement_ElementTreeExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLElement_ElementTreeExtensions.m; sourceTree = "<group>"; };
+		FF3186EF16C31BA6001B9D3B /* CXMLNamespaceNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNamespaceNode.h; sourceTree = "<group>"; };
+		FF3186F016C31BA6001B9D3B /* CXMLNamespaceNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNamespaceNode.m; sourceTree = "<group>"; };
+		FF3186F116C31BA6001B9D3B /* CXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode.h; sourceTree = "<group>"; };
+		FF3186F216C31BA6001B9D3B /* CXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode.m; sourceTree = "<group>"; };
+		FF3186F316C31BA6001B9D3B /* CXMLNode_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_CreationExtensions.h; sourceTree = "<group>"; };
+		FF3186F416C31BA6001B9D3B /* CXMLNode_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_CreationExtensions.m; sourceTree = "<group>"; };
+		FF3186F516C31BA6001B9D3B /* CXMLNode_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_PrivateExtensions.h; sourceTree = "<group>"; };
+		FF3186F616C31BA6001B9D3B /* CXMLNode_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_PrivateExtensions.m; sourceTree = "<group>"; };
+		FF3186F716C31BA6001B9D3B /* CXMLNode_XPathExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_XPathExtensions.h; sourceTree = "<group>"; };
+		FF3186F816C31BA6001B9D3B /* CXMLNode_XPathExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_XPathExtensions.m; sourceTree = "<group>"; };
+		FF3186F916C31BA6001B9D3B /* TouchXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchXML.h; sourceTree = "<group>"; };
+		FF3186FB16C31BA6001B9D3B /* RSPAccessorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPAccessorial.h; sourceTree = "<group>"; };
+		FF3186FC16C31BA6001B9D3B /* RSPAccessorial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPAccessorial.m; sourceTree = "<group>"; };
+		FF3186FD16C31BA6001B9D3B /* RSPAccessorialRateOverride.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPAccessorialRateOverride.h; sourceTree = "<group>"; };
+		FF3186FE16C31BA6001B9D3B /* RSPAccessorialRateOverride.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPAccessorialRateOverride.m; sourceTree = "<group>"; };
+		FF3186FF16C31BA6001B9D3B /* RSPArrayOfAccessorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPArrayOfAccessorial.h; sourceTree = "<group>"; };
+		FF31870016C31BA6001B9D3B /* RSPArrayOfAccessorial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPArrayOfAccessorial.m; sourceTree = "<group>"; };
+		FF31870116C31BA6001B9D3B /* RSPArrayOfAccessorialRateOverride.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPArrayOfAccessorialRateOverride.h; sourceTree = "<group>"; };
+		FF31870216C31BA6001B9D3B /* RSPArrayOfAccessorialRateOverride.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPArrayOfAccessorialRateOverride.m; sourceTree = "<group>"; };
+		FF31870316C31BA6001B9D3B /* RSPArrayOfArrayOfDecimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPArrayOfArrayOfDecimal.h; sourceTree = "<group>"; };
+		FF31870416C31BA6001B9D3B /* RSPArrayOfArrayOfDecimal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPArrayOfArrayOfDecimal.m; sourceTree = "<group>"; };
+		FF31870516C31BA6001B9D3B /* RSPArrayOfCwtPricingDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPArrayOfCwtPricingDetails.h; sourceTree = "<group>"; };
+		FF31870616C31BA6001B9D3B /* RSPArrayOfCwtPricingDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPArrayOfCwtPricingDetails.m; sourceTree = "<group>"; };
+		FF31870716C31BA6001B9D3B /* RSPArrayOfDecimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPArrayOfDecimal.h; sourceTree = "<group>"; };
+		FF31870816C31BA6001B9D3B /* RSPArrayOfDecimal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPArrayOfDecimal.m; sourceTree = "<group>"; };
+		FF31870916C31BA6001B9D3B /* RSPArrayOfFreight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPArrayOfFreight.h; sourceTree = "<group>"; };
+		FF31870A16C31BA6001B9D3B /* RSPArrayOfFreight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPArrayOfFreight.m; sourceTree = "<group>"; };
+		FF31870B16C31BA6001B9D3B /* RSPArrayOfFreightPricingDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPArrayOfFreightPricingDetails.h; sourceTree = "<group>"; };
+		FF31870C16C31BA6001B9D3B /* RSPArrayOfFreightPricingDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPArrayOfFreightPricingDetails.m; sourceTree = "<group>"; };
+		FF31870D16C31BA6001B9D3B /* RSPArrayOfPalletPositions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPArrayOfPalletPositions.h; sourceTree = "<group>"; };
+		FF31870E16C31BA6001B9D3B /* RSPArrayOfPalletPositions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPArrayOfPalletPositions.m; sourceTree = "<group>"; };
+		FF31870F16C31BA6001B9D3B /* RSPArrayOfPricingAccessorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPArrayOfPricingAccessorial.h; sourceTree = "<group>"; };
+		FF31871016C31BA6001B9D3B /* RSPArrayOfPricingAccessorial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPArrayOfPricingAccessorial.m; sourceTree = "<group>"; };
+		FF31871116C31BA6001B9D3B /* RSPArrayOfRateAdvisement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPArrayOfRateAdvisement.h; sourceTree = "<group>"; };
+		FF31871216C31BA6001B9D3B /* RSPArrayOfRateAdvisement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPArrayOfRateAdvisement.m; sourceTree = "<group>"; };
+		FF31871316C31BA6001B9D3B /* RSPArrayOfRatedAccessorialPrivileged.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPArrayOfRatedAccessorialPrivileged.h; sourceTree = "<group>"; };
+		FF31871416C31BA6001B9D3B /* RSPArrayOfRatedAccessorialPrivileged.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPArrayOfRatedAccessorialPrivileged.m; sourceTree = "<group>"; };
+		FF31871516C31BA6001B9D3B /* RSPArrayOfRateResponsePrivileged.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPArrayOfRateResponsePrivileged.h; sourceTree = "<group>"; };
+		FF31871616C31BA6001B9D3B /* RSPArrayOfRateResponsePrivileged.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPArrayOfRateResponsePrivileged.m; sourceTree = "<group>"; };
+		FF31871716C31BA6001B9D3B /* RSPArrayOfStopOff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPArrayOfStopOff.h; sourceTree = "<group>"; };
+		FF31871816C31BA6001B9D3B /* RSPArrayOfStopOff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPArrayOfStopOff.m; sourceTree = "<group>"; };
+		FF31871916C31BA6001B9D3B /* RSPArrayOfString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPArrayOfString.h; sourceTree = "<group>"; };
+		FF31871A16C31BA6001B9D3B /* RSPArrayOfString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPArrayOfString.m; sourceTree = "<group>"; };
+		FF31871B16C31BA6001B9D3B /* RSPArrayOfSupplement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPArrayOfSupplement.h; sourceTree = "<group>"; };
+		FF31871C16C31BA6001B9D3B /* RSPArrayOfSupplement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPArrayOfSupplement.m; sourceTree = "<group>"; };
+		FF31871D16C31BA6001B9D3B /* RSPArrayOfTerminalInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPArrayOfTerminalInfo.h; sourceTree = "<group>"; };
+		FF31871E16C31BA6001B9D3B /* RSPArrayOfTerminalInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPArrayOfTerminalInfo.m; sourceTree = "<group>"; };
+		FF31871F16C31BA6001B9D3B /* RSPBilling3rdParty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPBilling3rdParty.h; sourceTree = "<group>"; };
+		FF31872016C31BA6001B9D3B /* RSPBilling3rdParty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPBilling3rdParty.m; sourceTree = "<group>"; };
+		FF31872116C31BA6001B9D3B /* RSPCarrierScacs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPCarrierScacs.h; sourceTree = "<group>"; };
+		FF31872216C31BA6001B9D3B /* RSPCarrierScacs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPCarrierScacs.m; sourceTree = "<group>"; };
+		FF31872316C31BA6001B9D3B /* RSPCwtPricingDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPCwtPricingDetails.h; sourceTree = "<group>"; };
+		FF31872416C31BA6001B9D3B /* RSPCwtPricingDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPCwtPricingDetails.m; sourceTree = "<group>"; };
+		FF31872516C31BA6001B9D3B /* RSPDebugInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPDebugInfo.h; sourceTree = "<group>"; };
+		FF31872616C31BA6001B9D3B /* RSPDebugInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPDebugInfo.m; sourceTree = "<group>"; };
+		FF31872716C31BA6001B9D3B /* RSPEffectivePricing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPEffectivePricing.h; sourceTree = "<group>"; };
+		FF31872816C31BA6001B9D3B /* RSPEffectivePricing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPEffectivePricing.m; sourceTree = "<group>"; };
+		FF31872916C31BA6001B9D3B /* RSPFreight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPFreight.h; sourceTree = "<group>"; };
+		FF31872A16C31BA6001B9D3B /* RSPFreight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPFreight.m; sourceTree = "<group>"; };
+		FF31872B16C31BA6001B9D3B /* RSPFreightPricingDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPFreightPricingDetails.h; sourceTree = "<group>"; };
+		FF31872C16C31BA6001B9D3B /* RSPFreightPricingDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPFreightPricingDetails.m; sourceTree = "<group>"; };
+		FF31872D16C31BA6001B9D3B /* RSPPalletPositions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPPalletPositions.h; sourceTree = "<group>"; };
+		FF31872E16C31BA6001B9D3B /* RSPPalletPositions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPPalletPositions.m; sourceTree = "<group>"; };
+		FF31872F16C31BA6001B9D3B /* RSPPricingAccessorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPPricingAccessorial.h; sourceTree = "<group>"; };
+		FF31873016C31BA6001B9D3B /* RSPPricingAccessorial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPPricingAccessorial.m; sourceTree = "<group>"; };
+		FF31873116C31BA6001B9D3B /* RSPPricingBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPPricingBase.h; sourceTree = "<group>"; };
+		FF31873216C31BA6001B9D3B /* RSPPricingBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPPricingBase.m; sourceTree = "<group>"; };
+		FF31873316C31BA6001B9D3B /* RSPPricingContractLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPPricingContractLevel.h; sourceTree = "<group>"; };
+		FF31873416C31BA6001B9D3B /* RSPPricingContractLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPPricingContractLevel.m; sourceTree = "<group>"; };
+		FF31873516C31BA6001B9D3B /* RSPPricingIncentive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPPricingIncentive.h; sourceTree = "<group>"; };
+		FF31873616C31BA6001B9D3B /* RSPPricingIncentive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPPricingIncentive.m; sourceTree = "<group>"; };
+		FF31873716C31BA6001B9D3B /* RSPPricingStrategyLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPPricingStrategyLevel.h; sourceTree = "<group>"; };
+		FF31873816C31BA6001B9D3B /* RSPPricingStrategyLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPPricingStrategyLevel.m; sourceTree = "<group>"; };
+		FF31873916C31BA6001B9D3B /* RSPPricingTransactionCharge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPPricingTransactionCharge.h; sourceTree = "<group>"; };
+		FF31873A16C31BA6001B9D3B /* RSPPricingTransactionCharge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPPricingTransactionCharge.m; sourceTree = "<group>"; };
+		FF31873B16C31BA6001B9D3B /* RSPRateAdvisement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPRateAdvisement.h; sourceTree = "<group>"; };
+		FF31873C16C31BA6001B9D3B /* RSPRateAdvisement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPRateAdvisement.m; sourceTree = "<group>"; };
+		FF31873D16C31BA6001B9D3B /* RSPRatedAccessorialPrivileged.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPRatedAccessorialPrivileged.h; sourceTree = "<group>"; };
+		FF31873E16C31BA6001B9D3B /* RSPRatedAccessorialPrivileged.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPRatedAccessorialPrivileged.m; sourceTree = "<group>"; };
+		FF31873F16C31BA6001B9D3B /* RSPRateError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPRateError.h; sourceTree = "<group>"; };
+		FF31874016C31BA6001B9D3B /* RSPRateError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPRateError.m; sourceTree = "<group>"; };
+		FF31874116C31BA6001B9D3B /* RSPRateRequestPrivileged.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPRateRequestPrivileged.h; sourceTree = "<group>"; };
+		FF31874216C31BA6001B9D3B /* RSPRateRequestPrivileged.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPRateRequestPrivileged.m; sourceTree = "<group>"; };
+		FF31874316C31BA6001B9D3B /* RSPRateResponsePrivileged.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPRateResponsePrivileged.h; sourceTree = "<group>"; };
+		FF31874416C31BA6001B9D3B /* RSPRateResponsePrivileged.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPRateResponsePrivileged.m; sourceTree = "<group>"; };
+		FF31874516C31BA6001B9D3B /* RSPRateReturn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPRateReturn.h; sourceTree = "<group>"; };
+		FF31874616C31BA6001B9D3B /* RSPRateReturn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPRateReturn.m; sourceTree = "<group>"; };
+		FF31874716C31BA6001B9D3B /* RSPRateServicePrivileged.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPRateServicePrivileged.h; sourceTree = "<group>"; };
+		FF31874816C31BA6001B9D3B /* RSPRateServicePrivileged.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPRateServicePrivileged.m; sourceTree = "<group>"; };
+		FF31874916C31BA6001B9D3B /* RSPStopOff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPStopOff.h; sourceTree = "<group>"; };
+		FF31874A16C31BA6001B9D3B /* RSPStopOff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPStopOff.m; sourceTree = "<group>"; };
+		FF31874B16C31BA6001B9D3B /* RSPSudzc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPSudzc.h; sourceTree = "<group>"; };
+		FF31874C16C31BA6001B9D3B /* RSPSudzc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPSudzc.m; sourceTree = "<group>"; };
+		FF31874D16C31BA6001B9D3B /* RSPSupplement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPSupplement.h; sourceTree = "<group>"; };
+		FF31874E16C31BA6001B9D3B /* RSPSupplement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPSupplement.m; sourceTree = "<group>"; };
+		FF31874F16C31BA6001B9D3B /* RSPTerminalInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPTerminalInfo.h; sourceTree = "<group>"; };
+		FF31875016C31BA6001B9D3B /* RSPTerminalInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPTerminalInfo.m; sourceTree = "<group>"; };
+		FF31875116C31BA6001B9D3B /* Soap+Prefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Soap+Prefix.h"; sourceTree = "<group>"; };
+		FF31875216C31BA6001B9D3B /* Soap+Prefix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Soap+Prefix.m"; sourceTree = "<group>"; };
 		FF4DF28216C09A0300AE954F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		FF4DF28416C09A1A00AE954F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		FF4DF28816C09A9100AE954F /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
-		FF4DF28916C09A9100AE954F /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
-		FF4DF28A16C09A9100AE954F /* NSMutableArray+Soap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Soap.h"; sourceTree = "<group>"; };
-		FF4DF28B16C09A9100AE954F /* NSMutableArray+Soap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Soap.m"; sourceTree = "<group>"; };
-		FF4DF28C16C09A9100AE954F /* Soap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Soap.h; sourceTree = "<group>"; };
-		FF4DF28D16C09A9100AE954F /* Soap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Soap.m; sourceTree = "<group>"; };
-		FF4DF28E16C09A9100AE954F /* SoapArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapArray.h; sourceTree = "<group>"; };
-		FF4DF28F16C09A9100AE954F /* SoapArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapArray.m; sourceTree = "<group>"; };
-		FF4DF29016C09A9100AE954F /* SoapDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapDelegate.h; sourceTree = "<group>"; };
-		FF4DF29116C09A9100AE954F /* SoapDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapDictionary.h; sourceTree = "<group>"; };
-		FF4DF29216C09A9100AE954F /* SoapDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapDictionary.m; sourceTree = "<group>"; };
-		FF4DF29316C09A9100AE954F /* SoapFault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapFault.h; sourceTree = "<group>"; };
-		FF4DF29416C09A9100AE954F /* SoapFault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapFault.m; sourceTree = "<group>"; };
-		FF4DF29516C09A9100AE954F /* SoapHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapHandler.h; sourceTree = "<group>"; };
-		FF4DF29616C09A9100AE954F /* SoapHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapHandler.m; sourceTree = "<group>"; };
-		FF4DF29716C09A9100AE954F /* SoapLiteral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapLiteral.h; sourceTree = "<group>"; };
-		FF4DF29816C09A9100AE954F /* SoapLiteral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapLiteral.m; sourceTree = "<group>"; };
-		FF4DF29916C09A9100AE954F /* SoapNil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapNil.h; sourceTree = "<group>"; };
-		FF4DF29A16C09A9100AE954F /* SoapNil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapNil.m; sourceTree = "<group>"; };
-		FF4DF29B16C09A9100AE954F /* SoapObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapObject.h; sourceTree = "<group>"; };
-		FF4DF29C16C09A9100AE954F /* SoapObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapObject.m; sourceTree = "<group>"; };
-		FF4DF29D16C09A9100AE954F /* SoapParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapParameter.h; sourceTree = "<group>"; };
-		FF4DF29E16C09A9100AE954F /* SoapParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapParameter.m; sourceTree = "<group>"; };
-		FF4DF29F16C09A9100AE954F /* SoapReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapReachability.h; sourceTree = "<group>"; };
-		FF4DF2A016C09A9100AE954F /* SoapReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapReachability.m; sourceTree = "<group>"; };
-		FF4DF2A116C09A9100AE954F /* SoapRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapRequest.h; sourceTree = "<group>"; };
-		FF4DF2A216C09A9100AE954F /* SoapRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapRequest.m; sourceTree = "<group>"; };
-		FF4DF2A316C09A9100AE954F /* SoapService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapService.h; sourceTree = "<group>"; };
-		FF4DF2A416C09A9100AE954F /* SoapService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapService.m; sourceTree = "<group>"; };
-		FF4DF2A616C09A9100AE954F /* CXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument.h; sourceTree = "<group>"; };
-		FF4DF2A716C09A9100AE954F /* CXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument.m; sourceTree = "<group>"; };
-		FF4DF2A816C09A9100AE954F /* CXMLDocument_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_PrivateExtensions.h; sourceTree = "<group>"; };
-		FF4DF2A916C09A9100AE954F /* CXMLDocument_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument_PrivateExtensions.m; sourceTree = "<group>"; };
-		FF4DF2AA16C09A9100AE954F /* CXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLElement.h; sourceTree = "<group>"; };
-		FF4DF2AB16C09A9100AE954F /* CXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLElement.m; sourceTree = "<group>"; };
-		FF4DF2AC16C09A9100AE954F /* CXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode.h; sourceTree = "<group>"; };
-		FF4DF2AD16C09A9100AE954F /* CXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode.m; sourceTree = "<group>"; };
-		FF4DF2AE16C09A9100AE954F /* CXMLNode_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_PrivateExtensions.h; sourceTree = "<group>"; };
-		FF4DF2AF16C09A9100AE954F /* CXMLNode_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_PrivateExtensions.m; sourceTree = "<group>"; };
-		FF4DF2B016C09A9100AE954F /* CXMLNode_XPathExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_XPathExtensions.h; sourceTree = "<group>"; };
-		FF4DF2B116C09A9100AE954F /* CXMLNode_XPathExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_XPathExtensions.m; sourceTree = "<group>"; };
-		FF4DF2B216C09A9100AE954F /* TouchXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchXML.h; sourceTree = "<group>"; };
-		FF4DF2B416C09A9100AE954F /* SDZAccessorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZAccessorial.h; sourceTree = "<group>"; };
-		FF4DF2B516C09A9100AE954F /* SDZAccessorial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZAccessorial.m; sourceTree = "<group>"; };
-		FF4DF2B616C09A9100AE954F /* SDZAccessorialRateOverride.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZAccessorialRateOverride.h; sourceTree = "<group>"; };
-		FF4DF2B716C09A9100AE954F /* SDZAccessorialRateOverride.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZAccessorialRateOverride.m; sourceTree = "<group>"; };
-		FF4DF2B816C09A9100AE954F /* SDZArrayOfAccessorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZArrayOfAccessorial.h; sourceTree = "<group>"; };
-		FF4DF2B916C09A9100AE954F /* SDZArrayOfAccessorial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZArrayOfAccessorial.m; sourceTree = "<group>"; };
-		FF4DF2BA16C09A9100AE954F /* SDZArrayOfAccessorialRateOverride.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZArrayOfAccessorialRateOverride.h; sourceTree = "<group>"; };
-		FF4DF2BB16C09A9100AE954F /* SDZArrayOfAccessorialRateOverride.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZArrayOfAccessorialRateOverride.m; sourceTree = "<group>"; };
-		FF4DF2BC16C09A9100AE954F /* SDZArrayOfArrayOfDecimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZArrayOfArrayOfDecimal.h; sourceTree = "<group>"; };
-		FF4DF2BD16C09A9100AE954F /* SDZArrayOfArrayOfDecimal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZArrayOfArrayOfDecimal.m; sourceTree = "<group>"; };
-		FF4DF2BE16C09A9100AE954F /* SDZArrayOfCwtPricingDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZArrayOfCwtPricingDetails.h; sourceTree = "<group>"; };
-		FF4DF2BF16C09A9100AE954F /* SDZArrayOfCwtPricingDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZArrayOfCwtPricingDetails.m; sourceTree = "<group>"; };
-		FF4DF2C016C09A9100AE954F /* SDZArrayOfDecimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZArrayOfDecimal.h; sourceTree = "<group>"; };
-		FF4DF2C116C09A9100AE954F /* SDZArrayOfDecimal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZArrayOfDecimal.m; sourceTree = "<group>"; };
-		FF4DF2C216C09A9100AE954F /* SDZArrayOfFreight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZArrayOfFreight.h; sourceTree = "<group>"; };
-		FF4DF2C316C09A9100AE954F /* SDZArrayOfFreight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZArrayOfFreight.m; sourceTree = "<group>"; };
-		FF4DF2C416C09A9100AE954F /* SDZArrayOfFreightPricingDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZArrayOfFreightPricingDetails.h; sourceTree = "<group>"; };
-		FF4DF2C516C09A9100AE954F /* SDZArrayOfFreightPricingDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZArrayOfFreightPricingDetails.m; sourceTree = "<group>"; };
-		FF4DF2C616C09A9100AE954F /* SDZArrayOfPalletPositions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZArrayOfPalletPositions.h; sourceTree = "<group>"; };
-		FF4DF2C716C09A9100AE954F /* SDZArrayOfPalletPositions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZArrayOfPalletPositions.m; sourceTree = "<group>"; };
-		FF4DF2C816C09A9100AE954F /* SDZArrayOfPricingAccessorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZArrayOfPricingAccessorial.h; sourceTree = "<group>"; };
-		FF4DF2C916C09A9100AE954F /* SDZArrayOfPricingAccessorial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZArrayOfPricingAccessorial.m; sourceTree = "<group>"; };
-		FF4DF2CA16C09A9100AE954F /* SDZArrayOfRateAdvisement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZArrayOfRateAdvisement.h; sourceTree = "<group>"; };
-		FF4DF2CB16C09A9100AE954F /* SDZArrayOfRateAdvisement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZArrayOfRateAdvisement.m; sourceTree = "<group>"; };
-		FF4DF2CC16C09A9100AE954F /* SDZArrayOfRatedAccessorialPrivileged.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZArrayOfRatedAccessorialPrivileged.h; sourceTree = "<group>"; };
-		FF4DF2CD16C09A9100AE954F /* SDZArrayOfRatedAccessorialPrivileged.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZArrayOfRatedAccessorialPrivileged.m; sourceTree = "<group>"; };
-		FF4DF2CE16C09A9100AE954F /* SDZArrayOfRateResponsePrivileged.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZArrayOfRateResponsePrivileged.h; sourceTree = "<group>"; };
-		FF4DF2CF16C09A9100AE954F /* SDZArrayOfRateResponsePrivileged.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZArrayOfRateResponsePrivileged.m; sourceTree = "<group>"; };
-		FF4DF2D016C09A9100AE954F /* SDZArrayOfStopOff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZArrayOfStopOff.h; sourceTree = "<group>"; };
-		FF4DF2D116C09A9100AE954F /* SDZArrayOfStopOff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZArrayOfStopOff.m; sourceTree = "<group>"; };
-		FF4DF2D216C09A9100AE954F /* SDZArrayOfString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZArrayOfString.h; sourceTree = "<group>"; };
-		FF4DF2D316C09A9100AE954F /* SDZArrayOfString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZArrayOfString.m; sourceTree = "<group>"; };
-		FF4DF2D416C09A9100AE954F /* SDZArrayOfSupplement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZArrayOfSupplement.h; sourceTree = "<group>"; };
-		FF4DF2D516C09A9100AE954F /* SDZArrayOfSupplement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZArrayOfSupplement.m; sourceTree = "<group>"; };
-		FF4DF2D616C09A9100AE954F /* SDZArrayOfTerminalInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZArrayOfTerminalInfo.h; sourceTree = "<group>"; };
-		FF4DF2D716C09A9100AE954F /* SDZArrayOfTerminalInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZArrayOfTerminalInfo.m; sourceTree = "<group>"; };
-		FF4DF2D816C09A9100AE954F /* SDZBilling3rdParty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZBilling3rdParty.h; sourceTree = "<group>"; };
-		FF4DF2D916C09A9100AE954F /* SDZBilling3rdParty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZBilling3rdParty.m; sourceTree = "<group>"; };
-		FF4DF2DA16C09A9100AE954F /* SDZCarrierScacs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZCarrierScacs.h; sourceTree = "<group>"; };
-		FF4DF2DB16C09A9100AE954F /* SDZCarrierScacs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZCarrierScacs.m; sourceTree = "<group>"; };
-		FF4DF2DC16C09A9100AE954F /* SDZCwtPricingDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZCwtPricingDetails.h; sourceTree = "<group>"; };
-		FF4DF2DD16C09A9100AE954F /* SDZCwtPricingDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZCwtPricingDetails.m; sourceTree = "<group>"; };
-		FF4DF2DE16C09A9100AE954F /* SDZDebugInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZDebugInfo.h; sourceTree = "<group>"; };
-		FF4DF2DF16C09A9100AE954F /* SDZDebugInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZDebugInfo.m; sourceTree = "<group>"; };
-		FF4DF2E016C09A9100AE954F /* SDZEffectivePricing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZEffectivePricing.h; sourceTree = "<group>"; };
-		FF4DF2E116C09A9100AE954F /* SDZEffectivePricing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZEffectivePricing.m; sourceTree = "<group>"; };
-		FF4DF2E216C09A9100AE954F /* SDZFreight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZFreight.h; sourceTree = "<group>"; };
-		FF4DF2E316C09A9100AE954F /* SDZFreight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZFreight.m; sourceTree = "<group>"; };
-		FF4DF2E416C09A9100AE954F /* SDZFreightPricingDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZFreightPricingDetails.h; sourceTree = "<group>"; };
-		FF4DF2E516C09A9100AE954F /* SDZFreightPricingDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZFreightPricingDetails.m; sourceTree = "<group>"; };
-		FF4DF2E616C09A9100AE954F /* SDZPalletPositions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZPalletPositions.h; sourceTree = "<group>"; };
-		FF4DF2E716C09A9100AE954F /* SDZPalletPositions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZPalletPositions.m; sourceTree = "<group>"; };
-		FF4DF2E816C09A9100AE954F /* SDZPricingAccessorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZPricingAccessorial.h; sourceTree = "<group>"; };
-		FF4DF2E916C09A9100AE954F /* SDZPricingAccessorial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZPricingAccessorial.m; sourceTree = "<group>"; };
-		FF4DF2EA16C09A9100AE954F /* SDZPricingBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZPricingBase.h; sourceTree = "<group>"; };
-		FF4DF2EB16C09A9100AE954F /* SDZPricingBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZPricingBase.m; sourceTree = "<group>"; };
-		FF4DF2EC16C09A9100AE954F /* SDZPricingContractLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZPricingContractLevel.h; sourceTree = "<group>"; };
-		FF4DF2ED16C09A9100AE954F /* SDZPricingContractLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZPricingContractLevel.m; sourceTree = "<group>"; };
-		FF4DF2EE16C09A9100AE954F /* SDZPricingIncentive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZPricingIncentive.h; sourceTree = "<group>"; };
-		FF4DF2EF16C09A9100AE954F /* SDZPricingIncentive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZPricingIncentive.m; sourceTree = "<group>"; };
-		FF4DF2F016C09A9100AE954F /* SDZPricingStrategyLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZPricingStrategyLevel.h; sourceTree = "<group>"; };
-		FF4DF2F116C09A9100AE954F /* SDZPricingStrategyLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZPricingStrategyLevel.m; sourceTree = "<group>"; };
-		FF4DF2F216C09A9100AE954F /* SDZPricingTransactionCharge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZPricingTransactionCharge.h; sourceTree = "<group>"; };
-		FF4DF2F316C09A9100AE954F /* SDZPricingTransactionCharge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZPricingTransactionCharge.m; sourceTree = "<group>"; };
-		FF4DF2F416C09A9100AE954F /* SDZRateAdvisement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZRateAdvisement.h; sourceTree = "<group>"; };
-		FF4DF2F516C09A9100AE954F /* SDZRateAdvisement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZRateAdvisement.m; sourceTree = "<group>"; };
-		FF4DF2F616C09A9100AE954F /* SDZRatedAccessorialPrivileged.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZRatedAccessorialPrivileged.h; sourceTree = "<group>"; };
-		FF4DF2F716C09A9100AE954F /* SDZRatedAccessorialPrivileged.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZRatedAccessorialPrivileged.m; sourceTree = "<group>"; };
-		FF4DF2F816C09A9100AE954F /* SDZRateError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZRateError.h; sourceTree = "<group>"; };
-		FF4DF2F916C09A9100AE954F /* SDZRateError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZRateError.m; sourceTree = "<group>"; };
-		FF4DF2FA16C09A9100AE954F /* SDZRateRequestPrivileged.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZRateRequestPrivileged.h; sourceTree = "<group>"; };
-		FF4DF2FB16C09A9100AE954F /* SDZRateRequestPrivileged.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZRateRequestPrivileged.m; sourceTree = "<group>"; };
-		FF4DF2FC16C09A9100AE954F /* SDZRateResponsePrivileged.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZRateResponsePrivileged.h; sourceTree = "<group>"; };
-		FF4DF2FD16C09A9100AE954F /* SDZRateResponsePrivileged.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZRateResponsePrivileged.m; sourceTree = "<group>"; };
-		FF4DF2FE16C09A9100AE954F /* SDZRateReturn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZRateReturn.h; sourceTree = "<group>"; };
-		FF4DF2FF16C09A9100AE954F /* SDZRateReturn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZRateReturn.m; sourceTree = "<group>"; };
-		FF4DF30016C09A9100AE954F /* SDZRateServicePrivileged.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZRateServicePrivileged.h; sourceTree = "<group>"; };
-		FF4DF30116C09A9100AE954F /* SDZRateServicePrivileged.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZRateServicePrivileged.m; sourceTree = "<group>"; };
-		FF4DF30216C09A9100AE954F /* SDZStopOff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZStopOff.h; sourceTree = "<group>"; };
-		FF4DF30316C09A9100AE954F /* SDZStopOff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZStopOff.m; sourceTree = "<group>"; };
-		FF4DF30416C09A9100AE954F /* SDZSudzc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZSudzc.h; sourceTree = "<group>"; };
-		FF4DF30516C09A9100AE954F /* SDZSudzc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZSudzc.m; sourceTree = "<group>"; };
-		FF4DF30616C09A9100AE954F /* SDZSupplement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZSupplement.h; sourceTree = "<group>"; };
-		FF4DF30716C09A9100AE954F /* SDZSupplement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZSupplement.m; sourceTree = "<group>"; };
-		FF4DF30816C09A9100AE954F /* SDZTerminalInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDZTerminalInfo.h; sourceTree = "<group>"; };
-		FF4DF30916C09A9100AE954F /* SDZTerminalInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDZTerminalInfo.m; sourceTree = "<group>"; };
-		FF4DF30A16C09A9100AE954F /* Soap+Prefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Soap+Prefix.h"; sourceTree = "<group>"; };
-		FF4DF30B16C09A9100AE954F /* Soap+Prefix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Soap+Prefix.m"; sourceTree = "<group>"; };
 		FF4DF34E16C09C7800AE954F /* Accessorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Accessorial.h; sourceTree = "<group>"; };
 		FF4DF34F16C09C7800AE954F /* Accessorial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Accessorial.m; sourceTree = "<group>"; };
 		FF4DF35016C09C7800AE954F /* Credentials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Credentials.h; sourceTree = "<group>"; };
@@ -340,8 +361,8 @@
 		A421475216B2306A003FDF9C = {
 			isa = PBXGroup;
 			children = (
+				FF3186BF16C31BA6001B9D3B /* RateService */,
 				FF4DF34C16C09C7800AE954F /* QQModels */,
-				FF4DF28616C09A9100AE954F /* RateService */,
 				A4FE5A6E16B8EFE7009A3AEC /* Icon_Ipad.png */,
 				A4FE5A6C16B8EF88009A3AEC /* Icon_Ipad_retina.png */,
 				A421476716B2306A003FDF9C /* QuickQuote */,
@@ -437,164 +458,178 @@
 			name = Graphics;
 			sourceTree = "<group>";
 		};
-		FF4DF28616C09A9100AE954F /* RateService */ = {
+		FF3186BF16C31BA6001B9D3B /* RateService */ = {
 			isa = PBXGroup;
 			children = (
-				FF4DF28716C09A9100AE954F /* Soap */,
-				FF4DF2A516C09A9100AE954F /* TouchXML */,
-				FF4DF2B316C09A9100AE954F /* WSDLClasses */,
+				FF3186C016C31BA6001B9D3B /* Soap */,
+				FF3186DE16C31BA6001B9D3B /* TouchXML */,
+				FF3186FA16C31BA6001B9D3B /* WSDLClasses */,
 			);
 			name = RateService;
 			path = QuickQuote/RateService;
 			sourceTree = "<group>";
 		};
-		FF4DF28716C09A9100AE954F /* Soap */ = {
+		FF3186C016C31BA6001B9D3B /* Soap */ = {
 			isa = PBXGroup;
 			children = (
-				FF4DF28816C09A9100AE954F /* NSData+Base64.h */,
-				FF4DF28916C09A9100AE954F /* NSData+Base64.m */,
-				FF4DF28A16C09A9100AE954F /* NSMutableArray+Soap.h */,
-				FF4DF28B16C09A9100AE954F /* NSMutableArray+Soap.m */,
-				FF4DF28C16C09A9100AE954F /* Soap.h */,
-				FF4DF28D16C09A9100AE954F /* Soap.m */,
-				FF4DF28E16C09A9100AE954F /* SoapArray.h */,
-				FF4DF28F16C09A9100AE954F /* SoapArray.m */,
-				FF4DF29016C09A9100AE954F /* SoapDelegate.h */,
-				FF4DF29116C09A9100AE954F /* SoapDictionary.h */,
-				FF4DF29216C09A9100AE954F /* SoapDictionary.m */,
-				FF4DF29316C09A9100AE954F /* SoapFault.h */,
-				FF4DF29416C09A9100AE954F /* SoapFault.m */,
-				FF4DF29516C09A9100AE954F /* SoapHandler.h */,
-				FF4DF29616C09A9100AE954F /* SoapHandler.m */,
-				FF4DF29716C09A9100AE954F /* SoapLiteral.h */,
-				FF4DF29816C09A9100AE954F /* SoapLiteral.m */,
-				FF4DF29916C09A9100AE954F /* SoapNil.h */,
-				FF4DF29A16C09A9100AE954F /* SoapNil.m */,
-				FF4DF29B16C09A9100AE954F /* SoapObject.h */,
-				FF4DF29C16C09A9100AE954F /* SoapObject.m */,
-				FF4DF29D16C09A9100AE954F /* SoapParameter.h */,
-				FF4DF29E16C09A9100AE954F /* SoapParameter.m */,
-				FF4DF29F16C09A9100AE954F /* SoapReachability.h */,
-				FF4DF2A016C09A9100AE954F /* SoapReachability.m */,
-				FF4DF2A116C09A9100AE954F /* SoapRequest.h */,
-				FF4DF2A216C09A9100AE954F /* SoapRequest.m */,
-				FF4DF2A316C09A9100AE954F /* SoapService.h */,
-				FF4DF2A416C09A9100AE954F /* SoapService.m */,
+				FF3186C116C31BA6001B9D3B /* NSData+Base64.h */,
+				FF3186C216C31BA6001B9D3B /* NSData+Base64.m */,
+				FF3186C316C31BA6001B9D3B /* NSMutableArray+Soap.h */,
+				FF3186C416C31BA6001B9D3B /* NSMutableArray+Soap.m */,
+				FF3186C516C31BA6001B9D3B /* Soap.h */,
+				FF3186C616C31BA6001B9D3B /* Soap.m */,
+				FF3186C716C31BA6001B9D3B /* SoapArray.h */,
+				FF3186C816C31BA6001B9D3B /* SoapArray.m */,
+				FF3186C916C31BA6001B9D3B /* SoapDelegate.h */,
+				FF3186CA16C31BA6001B9D3B /* SoapDictionary.h */,
+				FF3186CB16C31BA6001B9D3B /* SoapDictionary.m */,
+				FF3186CC16C31BA6001B9D3B /* SoapFault.h */,
+				FF3186CD16C31BA6001B9D3B /* SoapFault.m */,
+				FF3186CE16C31BA6001B9D3B /* SoapHandler.h */,
+				FF3186CF16C31BA6001B9D3B /* SoapHandler.m */,
+				FF3186D016C31BA6001B9D3B /* SoapLiteral.h */,
+				FF3186D116C31BA6001B9D3B /* SoapLiteral.m */,
+				FF3186D216C31BA6001B9D3B /* SoapNil.h */,
+				FF3186D316C31BA6001B9D3B /* SoapNil.m */,
+				FF3186D416C31BA6001B9D3B /* SoapObject.h */,
+				FF3186D516C31BA6001B9D3B /* SoapObject.m */,
+				FF3186D616C31BA6001B9D3B /* SoapParameter.h */,
+				FF3186D716C31BA6001B9D3B /* SoapParameter.m */,
+				FF3186D816C31BA6001B9D3B /* SoapReachability.h */,
+				FF3186D916C31BA6001B9D3B /* SoapReachability.m */,
+				FF3186DA16C31BA6001B9D3B /* SoapRequest.h */,
+				FF3186DB16C31BA6001B9D3B /* SoapRequest.m */,
+				FF3186DC16C31BA6001B9D3B /* SoapService.h */,
+				FF3186DD16C31BA6001B9D3B /* SoapService.m */,
 			);
 			path = Soap;
 			sourceTree = "<group>";
 		};
-		FF4DF2A516C09A9100AE954F /* TouchXML */ = {
+		FF3186DE16C31BA6001B9D3B /* TouchXML */ = {
 			isa = PBXGroup;
 			children = (
-				FF4DF2A616C09A9100AE954F /* CXMLDocument.h */,
-				FF4DF2A716C09A9100AE954F /* CXMLDocument.m */,
-				FF4DF2A816C09A9100AE954F /* CXMLDocument_PrivateExtensions.h */,
-				FF4DF2A916C09A9100AE954F /* CXMLDocument_PrivateExtensions.m */,
-				FF4DF2AA16C09A9100AE954F /* CXMLElement.h */,
-				FF4DF2AB16C09A9100AE954F /* CXMLElement.m */,
-				FF4DF2AC16C09A9100AE954F /* CXMLNode.h */,
-				FF4DF2AD16C09A9100AE954F /* CXMLNode.m */,
-				FF4DF2AE16C09A9100AE954F /* CXMLNode_PrivateExtensions.h */,
-				FF4DF2AF16C09A9100AE954F /* CXMLNode_PrivateExtensions.m */,
-				FF4DF2B016C09A9100AE954F /* CXMLNode_XPathExtensions.h */,
-				FF4DF2B116C09A9100AE954F /* CXMLNode_XPathExtensions.m */,
-				FF4DF2B216C09A9100AE954F /* TouchXML.h */,
+				FF3186DF16C31BA6001B9D3B /* CTidy.h */,
+				FF3186E016C31BA6001B9D3B /* CTidy.m */,
+				FF3186E116C31BA6001B9D3B /* CXHTMLDocument.h */,
+				FF3186E216C31BA6001B9D3B /* CXHTMLDocument.m */,
+				FF3186E316C31BA6001B9D3B /* CXMLDocument.h */,
+				FF3186E416C31BA6001B9D3B /* CXMLDocument.m */,
+				FF3186E516C31BA6001B9D3B /* CXMLDocument_CreationExtensions.h */,
+				FF3186E616C31BA6001B9D3B /* CXMLDocument_CreationExtensions.m */,
+				FF3186E716C31BA6001B9D3B /* CXMLDocument_PrivateExtensions.h */,
+				FF3186E816C31BA6001B9D3B /* CXMLDocument_PrivateExtensions.m */,
+				FF3186E916C31BA6001B9D3B /* CXMLElement.h */,
+				FF3186EA16C31BA6001B9D3B /* CXMLElement.m */,
+				FF3186EB16C31BA6001B9D3B /* CXMLElement_CreationExtensions.h */,
+				FF3186EC16C31BA6001B9D3B /* CXMLElement_CreationExtensions.m */,
+				FF3186ED16C31BA6001B9D3B /* CXMLElement_ElementTreeExtensions.h */,
+				FF3186EE16C31BA6001B9D3B /* CXMLElement_ElementTreeExtensions.m */,
+				FF3186EF16C31BA6001B9D3B /* CXMLNamespaceNode.h */,
+				FF3186F016C31BA6001B9D3B /* CXMLNamespaceNode.m */,
+				FF3186F116C31BA6001B9D3B /* CXMLNode.h */,
+				FF3186F216C31BA6001B9D3B /* CXMLNode.m */,
+				FF3186F316C31BA6001B9D3B /* CXMLNode_CreationExtensions.h */,
+				FF3186F416C31BA6001B9D3B /* CXMLNode_CreationExtensions.m */,
+				FF3186F516C31BA6001B9D3B /* CXMLNode_PrivateExtensions.h */,
+				FF3186F616C31BA6001B9D3B /* CXMLNode_PrivateExtensions.m */,
+				FF3186F716C31BA6001B9D3B /* CXMLNode_XPathExtensions.h */,
+				FF3186F816C31BA6001B9D3B /* CXMLNode_XPathExtensions.m */,
+				FF3186F916C31BA6001B9D3B /* TouchXML.h */,
 			);
 			path = TouchXML;
 			sourceTree = "<group>";
 		};
-		FF4DF2B316C09A9100AE954F /* WSDLClasses */ = {
+		FF3186FA16C31BA6001B9D3B /* WSDLClasses */ = {
 			isa = PBXGroup;
 			children = (
-				FF4DF2B416C09A9100AE954F /* SDZAccessorial.h */,
-				FF4DF2B516C09A9100AE954F /* SDZAccessorial.m */,
-				FF4DF2B616C09A9100AE954F /* SDZAccessorialRateOverride.h */,
-				FF4DF2B716C09A9100AE954F /* SDZAccessorialRateOverride.m */,
-				FF4DF2B816C09A9100AE954F /* SDZArrayOfAccessorial.h */,
-				FF4DF2B916C09A9100AE954F /* SDZArrayOfAccessorial.m */,
-				FF4DF2BA16C09A9100AE954F /* SDZArrayOfAccessorialRateOverride.h */,
-				FF4DF2BB16C09A9100AE954F /* SDZArrayOfAccessorialRateOverride.m */,
-				FF4DF2BC16C09A9100AE954F /* SDZArrayOfArrayOfDecimal.h */,
-				FF4DF2BD16C09A9100AE954F /* SDZArrayOfArrayOfDecimal.m */,
-				FF4DF2BE16C09A9100AE954F /* SDZArrayOfCwtPricingDetails.h */,
-				FF4DF2BF16C09A9100AE954F /* SDZArrayOfCwtPricingDetails.m */,
-				FF4DF2C016C09A9100AE954F /* SDZArrayOfDecimal.h */,
-				FF4DF2C116C09A9100AE954F /* SDZArrayOfDecimal.m */,
-				FF4DF2C216C09A9100AE954F /* SDZArrayOfFreight.h */,
-				FF4DF2C316C09A9100AE954F /* SDZArrayOfFreight.m */,
-				FF4DF2C416C09A9100AE954F /* SDZArrayOfFreightPricingDetails.h */,
-				FF4DF2C516C09A9100AE954F /* SDZArrayOfFreightPricingDetails.m */,
-				FF4DF2C616C09A9100AE954F /* SDZArrayOfPalletPositions.h */,
-				FF4DF2C716C09A9100AE954F /* SDZArrayOfPalletPositions.m */,
-				FF4DF2C816C09A9100AE954F /* SDZArrayOfPricingAccessorial.h */,
-				FF4DF2C916C09A9100AE954F /* SDZArrayOfPricingAccessorial.m */,
-				FF4DF2CA16C09A9100AE954F /* SDZArrayOfRateAdvisement.h */,
-				FF4DF2CB16C09A9100AE954F /* SDZArrayOfRateAdvisement.m */,
-				FF4DF2CC16C09A9100AE954F /* SDZArrayOfRatedAccessorialPrivileged.h */,
-				FF4DF2CD16C09A9100AE954F /* SDZArrayOfRatedAccessorialPrivileged.m */,
-				FF4DF2CE16C09A9100AE954F /* SDZArrayOfRateResponsePrivileged.h */,
-				FF4DF2CF16C09A9100AE954F /* SDZArrayOfRateResponsePrivileged.m */,
-				FF4DF2D016C09A9100AE954F /* SDZArrayOfStopOff.h */,
-				FF4DF2D116C09A9100AE954F /* SDZArrayOfStopOff.m */,
-				FF4DF2D216C09A9100AE954F /* SDZArrayOfString.h */,
-				FF4DF2D316C09A9100AE954F /* SDZArrayOfString.m */,
-				FF4DF2D416C09A9100AE954F /* SDZArrayOfSupplement.h */,
-				FF4DF2D516C09A9100AE954F /* SDZArrayOfSupplement.m */,
-				FF4DF2D616C09A9100AE954F /* SDZArrayOfTerminalInfo.h */,
-				FF4DF2D716C09A9100AE954F /* SDZArrayOfTerminalInfo.m */,
-				FF4DF2D816C09A9100AE954F /* SDZBilling3rdParty.h */,
-				FF4DF2D916C09A9100AE954F /* SDZBilling3rdParty.m */,
-				FF4DF2DA16C09A9100AE954F /* SDZCarrierScacs.h */,
-				FF4DF2DB16C09A9100AE954F /* SDZCarrierScacs.m */,
-				FF4DF2DC16C09A9100AE954F /* SDZCwtPricingDetails.h */,
-				FF4DF2DD16C09A9100AE954F /* SDZCwtPricingDetails.m */,
-				FF4DF2DE16C09A9100AE954F /* SDZDebugInfo.h */,
-				FF4DF2DF16C09A9100AE954F /* SDZDebugInfo.m */,
-				FF4DF2E016C09A9100AE954F /* SDZEffectivePricing.h */,
-				FF4DF2E116C09A9100AE954F /* SDZEffectivePricing.m */,
-				FF4DF2E216C09A9100AE954F /* SDZFreight.h */,
-				FF4DF2E316C09A9100AE954F /* SDZFreight.m */,
-				FF4DF2E416C09A9100AE954F /* SDZFreightPricingDetails.h */,
-				FF4DF2E516C09A9100AE954F /* SDZFreightPricingDetails.m */,
-				FF4DF2E616C09A9100AE954F /* SDZPalletPositions.h */,
-				FF4DF2E716C09A9100AE954F /* SDZPalletPositions.m */,
-				FF4DF2E816C09A9100AE954F /* SDZPricingAccessorial.h */,
-				FF4DF2E916C09A9100AE954F /* SDZPricingAccessorial.m */,
-				FF4DF2EA16C09A9100AE954F /* SDZPricingBase.h */,
-				FF4DF2EB16C09A9100AE954F /* SDZPricingBase.m */,
-				FF4DF2EC16C09A9100AE954F /* SDZPricingContractLevel.h */,
-				FF4DF2ED16C09A9100AE954F /* SDZPricingContractLevel.m */,
-				FF4DF2EE16C09A9100AE954F /* SDZPricingIncentive.h */,
-				FF4DF2EF16C09A9100AE954F /* SDZPricingIncentive.m */,
-				FF4DF2F016C09A9100AE954F /* SDZPricingStrategyLevel.h */,
-				FF4DF2F116C09A9100AE954F /* SDZPricingStrategyLevel.m */,
-				FF4DF2F216C09A9100AE954F /* SDZPricingTransactionCharge.h */,
-				FF4DF2F316C09A9100AE954F /* SDZPricingTransactionCharge.m */,
-				FF4DF2F416C09A9100AE954F /* SDZRateAdvisement.h */,
-				FF4DF2F516C09A9100AE954F /* SDZRateAdvisement.m */,
-				FF4DF2F616C09A9100AE954F /* SDZRatedAccessorialPrivileged.h */,
-				FF4DF2F716C09A9100AE954F /* SDZRatedAccessorialPrivileged.m */,
-				FF4DF2F816C09A9100AE954F /* SDZRateError.h */,
-				FF4DF2F916C09A9100AE954F /* SDZRateError.m */,
-				FF4DF2FA16C09A9100AE954F /* SDZRateRequestPrivileged.h */,
-				FF4DF2FB16C09A9100AE954F /* SDZRateRequestPrivileged.m */,
-				FF4DF2FC16C09A9100AE954F /* SDZRateResponsePrivileged.h */,
-				FF4DF2FD16C09A9100AE954F /* SDZRateResponsePrivileged.m */,
-				FF4DF2FE16C09A9100AE954F /* SDZRateReturn.h */,
-				FF4DF2FF16C09A9100AE954F /* SDZRateReturn.m */,
-				FF4DF30016C09A9100AE954F /* SDZRateServicePrivileged.h */,
-				FF4DF30116C09A9100AE954F /* SDZRateServicePrivileged.m */,
-				FF4DF30216C09A9100AE954F /* SDZStopOff.h */,
-				FF4DF30316C09A9100AE954F /* SDZStopOff.m */,
-				FF4DF30416C09A9100AE954F /* SDZSudzc.h */,
-				FF4DF30516C09A9100AE954F /* SDZSudzc.m */,
-				FF4DF30616C09A9100AE954F /* SDZSupplement.h */,
-				FF4DF30716C09A9100AE954F /* SDZSupplement.m */,
-				FF4DF30816C09A9100AE954F /* SDZTerminalInfo.h */,
-				FF4DF30916C09A9100AE954F /* SDZTerminalInfo.m */,
-				FF4DF30A16C09A9100AE954F /* Soap+Prefix.h */,
-				FF4DF30B16C09A9100AE954F /* Soap+Prefix.m */,
+				FF3186FB16C31BA6001B9D3B /* RSPAccessorial.h */,
+				FF3186FC16C31BA6001B9D3B /* RSPAccessorial.m */,
+				FF3186FD16C31BA6001B9D3B /* RSPAccessorialRateOverride.h */,
+				FF3186FE16C31BA6001B9D3B /* RSPAccessorialRateOverride.m */,
+				FF3186FF16C31BA6001B9D3B /* RSPArrayOfAccessorial.h */,
+				FF31870016C31BA6001B9D3B /* RSPArrayOfAccessorial.m */,
+				FF31870116C31BA6001B9D3B /* RSPArrayOfAccessorialRateOverride.h */,
+				FF31870216C31BA6001B9D3B /* RSPArrayOfAccessorialRateOverride.m */,
+				FF31870316C31BA6001B9D3B /* RSPArrayOfArrayOfDecimal.h */,
+				FF31870416C31BA6001B9D3B /* RSPArrayOfArrayOfDecimal.m */,
+				FF31870516C31BA6001B9D3B /* RSPArrayOfCwtPricingDetails.h */,
+				FF31870616C31BA6001B9D3B /* RSPArrayOfCwtPricingDetails.m */,
+				FF31870716C31BA6001B9D3B /* RSPArrayOfDecimal.h */,
+				FF31870816C31BA6001B9D3B /* RSPArrayOfDecimal.m */,
+				FF31870916C31BA6001B9D3B /* RSPArrayOfFreight.h */,
+				FF31870A16C31BA6001B9D3B /* RSPArrayOfFreight.m */,
+				FF31870B16C31BA6001B9D3B /* RSPArrayOfFreightPricingDetails.h */,
+				FF31870C16C31BA6001B9D3B /* RSPArrayOfFreightPricingDetails.m */,
+				FF31870D16C31BA6001B9D3B /* RSPArrayOfPalletPositions.h */,
+				FF31870E16C31BA6001B9D3B /* RSPArrayOfPalletPositions.m */,
+				FF31870F16C31BA6001B9D3B /* RSPArrayOfPricingAccessorial.h */,
+				FF31871016C31BA6001B9D3B /* RSPArrayOfPricingAccessorial.m */,
+				FF31871116C31BA6001B9D3B /* RSPArrayOfRateAdvisement.h */,
+				FF31871216C31BA6001B9D3B /* RSPArrayOfRateAdvisement.m */,
+				FF31871316C31BA6001B9D3B /* RSPArrayOfRatedAccessorialPrivileged.h */,
+				FF31871416C31BA6001B9D3B /* RSPArrayOfRatedAccessorialPrivileged.m */,
+				FF31871516C31BA6001B9D3B /* RSPArrayOfRateResponsePrivileged.h */,
+				FF31871616C31BA6001B9D3B /* RSPArrayOfRateResponsePrivileged.m */,
+				FF31871716C31BA6001B9D3B /* RSPArrayOfStopOff.h */,
+				FF31871816C31BA6001B9D3B /* RSPArrayOfStopOff.m */,
+				FF31871916C31BA6001B9D3B /* RSPArrayOfString.h */,
+				FF31871A16C31BA6001B9D3B /* RSPArrayOfString.m */,
+				FF31871B16C31BA6001B9D3B /* RSPArrayOfSupplement.h */,
+				FF31871C16C31BA6001B9D3B /* RSPArrayOfSupplement.m */,
+				FF31871D16C31BA6001B9D3B /* RSPArrayOfTerminalInfo.h */,
+				FF31871E16C31BA6001B9D3B /* RSPArrayOfTerminalInfo.m */,
+				FF31871F16C31BA6001B9D3B /* RSPBilling3rdParty.h */,
+				FF31872016C31BA6001B9D3B /* RSPBilling3rdParty.m */,
+				FF31872116C31BA6001B9D3B /* RSPCarrierScacs.h */,
+				FF31872216C31BA6001B9D3B /* RSPCarrierScacs.m */,
+				FF31872316C31BA6001B9D3B /* RSPCwtPricingDetails.h */,
+				FF31872416C31BA6001B9D3B /* RSPCwtPricingDetails.m */,
+				FF31872516C31BA6001B9D3B /* RSPDebugInfo.h */,
+				FF31872616C31BA6001B9D3B /* RSPDebugInfo.m */,
+				FF31872716C31BA6001B9D3B /* RSPEffectivePricing.h */,
+				FF31872816C31BA6001B9D3B /* RSPEffectivePricing.m */,
+				FF31872916C31BA6001B9D3B /* RSPFreight.h */,
+				FF31872A16C31BA6001B9D3B /* RSPFreight.m */,
+				FF31872B16C31BA6001B9D3B /* RSPFreightPricingDetails.h */,
+				FF31872C16C31BA6001B9D3B /* RSPFreightPricingDetails.m */,
+				FF31872D16C31BA6001B9D3B /* RSPPalletPositions.h */,
+				FF31872E16C31BA6001B9D3B /* RSPPalletPositions.m */,
+				FF31872F16C31BA6001B9D3B /* RSPPricingAccessorial.h */,
+				FF31873016C31BA6001B9D3B /* RSPPricingAccessorial.m */,
+				FF31873116C31BA6001B9D3B /* RSPPricingBase.h */,
+				FF31873216C31BA6001B9D3B /* RSPPricingBase.m */,
+				FF31873316C31BA6001B9D3B /* RSPPricingContractLevel.h */,
+				FF31873416C31BA6001B9D3B /* RSPPricingContractLevel.m */,
+				FF31873516C31BA6001B9D3B /* RSPPricingIncentive.h */,
+				FF31873616C31BA6001B9D3B /* RSPPricingIncentive.m */,
+				FF31873716C31BA6001B9D3B /* RSPPricingStrategyLevel.h */,
+				FF31873816C31BA6001B9D3B /* RSPPricingStrategyLevel.m */,
+				FF31873916C31BA6001B9D3B /* RSPPricingTransactionCharge.h */,
+				FF31873A16C31BA6001B9D3B /* RSPPricingTransactionCharge.m */,
+				FF31873B16C31BA6001B9D3B /* RSPRateAdvisement.h */,
+				FF31873C16C31BA6001B9D3B /* RSPRateAdvisement.m */,
+				FF31873D16C31BA6001B9D3B /* RSPRatedAccessorialPrivileged.h */,
+				FF31873E16C31BA6001B9D3B /* RSPRatedAccessorialPrivileged.m */,
+				FF31873F16C31BA6001B9D3B /* RSPRateError.h */,
+				FF31874016C31BA6001B9D3B /* RSPRateError.m */,
+				FF31874116C31BA6001B9D3B /* RSPRateRequestPrivileged.h */,
+				FF31874216C31BA6001B9D3B /* RSPRateRequestPrivileged.m */,
+				FF31874316C31BA6001B9D3B /* RSPRateResponsePrivileged.h */,
+				FF31874416C31BA6001B9D3B /* RSPRateResponsePrivileged.m */,
+				FF31874516C31BA6001B9D3B /* RSPRateReturn.h */,
+				FF31874616C31BA6001B9D3B /* RSPRateReturn.m */,
+				FF31874716C31BA6001B9D3B /* RSPRateServicePrivileged.h */,
+				FF31874816C31BA6001B9D3B /* RSPRateServicePrivileged.m */,
+				FF31874916C31BA6001B9D3B /* RSPStopOff.h */,
+				FF31874A16C31BA6001B9D3B /* RSPStopOff.m */,
+				FF31874B16C31BA6001B9D3B /* RSPSudzc.h */,
+				FF31874C16C31BA6001B9D3B /* RSPSudzc.m */,
+				FF31874D16C31BA6001B9D3B /* RSPSupplement.h */,
+				FF31874E16C31BA6001B9D3B /* RSPSupplement.m */,
+				FF31874F16C31BA6001B9D3B /* RSPTerminalInfo.h */,
+				FF31875016C31BA6001B9D3B /* RSPTerminalInfo.m */,
+				FF31875116C31BA6001B9D3B /* Soap+Prefix.h */,
+				FF31875216C31BA6001B9D3B /* Soap+Prefix.m */,
 			);
 			path = WSDLClasses;
 			sourceTree = "<group>";
@@ -767,70 +802,6 @@
 				A42147A516B243F5003FDF9C /* LoginSeague.m in Sources */,
 				A400437D16BF41A200D25DF6 /* QuickQuoteLoginViewController.m in Sources */,
 				A400438016BF4DC300D25DF6 /* QuickQuoteCompanyPickerViewController.m in Sources */,
-				FF4DF30C16C09A9100AE954F /* NSData+Base64.m in Sources */,
-				FF4DF30D16C09A9100AE954F /* NSMutableArray+Soap.m in Sources */,
-				FF4DF30E16C09A9100AE954F /* Soap.m in Sources */,
-				FF4DF30F16C09A9100AE954F /* SoapArray.m in Sources */,
-				FF4DF31016C09A9100AE954F /* SoapDictionary.m in Sources */,
-				FF4DF31116C09A9100AE954F /* SoapFault.m in Sources */,
-				FF4DF31216C09A9100AE954F /* SoapHandler.m in Sources */,
-				FF4DF31316C09A9100AE954F /* SoapLiteral.m in Sources */,
-				FF4DF31416C09A9100AE954F /* SoapNil.m in Sources */,
-				FF4DF31516C09A9100AE954F /* SoapObject.m in Sources */,
-				FF4DF31616C09A9100AE954F /* SoapParameter.m in Sources */,
-				FF4DF31716C09A9100AE954F /* SoapReachability.m in Sources */,
-				FF4DF31816C09A9100AE954F /* SoapRequest.m in Sources */,
-				FF4DF31916C09A9100AE954F /* SoapService.m in Sources */,
-				FF4DF31A16C09A9100AE954F /* CXMLDocument.m in Sources */,
-				FF4DF31B16C09A9100AE954F /* CXMLDocument_PrivateExtensions.m in Sources */,
-				FF4DF31C16C09A9100AE954F /* CXMLElement.m in Sources */,
-				FF4DF31D16C09A9100AE954F /* CXMLNode.m in Sources */,
-				FF4DF31E16C09A9100AE954F /* CXMLNode_PrivateExtensions.m in Sources */,
-				FF4DF31F16C09A9100AE954F /* CXMLNode_XPathExtensions.m in Sources */,
-				FF4DF32016C09A9100AE954F /* SDZAccessorial.m in Sources */,
-				FF4DF32116C09A9100AE954F /* SDZAccessorialRateOverride.m in Sources */,
-				FF4DF32216C09A9100AE954F /* SDZArrayOfAccessorial.m in Sources */,
-				FF4DF32316C09A9100AE954F /* SDZArrayOfAccessorialRateOverride.m in Sources */,
-				FF4DF32416C09A9100AE954F /* SDZArrayOfArrayOfDecimal.m in Sources */,
-				FF4DF32516C09A9100AE954F /* SDZArrayOfCwtPricingDetails.m in Sources */,
-				FF4DF32616C09A9100AE954F /* SDZArrayOfDecimal.m in Sources */,
-				FF4DF32716C09A9100AE954F /* SDZArrayOfFreight.m in Sources */,
-				FF4DF32816C09A9100AE954F /* SDZArrayOfFreightPricingDetails.m in Sources */,
-				FF4DF32916C09A9100AE954F /* SDZArrayOfPalletPositions.m in Sources */,
-				FF4DF32A16C09A9100AE954F /* SDZArrayOfPricingAccessorial.m in Sources */,
-				FF4DF32B16C09A9100AE954F /* SDZArrayOfRateAdvisement.m in Sources */,
-				FF4DF32C16C09A9100AE954F /* SDZArrayOfRatedAccessorialPrivileged.m in Sources */,
-				FF4DF32D16C09A9100AE954F /* SDZArrayOfRateResponsePrivileged.m in Sources */,
-				FF4DF32E16C09A9100AE954F /* SDZArrayOfStopOff.m in Sources */,
-				FF4DF32F16C09A9100AE954F /* SDZArrayOfString.m in Sources */,
-				FF4DF33016C09A9100AE954F /* SDZArrayOfSupplement.m in Sources */,
-				FF4DF33116C09A9100AE954F /* SDZArrayOfTerminalInfo.m in Sources */,
-				FF4DF33216C09A9100AE954F /* SDZBilling3rdParty.m in Sources */,
-				FF4DF33316C09A9100AE954F /* SDZCarrierScacs.m in Sources */,
-				FF4DF33416C09A9100AE954F /* SDZCwtPricingDetails.m in Sources */,
-				FF4DF33516C09A9100AE954F /* SDZDebugInfo.m in Sources */,
-				FF4DF33616C09A9100AE954F /* SDZEffectivePricing.m in Sources */,
-				FF4DF33716C09A9100AE954F /* SDZFreight.m in Sources */,
-				FF4DF33816C09A9100AE954F /* SDZFreightPricingDetails.m in Sources */,
-				FF4DF33916C09A9100AE954F /* SDZPalletPositions.m in Sources */,
-				FF4DF33A16C09A9100AE954F /* SDZPricingAccessorial.m in Sources */,
-				FF4DF33B16C09A9100AE954F /* SDZPricingBase.m in Sources */,
-				FF4DF33C16C09A9100AE954F /* SDZPricingContractLevel.m in Sources */,
-				FF4DF33D16C09A9100AE954F /* SDZPricingIncentive.m in Sources */,
-				FF4DF33E16C09A9100AE954F /* SDZPricingStrategyLevel.m in Sources */,
-				FF4DF33F16C09A9100AE954F /* SDZPricingTransactionCharge.m in Sources */,
-				FF4DF34016C09A9100AE954F /* SDZRateAdvisement.m in Sources */,
-				FF4DF34116C09A9100AE954F /* SDZRatedAccessorialPrivileged.m in Sources */,
-				FF4DF34216C09A9100AE954F /* SDZRateError.m in Sources */,
-				FF4DF34316C09A9100AE954F /* SDZRateRequestPrivileged.m in Sources */,
-				FF4DF34416C09A9100AE954F /* SDZRateResponsePrivileged.m in Sources */,
-				FF4DF34516C09A9100AE954F /* SDZRateReturn.m in Sources */,
-				FF4DF34616C09A9100AE954F /* SDZRateServicePrivileged.m in Sources */,
-				FF4DF34716C09A9100AE954F /* SDZStopOff.m in Sources */,
-				FF4DF34816C09A9100AE954F /* SDZSudzc.m in Sources */,
-				FF4DF34916C09A9100AE954F /* SDZSupplement.m in Sources */,
-				FF4DF34A16C09A9100AE954F /* SDZTerminalInfo.m in Sources */,
-				FF4DF34B16C09A9100AE954F /* Soap+Prefix.m in Sources */,
 				FF4DF36516C09C7800AE954F /* Accessorial.m in Sources */,
 				FF4DF36616C09C7800AE954F /* Credentials.m in Sources */,
 				FF4DF36716C09C7800AE954F /* FreightItem.m in Sources */,
@@ -842,6 +813,77 @@
 				FF4DF36D16C09C7800AE954F /* RateError.m in Sources */,
 				FF4DF36E16C09C7800AE954F /* RateResponse.m in Sources */,
 				FF4DF36F16C09C7800AE954F /* TerminalInfo.m in Sources */,
+				FF31875316C31BA6001B9D3B /* NSData+Base64.m in Sources */,
+				FF31875416C31BA6001B9D3B /* NSMutableArray+Soap.m in Sources */,
+				FF31875516C31BA6001B9D3B /* Soap.m in Sources */,
+				FF31875616C31BA6001B9D3B /* SoapArray.m in Sources */,
+				FF31875716C31BA6001B9D3B /* SoapDictionary.m in Sources */,
+				FF31875816C31BA6001B9D3B /* SoapFault.m in Sources */,
+				FF31875916C31BA6001B9D3B /* SoapHandler.m in Sources */,
+				FF31875A16C31BA6001B9D3B /* SoapLiteral.m in Sources */,
+				FF31875B16C31BA6001B9D3B /* SoapNil.m in Sources */,
+				FF31875C16C31BA6001B9D3B /* SoapObject.m in Sources */,
+				FF31875D16C31BA6001B9D3B /* SoapParameter.m in Sources */,
+				FF31875E16C31BA6001B9D3B /* SoapReachability.m in Sources */,
+				FF31875F16C31BA6001B9D3B /* SoapRequest.m in Sources */,
+				FF31876016C31BA6001B9D3B /* SoapService.m in Sources */,
+				FF31876116C31BA6001B9D3B /* CTidy.m in Sources */,
+				FF31876216C31BA6001B9D3B /* CXHTMLDocument.m in Sources */,
+				FF31876316C31BA6001B9D3B /* CXMLDocument.m in Sources */,
+				FF31876416C31BA6001B9D3B /* CXMLDocument_CreationExtensions.m in Sources */,
+				FF31876516C31BA6001B9D3B /* CXMLDocument_PrivateExtensions.m in Sources */,
+				FF31876616C31BA6001B9D3B /* CXMLElement.m in Sources */,
+				FF31876716C31BA6001B9D3B /* CXMLElement_CreationExtensions.m in Sources */,
+				FF31876816C31BA6001B9D3B /* CXMLElement_ElementTreeExtensions.m in Sources */,
+				FF31876916C31BA6001B9D3B /* CXMLNamespaceNode.m in Sources */,
+				FF31876A16C31BA6001B9D3B /* CXMLNode.m in Sources */,
+				FF31876B16C31BA6001B9D3B /* CXMLNode_CreationExtensions.m in Sources */,
+				FF31876C16C31BA6001B9D3B /* CXMLNode_PrivateExtensions.m in Sources */,
+				FF31876D16C31BA6001B9D3B /* CXMLNode_XPathExtensions.m in Sources */,
+				FF31876E16C31BA6001B9D3B /* RSPAccessorial.m in Sources */,
+				FF31876F16C31BA6001B9D3B /* RSPAccessorialRateOverride.m in Sources */,
+				FF31877016C31BA6001B9D3B /* RSPArrayOfAccessorial.m in Sources */,
+				FF31877116C31BA6001B9D3B /* RSPArrayOfAccessorialRateOverride.m in Sources */,
+				FF31877216C31BA6001B9D3B /* RSPArrayOfArrayOfDecimal.m in Sources */,
+				FF31877316C31BA6001B9D3B /* RSPArrayOfCwtPricingDetails.m in Sources */,
+				FF31877416C31BA6001B9D3B /* RSPArrayOfDecimal.m in Sources */,
+				FF31877516C31BA6001B9D3B /* RSPArrayOfFreight.m in Sources */,
+				FF31877616C31BA6001B9D3B /* RSPArrayOfFreightPricingDetails.m in Sources */,
+				FF31877716C31BA6001B9D3B /* RSPArrayOfPalletPositions.m in Sources */,
+				FF31877816C31BA6001B9D3B /* RSPArrayOfPricingAccessorial.m in Sources */,
+				FF31877916C31BA6001B9D3B /* RSPArrayOfRateAdvisement.m in Sources */,
+				FF31877A16C31BA6001B9D3B /* RSPArrayOfRatedAccessorialPrivileged.m in Sources */,
+				FF31877B16C31BA6001B9D3B /* RSPArrayOfRateResponsePrivileged.m in Sources */,
+				FF31877C16C31BA6001B9D3B /* RSPArrayOfStopOff.m in Sources */,
+				FF31877D16C31BA6001B9D3B /* RSPArrayOfString.m in Sources */,
+				FF31877E16C31BA6001B9D3B /* RSPArrayOfSupplement.m in Sources */,
+				FF31877F16C31BA6001B9D3B /* RSPArrayOfTerminalInfo.m in Sources */,
+				FF31878016C31BA6001B9D3B /* RSPBilling3rdParty.m in Sources */,
+				FF31878116C31BA6001B9D3B /* RSPCarrierScacs.m in Sources */,
+				FF31878216C31BA6001B9D3B /* RSPCwtPricingDetails.m in Sources */,
+				FF31878316C31BA6001B9D3B /* RSPDebugInfo.m in Sources */,
+				FF31878416C31BA6001B9D3B /* RSPEffectivePricing.m in Sources */,
+				FF31878516C31BA6001B9D3B /* RSPFreight.m in Sources */,
+				FF31878616C31BA6001B9D3B /* RSPFreightPricingDetails.m in Sources */,
+				FF31878716C31BA6001B9D3B /* RSPPalletPositions.m in Sources */,
+				FF31878816C31BA6001B9D3B /* RSPPricingAccessorial.m in Sources */,
+				FF31878916C31BA6001B9D3B /* RSPPricingBase.m in Sources */,
+				FF31878A16C31BA6001B9D3B /* RSPPricingContractLevel.m in Sources */,
+				FF31878B16C31BA6001B9D3B /* RSPPricingIncentive.m in Sources */,
+				FF31878C16C31BA6001B9D3B /* RSPPricingStrategyLevel.m in Sources */,
+				FF31878D16C31BA6001B9D3B /* RSPPricingTransactionCharge.m in Sources */,
+				FF31878E16C31BA6001B9D3B /* RSPRateAdvisement.m in Sources */,
+				FF31878F16C31BA6001B9D3B /* RSPRatedAccessorialPrivileged.m in Sources */,
+				FF31879016C31BA6001B9D3B /* RSPRateError.m in Sources */,
+				FF31879116C31BA6001B9D3B /* RSPRateRequestPrivileged.m in Sources */,
+				FF31879216C31BA6001B9D3B /* RSPRateResponsePrivileged.m in Sources */,
+				FF31879316C31BA6001B9D3B /* RSPRateReturn.m in Sources */,
+				FF31879416C31BA6001B9D3B /* RSPRateServicePrivileged.m in Sources */,
+				FF31879516C31BA6001B9D3B /* RSPStopOff.m in Sources */,
+				FF31879616C31BA6001B9D3B /* RSPSudzc.m in Sources */,
+				FF31879716C31BA6001B9D3B /* RSPSupplement.m in Sources */,
+				FF31879816C31BA6001B9D3B /* RSPTerminalInfo.m in Sources */,
+				FF31879916C31BA6001B9D3B /* Soap+Prefix.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
