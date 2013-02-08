@@ -17,6 +17,8 @@ profile
 DerivedData
 .idea/
 xcuserdata/
+*.xcuserstate
+project.xcworkspace/
 
 #########################
 # .gitignore file for Xcode4 / OS X Source projects
