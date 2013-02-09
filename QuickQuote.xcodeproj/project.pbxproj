@@ -115,6 +115,7 @@
 		FF4DF36D16C09C7800AE954F /* RateError.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF36016C09C7800AE954F /* RateError.m */; };
 		FF4DF36E16C09C7800AE954F /* RateResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF36216C09C7800AE954F /* RateResponse.m */; };
 		FF4DF36F16C09C7800AE954F /* TerminalInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4DF36416C09C7800AE954F /* TerminalInfo.m */; };
+		FF557EE516C5C2BE009F55A1 /* DatePopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF557EE416C5C2BE009F55A1 /* DatePopoverViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -330,6 +331,8 @@
 		FF4DF36216C09C7800AE954F /* RateResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RateResponse.m; sourceTree = "<group>"; };
 		FF4DF36316C09C7800AE954F /* TerminalInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TerminalInfo.h; sourceTree = "<group>"; };
 		FF4DF36416C09C7800AE954F /* TerminalInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TerminalInfo.m; sourceTree = "<group>"; };
+		FF557EE316C5C2BE009F55A1 /* DatePopoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePopoverViewController.h; sourceTree = "<group>"; };
+		FF557EE416C5C2BE009F55A1 /* DatePopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePopoverViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -397,6 +400,8 @@
 		A421476716B2306A003FDF9C /* QuickQuote */ = {
 			isa = PBXGroup;
 			children = (
+				FF557EE316C5C2BE009F55A1 /* DatePopoverViewController.h */,
+				FF557EE416C5C2BE009F55A1 /* DatePopoverViewController.m */,
 				A421477016B2306A003FDF9C /* QuickQuoteAppDelegate.h */,
 				A421477116B2306A003FDF9C /* QuickQuoteAppDelegate.m */,
 				A421477916B2306A003FDF9C /* MainStoryboard.storyboard */,
@@ -884,6 +889,7 @@
 				FF31879716C31BA6001B9D3B /* RSPSupplement.m in Sources */,
 				FF31879816C31BA6001B9D3B /* RSPTerminalInfo.m in Sources */,
 				FF31879916C31BA6001B9D3B /* Soap+Prefix.m in Sources */,
+				FF557EE516C5C2BE009F55A1 /* DatePopoverViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -28,10 +28,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    self.navigationItem.leftBarButtonItem = self.editButtonItem;
+    /*self.navigationItem.leftBarButtonItem = self.editButtonItem;
 
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
-    self.navigationItem.rightBarButtonItem = addButton;
+    self.navigationItem.rightBarButtonItem = addButton;*/
     self.detailViewController = (QuickQuoteDetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
 }
 
@@ -41,6 +41,41 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+#pragma mark - Flipside View Controller
+
+- (void)datePopoverViewControllerDidFinish:(DatePopoverViewController *)controller
+{
+    [self.datePopoverController dismissPopoverAnimated:YES];
+    self.datePopoverController = nil;
+}
+
+- (void)popoverControllerDidDismissPopover:(UIPopoverController *)popoverController
+{
+    self.datePopoverController = nil;
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([[segue identifier] isEqualToString:@"datePopoverSegue"]) {
+        [[segue destinationViewController] setDelegate:self];
+        UIPopoverController *popoverController = [(UIStoryboardPopoverSegue *)segue popoverController];
+        self.datePopoverController = popoverController;
+        popoverController.delegate = self;
+    }
+}
+
+- (IBAction)togglePopover:(id)sender
+{
+    if (self.datePopoverController) {
+        [self.datePopoverController dismissPopoverAnimated:YES];
+        self.datePopoverController = nil;
+    } else {
+        [self performSegueWithIdentifier:@"datePopoverSegue" sender:sender];
+    }
+}
+
+/*
 - (void)insertNewObject:(id)sender
 {
     if (!_objects) {
@@ -86,7 +121,7 @@
     } else if (editingStyle == UITableViewCellEditingStyleInsert) {
         // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view.
     }
-}
+}*/
 
 /*
 // Override to support rearranging the table view.
@@ -104,10 +139,11 @@
 }
 */
 
+/*
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     NSDate *object = _objects[indexPath.row];
     self.detailViewController.detailItem = object;
-}
+}*/
 
 @end
