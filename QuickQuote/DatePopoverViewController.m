@@ -13,6 +13,14 @@
 @end
 
 @implementation DatePopoverViewController
+@synthesize datePicker;
+@synthesize dateString;
+@synthesize doneButton;
+@synthesize isOriginBool;
+
+// getter/setter for header properties
+@synthesize  delegate;
+
 
 - (void)awakeFromNib
 {
@@ -23,7 +31,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+    // Do any additional setup after loading the view.
+}
+
+-(void)viewWillAppear:(BOOL)animated
+{
+    NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
+    [dateFormat setDateFormat:@"MM/dd/yyyy"];
+    NSDate *dateFromLabel = [dateFormat dateFromString:dateString];
+   [self.datePicker setDate:dateFromLabel animated:TRUE];
 }
 
 - (void)didReceiveMemoryWarning
@@ -34,7 +50,12 @@
 
 - (IBAction)doneAction:(id)sender
 {
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    [formatter setDateFormat:@"MM/dd/yyyy"];
+    
+    self.dateString = [formatter stringFromDate:self.datePicker.date];
     [self.delegate datePopoverViewControllerDidFinish:self];
+
 }
 
 @end

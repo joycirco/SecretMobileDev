@@ -12,11 +12,14 @@
 
 @class QuickQuoteDetailViewController;
 
-//@interface QuickQuoteMasterViewController : UITableViewController
 @interface QuickQuoteMasterViewController : UITableViewController <DatePopoverViewControllerDelegate, UIPopoverControllerDelegate>
 
+// Properties for accessing the popover and its viewcontroller
 @property (strong, nonatomic) QuickQuoteDetailViewController *detailViewController;
-
 @property (strong, nonatomic) UIPopoverController *datePopoverController;
+@property (strong, nonatomic) UIStoryboardPopoverSegue *currentPopoverSegue;
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
+@property (weak, nonatomic) IBOutlet UILabel *originPickupDateLabel;
+@property (weak, nonatomic) IBOutlet UILabel *destPickupDateLabel;
 
 @end
