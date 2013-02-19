@@ -160,13 +160,13 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xP0-Ea-ALi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="962" y="-1019"/>
+            <point key="canvasLocation" x="-426" y="-1667"/>
         </scene>
         <!--Quick Quote Master View Controller - Master-->
         <scene sceneID="24">
             <objects>
                 <tableViewController storyboardIdentifier="" title="Master" clearsSelectionOnViewWillAppear="NO" id="19" customClass="QuickQuoteMasterViewController" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="20">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" allowsSelectionDuringEditing="YES" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="20">
                         <rect key="frame" x="0.0" y="64" width="320" height="704"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -174,30 +174,47 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                         <sections>
                             <tableViewSection headerTitle="Origin" id="Rxt-GI-ADr">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="9zO-hl-hmW" detailTextLabel="5kN-gx-D64" style="IBUITableViewCellStyleValue1" id="xdK-xt-9jz">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="originPostalCodeCell" id="xdK-xt-9jz">
                                         <rect key="frame" x="0.0" y="22" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Origin Postal Code" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9zO-hl-hmW">
-                                                    <rect key="frame" x="10" y="11" width="154" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Origin Postal Code" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pUa-Ih-jSO">
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="23" id="Mq5-mc-xMR"/>
+                                                        <constraint firstAttribute="width" constant="159" id="glv-Eq-ez1"/>
+                                                    </constraints>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </label>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="66062" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5kN-gx-D64">
-                                                    <rect key="frame" x="262" y="11" width="48" height="21"/>
+                                                <textField opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Zipcode" placeholder="zipcode" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VhX-oB-7Cp">
+                                                    <accessibility key="accessibilityConfiguration">
+                                                        <accessibilityTraits key="traits" none="YES" notEnabled="YES"/>
+                                                    </accessibility>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="97" id="ld9-kc-dl8"/>
+                                                        <constraint firstAttribute="height" constant="30" id="rjZ-wa-wg5"/>
+                                                    </constraints>
+                                                    <color key="textColor" red="0.28235295414924622" green="0.40392160415649414" blue="0.60000002384185791" alpha="1" colorSpace="deviceRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.2196078431372549" green="0.32941176470588235" blue="0.52941176470588236" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                </label>
+                                                    <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
+                                                    <connections>
+                                                        <outlet property="delegate" destination="19" id="VIU-a7-3zL"/>
+                                                    </connections>
+                                                </textField>
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="pUa-Ih-jSO" firstAttribute="leading" secondItem="xdK-xt-9jz" secondAttribute="leading" constant="9" id="UuY-8h-T0F"/>
+                                            <constraint firstItem="VhX-oB-7Cp" firstAttribute="centerY" secondItem="xdK-xt-9jz" secondAttribute="centerY" type="default" id="geD-La-CQV"/>
+                                            <constraint firstItem="VhX-oB-7Cp" firstAttribute="baseline" secondItem="pUa-Ih-jSO" secondAttribute="baseline" type="default" id="n8y-0n-fuL"/>
+                                            <constraint firstAttribute="trailing" secondItem="VhX-oB-7Cp" secondAttribute="trailing" constant="12" id="otv-M8-gin"/>
+                                            <constraint firstItem="VhX-oB-7Cp" firstAttribute="centerY" secondItem="pUa-Ih-jSO" secondAttribute="centerY" type="default" id="u5Q-aZ-hfc"/>
+                                        </constraints>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="originPickUpDateCell" textLabel="tIi-5l-S0i" detailTextLabel="PKU-H3-4jS" style="IBUITableViewCellStyleValue1" id="ZSw-0O-9Pw">
                                         <rect key="frame" x="0.0" y="66" width="320" height="44"/>
@@ -228,7 +245,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                             </segue>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="EvT-cK-BQ1" detailTextLabel="lwN-VK-ta5" style="IBUITableViewCellStyleValue1" id="bHF-vk-TD0">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="EvT-cK-BQ1" detailTextLabel="lwN-VK-ta5" style="IBUITableViewCellStyleValue1" id="bHF-vk-TD0">
                                         <rect key="frame" x="0.0" y="110" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -252,58 +269,85 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                         </view>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="VTz-8d-ABG" detailTextLabel="tNB-ar-7oF" style="IBUITableViewCellStyleValue1" id="4U1-I2-ygG">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="originStoreCodeCell" id="isX-A7-aNC">
                                         <rect key="frame" x="0.0" y="154" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Store Location Code" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="VTz-8d-ABG">
-                                                    <rect key="frame" x="10" y="11" width="167" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Store Location Code" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hyn-DG-DDH">
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="23" id="OD1-A7-tkZ"/>
+                                                    </constraints>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </label>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tNB-ar-7oF">
+                                                <textField opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Code" placeholder="zipcode" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="n7t-I6-j5U">
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="30" id="9h7-uc-brY"/>
+                                                        <constraint firstAttribute="width" constant="97" id="d1S-8q-vrK"/>
+                                                    </constraints>
+                                                    <color key="textColor" red="0.21960784310000001" green="0.3294117647" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.2196078431372549" green="0.32941176470588235" blue="0.52941176470588236" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                </label>
+                                                    <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
+                                                    <connections>
+                                                        <outlet property="delegate" destination="19" id="sdW-Il-ge4"/>
+                                                    </connections>
+                                                </textField>
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="n7t-I6-j5U" firstAttribute="centerY" secondItem="isX-A7-aNC" secondAttribute="centerY" type="default" id="6H1-pH-sAg"/>
+                                            <constraint firstItem="n7t-I6-j5U" firstAttribute="baseline" secondItem="hyn-DG-DDH" secondAttribute="baseline" type="default" id="Abw-3M-sHR"/>
+                                            <constraint firstItem="hyn-DG-DDH" firstAttribute="leading" secondItem="isX-A7-aNC" secondAttribute="leading" constant="9" id="Oen-FN-Joe"/>
+                                            <constraint firstItem="n7t-I6-j5U" firstAttribute="centerY" secondItem="hyn-DG-DDH" secondAttribute="centerY" type="default" id="cXc-Xx-EnA"/>
+                                            <constraint firstAttribute="trailing" secondItem="n7t-I6-j5U" secondAttribute="trailing" constant="12" id="pGx-JD-NUN"/>
+                                        </constraints>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
                             <tableViewSection headerTitle="Destination" id="yc2-Tc-hGh">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="74S-KW-hNg" detailTextLabel="kRv-iZ-ixx" style="IBUITableViewCellStyleValue1" id="Vp8-uD-Q9Y">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="destPostalCodeCell" id="Vp8-uD-Q9Y">
                                         <rect key="frame" x="0.0" y="220" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Destination Postal Code" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="74S-KW-hNg">
-                                                    <rect key="frame" x="10" y="11" width="196" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Destination Postal Code" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oO0-6t-J1e">
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="202" id="x9a-8i-hxw"/>
+                                                    </constraints>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </label>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="66062" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kRv-iZ-ixx">
-                                                    <rect key="frame" x="262" y="11" width="48" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <textField opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Zipcode" placeholder="zipcode" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="esX-NI-1zQ">
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="97" id="6mt-K4-H5U"/>
+                                                        <constraint firstAttribute="height" constant="30" id="Izq-Ok-xOa"/>
+                                                    </constraints>
                                                     <color key="textColor" red="0.21960784310000001" green="0.3294117647" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                </label>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                    <connections>
+                                                        <outlet property="delegate" destination="19" id="3IC-wC-bjM"/>
+                                                    </connections>
+                                                </textField>
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="esX-NI-1zQ" firstAttribute="centerY" secondItem="Vp8-uD-Q9Y" secondAttribute="centerY" type="default" id="9Nh-pK-gwa"/>
+                                            <constraint firstItem="oO0-6t-J1e" firstAttribute="top" secondItem="Vp8-uD-Q9Y" secondAttribute="top" constant="11" id="Iv8-Nn-YfW"/>
+                                            <constraint firstAttribute="trailing" secondItem="esX-NI-1zQ" secondAttribute="trailing" constant="11" id="VXB-CJ-0Jb"/>
+                                            <constraint firstItem="oO0-6t-J1e" firstAttribute="leading" secondItem="Vp8-uD-Q9Y" secondAttribute="leading" constant="11" id="iiT-yf-NXs"/>
+                                        </constraints>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="dMu-65-py8" detailTextLabel="gW9-kz-TFh" style="IBUITableViewCellStyleValue1" id="4aS-nF-y77">
                                         <rect key="frame" x="0.0" y="264" width="320" height="44"/>
@@ -335,7 +379,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                             </segue>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="fS3-BY-1AJ" detailTextLabel="Mni-2d-Vru" style="IBUITableViewCellStyleValue1" id="3SE-Vh-fhy">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="fS3-BY-1AJ" detailTextLabel="Mni-2d-Vru" style="IBUITableViewCellStyleValue1" id="3SE-Vh-fhy">
                                         <rect key="frame" x="0.0" y="308" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -360,30 +404,43 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                         </view>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="8st-qB-PhQ" detailTextLabel="12R-ME-Bdr" style="IBUITableViewCellStyleValue1" id="49H-qM-vDw">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="destStoreCodeCell" id="wz8-Yr-4Fs">
                                         <rect key="frame" x="0.0" y="352" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Store Location Code" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8st-qB-PhQ">
-                                                    <rect key="frame" x="10" y="11" width="167" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Store Location Code" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="spp-Xh-rwC">
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="23" id="Fle-3P-ssD"/>
+                                                    </constraints>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </label>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="12R-ME-Bdr">
-                                                    <rect key="frame" x="266" y="11" width="44" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <textField opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Code" placeholder="zipcode" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Hrg-7i-5gW">
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="30" id="8Ff-Z1-oOZ"/>
+                                                        <constraint firstAttribute="width" constant="97" id="RdM-IC-Mq0"/>
+                                                    </constraints>
                                                     <color key="textColor" red="0.21960784310000001" green="0.3294117647" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                </label>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                    <connections>
+                                                        <outlet property="delegate" destination="19" id="0wv-nX-XRU"/>
+                                                    </connections>
+                                                </textField>
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="Hrg-7i-5gW" secondAttribute="trailing" constant="12" id="ITa-Qc-6KH"/>
+                                            <constraint firstItem="Hrg-7i-5gW" firstAttribute="centerY" secondItem="spp-Xh-rwC" secondAttribute="centerY" type="default" id="Rlk-nf-Anf"/>
+                                            <constraint firstItem="Hrg-7i-5gW" firstAttribute="baseline" secondItem="spp-Xh-rwC" secondAttribute="baseline" type="default" id="UNo-X3-Tb3"/>
+                                            <constraint firstItem="Hrg-7i-5gW" firstAttribute="centerY" secondItem="wz8-Yr-4Fs" secondAttribute="centerY" type="default" id="wY0-Fi-51b"/>
+                                            <constraint firstItem="spp-Xh-rwC" firstAttribute="leading" secondItem="wz8-Yr-4Fs" secondAttribute="leading" constant="9" id="zZa-aC-bFk"/>
+                                        </constraints>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -397,13 +454,50 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
                         <outlet property="destPickupDateLabel" destination="gW9-kz-TFh" id="PCl-M2-KEA"/>
+                        <outlet property="destPostalCodeTextField" destination="esX-NI-1zQ" id="bvF-L0-Vb0"/>
+                        <outlet property="destStoreCodeTextField" destination="Hrg-7i-5gW" id="ca8-RX-V33"/>
                         <outlet property="originPickupDateLabel" destination="PKU-H3-4jS" id="h6m-yh-yZZ"/>
+                        <outlet property="originPostalCodeTextField" destination="VhX-oB-7Cp" id="gy5-f6-6jZ"/>
+                        <outlet property="originStoreCodeTextField" destination="n7t-I6-j5U" id="XRl-Nz-g7a"/>
                         <outlet property="tableView" destination="20" id="F47-eX-LKp"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="23" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="503" y="-647"/>
+            <point key="canvasLocation" x="503" y="-652"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4dt-31-iG7">
+            <objects>
+                <viewController modalPresentationStyle="currentContext" id="cV3-Oq-ElR" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ecz-Vb-rth">
+                        <rect key="frame" x="0.0" y="44" width="320" height="764"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YRg-LP-VkS">
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="YRg-LP-VkS" firstAttribute="top" secondItem="ecz-Vb-rth" secondAttribute="top" constant="12" id="LsC-V8-mlJ"/>
+                            <constraint firstItem="YRg-LP-VkS" firstAttribute="leading" secondItem="ecz-Vb-rth" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="ZoR-Gc-GGj"/>
+                            <constraint firstAttribute="trailing" secondItem="YRg-LP-VkS" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="adt-ve-1uH"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem title="Item" id="d2j-ro-qw9"/>
+                    </toolbarItems>
+                    <value key="contentSizeForViewInPopover" type="size" width="350" height="400"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="blackOpaque" prompted="NO"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <splitViewMasterSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fVd-RK-bzc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1236" y="-1053"/>
         </scene>
         <!--Quick Quote Company Picker View Controller-->
         <scene sceneID="lnD-He-1Fg">
@@ -618,7 +712,11 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
             <source key="sourceIdentifier" type="project" relativePath="./Classes/QuickQuoteMasterViewController.h"/>
             <relationships>
                 <relationship kind="outlet" name="destPickupDateLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="destPostalCodeTextField" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="destStoreCodeTextField" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="originPickupDateLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="originPostalCodeTextField" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="originStoreCodeTextField" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
             </relationships>
         </class>

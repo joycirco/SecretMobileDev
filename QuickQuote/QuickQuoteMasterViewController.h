@@ -18,8 +18,12 @@
 @property (strong, nonatomic) QuickQuoteDetailViewController *detailViewController;
 @property (strong, nonatomic) UIPopoverController *datePopoverController;
 @property (strong, nonatomic) UIStoryboardPopoverSegue *currentPopoverSegue;
-@property (strong, nonatomic) IBOutlet UITableView *tableView;
+
+@property (weak, nonatomic) IBOutlet UITextField *originPostalCodeTextField;
 @property (weak, nonatomic) IBOutlet UILabel *originPickupDateLabel;
+@property (weak, nonatomic) IBOutlet UITextField *originStoreCodeTextField;
 @property (weak, nonatomic) IBOutlet UILabel *destPickupDateLabel;
+@property (weak, nonatomic) IBOutlet UITextField *destPostalCodeTextField;
+@property (weak, nonatomic) IBOutlet UITextField *destStoreCodeTextField;
 
 @end

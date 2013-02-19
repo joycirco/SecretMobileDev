@@ -17,9 +17,15 @@
 
 @implementation QuickQuoteMasterViewController
 
-@synthesize tableView;
+//@synthesize tableView;
+
+@synthesize originPostalCodeTextField;
 @synthesize originPickupDateLabel;
+@synthesize originStoreCodeTextField;
+@synthesize destPostalCodeTextField;
 @synthesize destPickupDateLabel;
+@synthesize destStoreCodeTextField;
+
 @synthesize datePopoverController;
 @synthesize currentPopoverSegue;
 
@@ -34,6 +40,7 @@
 {
     [super viewDidLoad];
     self.detailViewController = (QuickQuoteDetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
+    self.clearsSelectionOnViewWillAppear = YES;
 }
 
 - (void)didReceiveMemoryWarning
@@ -41,7 +48,6 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 
 #pragma mark - Flipside View Controller
 
@@ -80,7 +86,6 @@
     {
         [[segue destinationViewController] setDateString:destPickupDateLabel.text];
         [[segue destinationViewController] setIsOriginBool:false];
-        NSLog(@" DATE %@", destPickupDateLabel.text);
     }
     
     currentPopoverSegue = (UIStoryboardPopoverSegue *)segue;
@@ -93,12 +98,120 @@
     // 
 }
 
-
-/*
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSDate *object = _objects[indexPath.row];
-    self.detailViewController.detailItem = object;
-}*/
+    UITableViewCell *cell = [self tableView:tableView cellForRowAtIndexPath:indexPath];
+    
+    // Make this better soon
+    if ([[cell reuseIdentifier] isEqualToString:@"originPostalCodeCell"])
+    {
+        [originPostalCodeTextField becomeFirstResponder];
+    }
+    else if([[cell reuseIdentifier] isEqualToString:@"originStoreCodeCell"])
+    {
+        [originStoreCodeTextField becomeFirstResponder];
+    }
+    else if([[cell reuseIdentifier] isEqualToString:@"destPostalCodeCell"])
+    {
+        [destPostalCodeTextField becomeFirstResponder];
+    }
+    else if([[cell reuseIdentifier] isEqualToString:@"destStoreCodeCell"])
+    {
+        [destStoreCodeTextField becomeFirstResponder];
+    }
+}
+
+// this does not appear to be getting called...
+-(void)tableview:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell *cell = [self tableView:tableView cellForRowAtIndexPath:indexPath];
+    UITextField *textfieldToChange;
+    
+    // Make this better soon
+    if ([[cell reuseIdentifier] isEqualToString:@"originPostalCodeCell"])
+    {
+        textfieldToChange = originPostalCodeTextField;
+    }
+    else if([[cell reuseIdentifier] isEqualToString:@"originStoreCodeCell"])
+    {
+        [originStoreCodeTextField becomeFirstResponder];
+    }
+    else if([[cell reuseIdentifier] isEqualToString:@"destPostalCodeCell"])
+    {
+        [destPostalCodeTextField becomeFirstResponder];
+    }
+    else if([[cell reuseIdentifier] isEqualToString:@"destStoreCodeCell"])
+    {
+        [destStoreCodeTextField becomeFirstResponder];
+    }
+    
+    textfieldToChange.textColor = [UIColor colorWithRed:81.0/255.0 green:102.0/255.0 blue:145.0/255.0 alpha:1.0];
+    NSLog(@"bitch: %@", textfieldToChange.text);
+    
+}
+
+// Close the keyboard if someone presses enter from any of THESE textfields
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    if (textField == originPostalCodeTextField || textField == originStoreCodeTextField
+        || textField == destPostalCodeTextField || textField == destStoreCodeTextField)
+    {
+        [textField resignFirstResponder];
+    }
+    return NO;
+}
+
+// limits these 4 textfields to 6 characters...
+// need to double check max range on store code...
+-(BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string
+{
+    if (textField == originPostalCodeTextField || textField == originStoreCodeTextField
+        || textField == destPostalCodeTextField || textField == destStoreCodeTextField)
+    {
+    NSUInteger newLength = [textField.text length] + [string length] - range.length;
+    
+    if(newLength > 6)
+        return NO;
+    }
+    return YES;
+}
+
+// just do them all...change the text color to white in all text
+// fields while editing...hmm this is some ugly shit. Hope this doesn't get brought up in
+// a code review.
+-(BOOL) textFieldShouldBeginEditing:(UITextField *)textField
+{
+    NSIndexPath* selectedCellIndexPath;
+    
+    if (textField == originPostalCodeTextField)
+        selectedCellIndexPath = [NSIndexPath indexPathForRow:0 inSection:0];
+    
+    if (textField == originStoreCodeTextField)
+        selectedCellIndexPath = [NSIndexPath indexPathForRow:3 inSection:0];
+    
+    if (textField == destPostalCodeTextField)
+        selectedCellIndexPath = [NSIndexPath indexPathForRow:0 inSection:1];
+    
+    if (textField == destStoreCodeTextField)
+        selectedCellIndexPath = [NSIndexPath indexPathForRow:3 inSection:1];
+
+    // make sure the cell is selected...because without this...you can select a textfield without selecting the cell...
+    [self.tableView selectRowAtIndexPath:selectedCellIndexPath animated:YES scrollPosition:UITableViewScrollPositionBottom];
+    
+    textField.textColor = [UIColor whiteColor];
+    return YES;
+}
+
+// change all of the colors of the textfields when finished...
+// Need to find a better solution though....
+-(BOOL)textFieldShouldEndEditing:(UITextField *)textField
+{
+    textField.textColor = [UIColor colorWithRed:81.0/255.0 green:102.0/255.0 blue:145.0/255.0 alpha:1.0];
+    return YES;
+}
+
+
+
+
 
 @end
