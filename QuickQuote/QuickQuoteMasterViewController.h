@@ -9,14 +9,16 @@
 #import <UIKit/UIKit.h>
 
 #import "DatePopoverViewController.h"
+#import "AccessorialPopOverViewController.h"
 
 @class QuickQuoteDetailViewController;
 
-@interface QuickQuoteMasterViewController : UITableViewController <DatePopoverViewControllerDelegate, UIPopoverControllerDelegate>
+@interface QuickQuoteMasterViewController : UITableViewController <DatePopoverViewControllerDelegate, AccessorialPopOverViewControllerDelegate, UIPopoverControllerDelegate>
 
 // Properties for accessing the popover and its viewcontroller
 @property (strong, nonatomic) QuickQuoteDetailViewController *detailViewController;
 @property (strong, nonatomic) UIPopoverController *datePopoverController;
+@property (strong, nonatomic) UIPopoverController *accessorialPopOverController;
 @property (strong, nonatomic) UIStoryboardPopoverSegue *currentPopoverSegue;
 
 @property (weak, nonatomic) IBOutlet UITextField *originPostalCodeTextField;

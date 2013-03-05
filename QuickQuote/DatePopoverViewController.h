@@ -10,7 +10,6 @@
 
 @class DatePopoverViewController;
 
-
 @protocol DatePopoverViewControllerDelegate 
 @required
 - (void)datePopoverViewControllerDidFinish:(DatePopoverViewController *)controller;

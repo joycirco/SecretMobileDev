@@ -27,6 +27,8 @@
 		A421479316B2306B003FDF9C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A421479116B2306B003FDF9C /* InfoPlist.strings */; };
 		A421479616B2306B003FDF9C /* QuickQuoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A421479516B2306B003FDF9C /* QuickQuoteTests.m */; };
 		A42147A516B243F5003FDF9C /* LoginSeague.m in Sources */ = {isa = PBXBuildFile; fileRef = A42147A416B243F5003FDF9C /* LoginSeague.m */; };
+		A45752AA16DC64B800DE7590 /* AccessorialPopOverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A45752A916DC64B800DE7590 /* AccessorialPopOverViewController.m */; };
+		A45752B016DDAB3800DE7590 /* accessorials.xml in Resources */ = {isa = PBXBuildFile; fileRef = A45752AF16DDAB3800DE7590 /* accessorials.xml */; };
 		A47A5FB316B256C400A533A9 /* SplashGradient.png in Resources */ = {isa = PBXBuildFile; fileRef = A47A5FB216B256C400A533A9 /* SplashGradient.png */; };
 		A47A5FB616B256E900A533A9 /* SplashGradient2.png in Resources */ = {isa = PBXBuildFile; fileRef = A47A5FB516B256E900A533A9 /* SplashGradient2.png */; };
 		A4FE5A6D16B8EF88009A3AEC /* Icon_Ipad_retina.png in Resources */ = {isa = PBXBuildFile; fileRef = A4FE5A6C16B8EF88009A3AEC /* Icon_Ipad_retina.png */; };
@@ -159,6 +161,9 @@
 		A421479516B2306B003FDF9C /* QuickQuoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickQuoteTests.m; sourceTree = "<group>"; };
 		A42147A316B243F5003FDF9C /* LoginSeague.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginSeague.h; sourceTree = "<group>"; };
 		A42147A416B243F5003FDF9C /* LoginSeague.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginSeague.m; sourceTree = "<group>"; };
+		A45752A816DC64B800DE7590 /* AccessorialPopOverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessorialPopOverViewController.h; sourceTree = "<group>"; };
+		A45752A916DC64B800DE7590 /* AccessorialPopOverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessorialPopOverViewController.m; sourceTree = "<group>"; };
+		A45752AF16DDAB3800DE7590 /* accessorials.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = accessorials.xml; path = ../../../../Desktop/accessorials.xml; sourceTree = "<group>"; };
 		A47A5FB216B256C400A533A9 /* SplashGradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SplashGradient.png; sourceTree = "<group>"; };
 		A47A5FB516B256E900A533A9 /* SplashGradient2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SplashGradient2.png; sourceTree = "<group>"; };
 		A4FE5A6C16B8EF88009A3AEC /* Icon_Ipad_retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_Ipad_retina.png; sourceTree = "<group>"; };
@@ -416,6 +421,8 @@
 				A400437C16BF41A200D25DF6 /* QuickQuoteLoginViewController.m */,
 				A400437E16BF4DC300D25DF6 /* QuickQuoteCompanyPickerViewController.h */,
 				A400437F16BF4DC300D25DF6 /* QuickQuoteCompanyPickerViewController.m */,
+				A45752A816DC64B800DE7590 /* AccessorialPopOverViewController.h */,
+				A45752A916DC64B800DE7590 /* AccessorialPopOverViewController.m */,
 			);
 			path = QuickQuote;
 			sourceTree = "<group>";
@@ -423,6 +430,7 @@
 		A421476816B2306A003FDF9C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A45752AE16DDAB1F00DE7590 /* Data */,
 				A47A5FB416B256CA00A533A9 /* Graphics */,
 				A421476916B2306A003FDF9C /* QuickQuote-Info.plist */,
 				A421476A16B2306A003FDF9C /* InfoPlist.strings */,
@@ -449,6 +457,14 @@
 				A421479116B2306B003FDF9C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A45752AE16DDAB1F00DE7590 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A45752AF16DDAB3800DE7590 /* accessorials.xml */,
+			);
+			name = Data;
 			sourceTree = "<group>";
 		};
 		A47A5FB416B256CA00A533A9 /* Graphics */ = {
@@ -766,6 +782,7 @@
 				A47A5FB616B256E900A533A9 /* SplashGradient2.png in Resources */,
 				A4FE5A6D16B8EF88009A3AEC /* Icon_Ipad_retina.png in Resources */,
 				A4FE5A6F16B8EFE7009A3AEC /* Icon_Ipad.png in Resources */,
+				A45752B016DDAB3800DE7590 /* accessorials.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -890,6 +907,7 @@
 				FF31879816C31BA6001B9D3B /* RSPTerminalInfo.m in Sources */,
 				FF31879916C31BA6001B9D3B /* Soap+Prefix.m in Sources */,
 				FF557EE516C5C2BE009F55A1 /* DatePopoverViewController.m in Sources */,
+				A45752AA16DC64B800DE7590 /* AccessorialPopOverViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

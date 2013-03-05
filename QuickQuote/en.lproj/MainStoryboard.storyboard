@@ -90,7 +90,60 @@
                 </splitViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="17" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1167" y="-652"/>
+            <point key="canvasLocation" x="-1131" y="-696"/>
+        </scene>
+        <!--Accessorial Pop Over View Controller - Accessorial-->
+        <scene sceneID="oE3-It-MOu">
+            <objects>
+                <tableViewController title="Accessorial" modalTransitionStyle="crossDissolve" id="YRB-ZF-GFb" customClass="AccessorialPopOverViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" allowsMultipleSelection="YES" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="xL9-iD-jzR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                        <navigationBar key="tableHeaderView" contentMode="scaleToFill" id="baR-Dz-PhU">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <items>
+                                <navigationItem title="Title" id="rtM-Yh-dcX">
+                                    <barButtonItem key="rightBarButtonItem" title="Done" id="rcO-xW-w1E">
+                                        <connections>
+                                            <action selector="doneAction:" destination="YRB-ZF-GFb" id="Oy1-SA-w3j"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </navigationItem>
+                            </items>
+                        </navigationBar>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="checkmark" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="accessorialCell" textLabel="GYl-Fi-5AP" style="IBUITableViewCellStyleDefault" id="JNc-Kr-WWo">
+                                <rect key="frame" x="0.0" y="66" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="300" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GYl-Fi-5AP">
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="YRB-ZF-GFb" id="1oN-u0-vFq"/>
+                            <outlet property="delegate" destination="YRB-ZF-GFb" id="OHW-MQ-QPq"/>
+                        </connections>
+                    </tableView>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <splitViewMasterSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rLb-qX-0Az" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="932" y="-657"/>
         </scene>
         <!--Date Popover View Controller - Title-->
         <scene sceneID="Shk-gr-Ew8">
@@ -148,9 +201,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                         </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
-                    <toolbarItems>
-                        <barButtonItem title="Item" id="UjY-Pl-GyI"/>
-                    </toolbarItems>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" title="Title" id="4K7-V0-QRA"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <splitViewMasterSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -160,7 +211,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xP0-Ea-ALi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="938" y="-675"/>
+            <point key="canvasLocation" x="54" y="-1539"/>
         </scene>
         <!--Quick Quote Master View Controller - Master-->
         <scene sceneID="24">
@@ -240,12 +291,12 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                         </view>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <connections>
-                                            <segue destination="N5q-vq-Xje" kind="popover" identifier="OrigPickupDateSeague" popoverAnchorView="ZSw-0O-9Pw" id="jjF-kc-oRG">
+                                            <segue destination="N5q-vq-Xje" kind="popover" identifier="origPickupDateSeague" popoverAnchorView="ZSw-0O-9Pw" id="jjF-kc-oRG">
                                                 <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                                             </segue>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="EvT-cK-BQ1" detailTextLabel="lwN-VK-ta5" style="IBUITableViewCellStyleValue1" id="bHF-vk-TD0">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="EvT-cK-BQ1" detailTextLabel="lwN-VK-ta5" style="IBUITableViewCellStyleValue1" id="bHF-vk-TD0">
                                         <rect key="frame" x="0.0" y="110" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -268,6 +319,11 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="YRB-ZF-GFb" kind="popover" identifier="origAccessorialSeague" popoverAnchorView="bHF-vk-TD0" id="f1y-tW-xdq">
+                                                <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                            </segue>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="originStoreCodeCell" id="isX-A7-aNC">
                                         <rect key="frame" x="0.0" y="154" width="320" height="44"/>
@@ -379,7 +435,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                             </segue>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="fS3-BY-1AJ" detailTextLabel="Mni-2d-Vru" style="IBUITableViewCellStyleValue1" id="3SE-Vh-fhy">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="fS3-BY-1AJ" detailTextLabel="Mni-2d-Vru" style="IBUITableViewCellStyleValue1" id="3SE-Vh-fhy">
                                         <rect key="frame" x="0.0" y="308" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -403,6 +459,11 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="YRB-ZF-GFb" kind="popover" identifier="destAccessorialSeague" popoverAnchorView="3SE-Vh-fhy" id="BD2-Lu-PBx">
+                                                <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                            </segue>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="destStoreCodeCell" id="wz8-Yr-4Fs">
                                         <rect key="frame" x="0.0" y="352" width="320" height="44"/>
@@ -465,39 +526,6 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                 <placeholder placeholderIdentifier="IBFirstResponder" id="23" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="503" y="-652"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="4dt-31-iG7">
-            <objects>
-                <viewController modalPresentationStyle="currentContext" id="cV3-Oq-ElR" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ecz-Vb-rth">
-                        <rect key="frame" x="0.0" y="44" width="320" height="764"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YRg-LP-VkS">
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="YRg-LP-VkS" firstAttribute="top" secondItem="ecz-Vb-rth" secondAttribute="top" constant="12" id="LsC-V8-mlJ"/>
-                            <constraint firstItem="YRg-LP-VkS" firstAttribute="leading" secondItem="ecz-Vb-rth" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="ZoR-Gc-GGj"/>
-                            <constraint firstAttribute="trailing" secondItem="YRg-LP-VkS" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="adt-ve-1uH"/>
-                        </constraints>
-                    </view>
-                    <toolbarItems>
-                        <barButtonItem title="Item" id="d2j-ro-qw9"/>
-                    </toolbarItems>
-                    <value key="contentSizeForViewInPopover" type="size" width="350" height="400"/>
-                    <nil key="simulatedStatusBarMetrics"/>
-                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="blackOpaque" prompted="NO"/>
-                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
-                    <splitViewMasterSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="fVd-RK-bzc" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1324" y="-661"/>
         </scene>
         <!--Quick Quote Company Picker View Controller-->
         <scene sceneID="lnD-He-1Fg">
@@ -744,53 +772,13 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
             <point key="canvasLocation" x="-1086" y="248"/>
         </scene>
     </scenes>
-    <classes>
-        <class className="DatePopoverViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/DatePopoverViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="doneAction:"/>
-                <relationship kind="outlet" name="datePicker" candidateClass="UIDatePicker"/>
-                <relationship kind="outlet" name="doneButton" candidateClass="UIBarButtonItem"/>
-            </relationships>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="QuickQuoteCompanyPickerViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/QuickQuoteCompanyPickerViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="picker" candidateClass="UIPickerView"/>
-            </relationships>
-        </class>
-        <class className="QuickQuoteDetailViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/QuickQuoteDetailViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="cancelBtn" candidateClass="UIBarButtonItem"/>
-                <relationship kind="outlet" name="detailDescriptionLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="QuickQuoteLoginViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/QuickQuoteLoginViewController.h"/>
-        </class>
-        <class className="QuickQuoteMasterViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/QuickQuoteMasterViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="togglePopover:"/>
-                <relationship kind="outlet" name="destPickupDateLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="destPostalCodeTextField" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="destStoreCodeTextField" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="originPickupDateLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="originPostalCodeTextField" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="originStoreCodeTextField" candidateClass="UITextField"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="EDD-iH-OjY"/>
+        <segue reference="jjF-kc-oRG"/>
+        <segue reference="f1y-tW-xdq"/>
     </inferredMetricsTieBreakers>
 </document>

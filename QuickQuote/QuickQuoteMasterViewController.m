@@ -27,6 +27,7 @@
 @synthesize destStoreCodeTextField;
 
 @synthesize datePopoverController;
+@synthesize accessorialPopOverController;
 @synthesize currentPopoverSegue;
 
 - (void)awakeFromNib
@@ -69,18 +70,40 @@
 - (void)popoverControllerDidDismissPopover:(UIPopoverController *)popoverController
 {
     self.datePopoverController = nil;
+    self.accessorialPopOverController = nil;
+    
 }
 
-// refactor this soon...
+// this isn't being called
+-(void)accessorialPopOverViewControllerDidFinish:(AccessorialPopOverViewController *)controller
+{
+     [[currentPopoverSegue popoverController] dismissPopoverAnimated: YES]; // dismiss the popover
+}
+
+// refactor this soon...like write some methods
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([[segue identifier] isEqualToString:@"origPickupDateSeague"] ||
+         [[segue identifier] isEqualToString:@"destPickupDateSeague"])
+    {
+        [self handleDatePickerSeague:segue];
+    }
+    if ([[segue identifier] isEqualToString:@"origAccessorialSeague"] ||
+        [[segue identifier] isEqualToString:@"destAccessorialSeague"])
+    {
+        [self handleAccessorialSegue:segue];
+    }
+    
+} // end prepareForSegue
+
+-(void)handleDatePickerSeague:(UIStoryboardSegue *)segue
 {
     [[segue destinationViewController] setDelegate:self];
     
-    if ([[segue identifier] isEqualToString:@"OrigPickupDateSeague"])
+    if ([[segue identifier] isEqualToString:@"origPickupDateSeague"])
     {
         [[segue destinationViewController] setDateString:originPickupDateLabel.text];
         [[segue destinationViewController] setIsOriginBool:true];
-       
     }
     else if([[segue identifier] isEqualToString:@"destPickupDateSeague"])
     {
@@ -89,7 +112,15 @@
     }
     
     currentPopoverSegue = (UIStoryboardPopoverSegue *)segue;
-    UIPopoverController *popoverController = [segue destinationViewController];    
+    UIPopoverController *popoverController = [segue destinationViewController];
+    [popoverController setDelegate:self];
+}
+
+-(void)handleAccessorialSegue:(UIStoryboardSegue *)segue
+{
+    [[segue destinationViewController] setDelegate:self];
+    currentPopoverSegue = (UIStoryboardPopoverSegue *)segue;
+    UIPopoverController *popoverController = [segue destinationViewController];
     [popoverController setDelegate:self];
 }
 
@@ -146,7 +177,7 @@
     }
     
     textfieldToChange.textColor = [UIColor colorWithRed:81.0/255.0 green:102.0/255.0 blue:145.0/255.0 alpha:1.0];
-    NSLog(@"bitch: %@", textfieldToChange.text);
+    NSLog(@"cat: %@", textfieldToChange.text);
     
 }
 
@@ -209,9 +240,5 @@
     textField.textColor = [UIColor colorWithRed:81.0/255.0 green:102.0/255.0 blue:145.0/255.0 alpha:1.0];
     return YES;
 }
-
-
-
-
 
 @end
