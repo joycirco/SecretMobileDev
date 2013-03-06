@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A400437D16BF41A200D25DF6 /* QuickQuoteLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A400437C16BF41A200D25DF6 /* QuickQuoteLoginViewController.m */; };
 		A400438016BF4DC300D25DF6 /* QuickQuoteCompanyPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A400437F16BF4DC300D25DF6 /* QuickQuoteCompanyPickerViewController.m */; };
+		A411269316E6D840002FFFBE /* AccessorialCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A411269216E6D840002FFFBE /* AccessorialCell.m */; };
 		A421476216B2306A003FDF9C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A421476116B2306A003FDF9C /* UIKit.framework */; };
 		A421476416B2306A003FDF9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A421476316B2306A003FDF9C /* Foundation.framework */; };
 		A421476616B2306A003FDF9C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A421476516B2306A003FDF9C /* CoreGraphics.framework */; };
@@ -135,6 +136,8 @@
 		A400437C16BF41A200D25DF6 /* QuickQuoteLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickQuoteLoginViewController.m; sourceTree = "<group>"; };
 		A400437E16BF4DC300D25DF6 /* QuickQuoteCompanyPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickQuoteCompanyPickerViewController.h; sourceTree = "<group>"; };
 		A400437F16BF4DC300D25DF6 /* QuickQuoteCompanyPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickQuoteCompanyPickerViewController.m; sourceTree = "<group>"; };
+		A411269116E6D840002FFFBE /* AccessorialCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessorialCell.h; sourceTree = "<group>"; };
+		A411269216E6D840002FFFBE /* AccessorialCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessorialCell.m; sourceTree = "<group>"; };
 		A421475D16B2306A003FDF9C /* QuickQuote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickQuote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A421476116B2306A003FDF9C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A421476316B2306A003FDF9C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -423,6 +426,8 @@
 				A400437F16BF4DC300D25DF6 /* QuickQuoteCompanyPickerViewController.m */,
 				A45752A816DC64B800DE7590 /* AccessorialPopOverViewController.h */,
 				A45752A916DC64B800DE7590 /* AccessorialPopOverViewController.m */,
+				A411269116E6D840002FFFBE /* AccessorialCell.h */,
+				A411269216E6D840002FFFBE /* AccessorialCell.m */,
 			);
 			path = QuickQuote;
 			sourceTree = "<group>";
@@ -908,6 +913,7 @@
 				FF31879916C31BA6001B9D3B /* Soap+Prefix.m in Sources */,
 				FF557EE516C5C2BE009F55A1 /* DatePopoverViewController.m in Sources */,
 				A45752AA16DC64B800DE7590 /* AccessorialPopOverViewController.m in Sources */,
+				A411269316E6D840002FFFBE /* AccessorialCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

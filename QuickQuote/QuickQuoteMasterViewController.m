@@ -152,35 +152,6 @@
     }
 }
 
-// this does not appear to be getting called...
--(void)tableview:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    UITableViewCell *cell = [self tableView:tableView cellForRowAtIndexPath:indexPath];
-    UITextField *textfieldToChange;
-    
-    // Make this better soon
-    if ([[cell reuseIdentifier] isEqualToString:@"originPostalCodeCell"])
-    {
-        textfieldToChange = originPostalCodeTextField;
-    }
-    else if([[cell reuseIdentifier] isEqualToString:@"originStoreCodeCell"])
-    {
-        [originStoreCodeTextField becomeFirstResponder];
-    }
-    else if([[cell reuseIdentifier] isEqualToString:@"destPostalCodeCell"])
-    {
-        [destPostalCodeTextField becomeFirstResponder];
-    }
-    else if([[cell reuseIdentifier] isEqualToString:@"destStoreCodeCell"])
-    {
-        [destStoreCodeTextField becomeFirstResponder];
-    }
-    
-    textfieldToChange.textColor = [UIColor colorWithRed:81.0/255.0 green:102.0/255.0 blue:145.0/255.0 alpha:1.0];
-    NSLog(@"cat: %@", textfieldToChange.text);
-    
-}
-
 // Close the keyboard if someone presses enter from any of THESE textfields
 - (BOOL)textFieldShouldReturn:(UITextField *)textField
 {

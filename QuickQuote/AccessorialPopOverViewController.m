@@ -7,6 +7,7 @@
 //
 
 #import "AccessorialPopOverViewController.h"
+#import "AccessorialCell.h"
 
 @interface AccessorialPopOverViewController ()
 
@@ -40,6 +41,8 @@
     return self;
 }
 */
+
+#pragma mark - 
 
 - (void)viewDidLoad
 {
@@ -89,10 +92,25 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"accessorialCell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+
+    AccessorialCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
-    cell.textLabel.text = [tableData objectAtIndex:indexPath.row];
-    // might want to store that code in a hidden variable here or something...
+    if (cell == nil)
+    {
+        cell = [[AccessorialCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"accessorialCell"];
+    }
+    
+    cell.label.text = [tableData objectAtIndex:indexPath.row];
+
+    // when selected do this
+    //cell.accessoryType = UITableViewCellAccessoryCheckmark;
+    
+    // when deselected do this...
+    //cell.accessoryType = UITableViewCellAccessoryNone;
+    
+    // we need to store the Code or just pull the code from the array when the rate begins
+    // set the rows that are/are not selected
+    
     return cell;
 }
 
@@ -140,15 +158,12 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    // Navigation logic may go here. Create and push another view controller.
-    /*
-     <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-     // ...
-     // Pass the selected object to the new view controller.
-     [self.navigationController pushViewController:detailViewController animated:YES];
-     */
+    AccessorialCell *cell = [tableView cellForRowAtIndexPath:indexPath];
+    
+    // do whatever
 }
 
+#pragma mark - Close it!
 // closes it
 - (IBAction)doneAction:(id)sender
 {
